@@ -22,9 +22,16 @@ run-sim-gui:
 	@echo "Starting DYNUS simulation with GUI forwarding enabled..."
 	docker run --rm -it \
 		--name dynus_sim_gui \
+		--privileged \
 		--net=host \
+		--ipc=host \
 		-e DISPLAY=${DISPLAY} \
+		--env="DISPLAY" \
+		--env="QT_X11_NO_MITSHM=1" \
 		-v /tmp/.X11-unix:/tmp/.X11-unix:rw \
+		-v ${PWD}/gurobi.lic:/tmp/gurobi.lic:ro \
+		-e GRB_LICENSE_FILE=/tmp/gurobi.lic \
+		--volume=${PWD}/gurobi.lic:/opt/gurobi/gurobi.lic:ro \
 		dynus:1
 	@echo "Restoring default X server access control..."
 	-xhost -local:docker
