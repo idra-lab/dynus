@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dynus_interfaces/msg/YawOutput.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module dynus_interfaces {
+  module msg {
+    struct YawOutput {
+      std_msgs::msg::Header header;
+
+      sequence<double> sequence;
+
+      sequence<double> control_points;
+
+      sequence<double> knots;
+    };
+  };
+};

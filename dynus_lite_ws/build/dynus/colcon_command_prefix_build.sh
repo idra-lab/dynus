@@ -1,0 +1,10 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/package.sh"
+. "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/package.sh"
+. "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/package.sh"
+. "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev/share/gazebo_dev/package.sh"
+. "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/share/gazebo_msgs/package.sh"
+. "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins/share/decomp_rviz_plugins/package.sh"
+. "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/share/gazebo_ros/package.sh"
+. "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/package.sh"
+. "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/package.sh"

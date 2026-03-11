@@ -1,0 +1,4 @@
+[console_scripts]
+behavior_selector_node = behavior_selector2.behavior_selector_node:main
+button_module = behavior_selector2.button_module
+

@@ -1,0 +1,375 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 3.05
+-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+-- Found assimp: /usr/include (found version "5.2.0") 
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-transport8 -- found version 8.2.1
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.37.2
+-- Found UUID: TRUE  
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 9.0.0
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Looking for ignition-common3 -- found version 3.14.0
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.0
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-fuel_tools4 -- found version 4.4.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.9.5
+-- Found JSONCPP: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.7.3
+-- Found ZIP: TRUE  
+-- Looking for ignition-common3 -- found version 3.14.0
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.20 (/opt/ros/humble/share/rclpy/cmake)
+-- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found decomp_ros_msgs: 0.0.0 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake)
+-- Found decomp_rviz_plugins: 0.0.0 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins/share/decomp_rviz_plugins/cmake)
+-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found decomp_test_node: 0.0.1 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found dynus_interfaces: 0.0.0 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake)
+-- Found gazebo_msgs: 3.8.0 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/share/gazebo_msgs/cmake)
+-- Found octomap_msgs: 2.0.1 (/opt/ros/humble/share/octomap_msgs/cmake)
+-- Found gazebo_ros: 3.8.0 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/share/gazebo_ros/cmake)
+-- Gazebo version: 11.10
+-- Checking for module 'tbb'
+--   Found tbb, version 2021.5.0
+-- Found tf2_eigen: 0.25.19 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+-- Found GUROBI: /opt/gurobi1103/linux64/lib/libgurobi110.so  
+-- GUROBI FOUND
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus
+[  2%] [32mBuilding CXX object CMakeFiles/dynus.dir/src/dynus/dynus_node.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/obstacle_tracker_node.dir/src/dynus/obstacle_tracker_node.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/convert_odom_to_state.dir/src/dynus/convert_odom_to_state.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/fake_sim.dir/src/dynus/fake_sim.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/quadruped_convert_odom_to_state.dir/src/dynus/quadruped_convert_odom_to_state.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/convert_goal_to_cmd_vel.dir/src/dynus/convert_goal_to_cmd_vel.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/quadruped_convert_goal_to_cmd_vel.dir/src/dynus/quadruped_convert_goal_to_cmd_vel.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/convert_vicon_to_state.dir/src/dynus/convert_vicon_to_state.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable fake_sim[0m
+[ 25%] Built target fake_sim
+[ 28%] [32mBuilding CXX object CMakeFiles/dynus.dir/src/dynus/dynus.cpp.o[0m
+[ 31%] [32m[1mLinking CXX executable convert_odom_to_state[0m
+[ 34%] [32m[1mLinking CXX executable quadruped_convert_odom_to_state[0m
+[ 37%] [32m[1mLinking CXX executable quadruped_convert_goal_to_cmd_vel[0m
+[ 40%] [32m[1mLinking CXX executable convert_goal_to_cmd_vel[0m
+[ 40%] Built target convert_odom_to_state
+[ 42%] [32mBuilding CXX object CMakeFiles/dynus.dir/src/dgp/dgp_manager.cpp.o[0m
+[ 42%] Built target quadruped_convert_odom_to_state
+[ 45%] [32mBuilding CXX object CMakeFiles/dynus.dir/src/dynus/yaw_solver.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable convert_vicon_to_state[0m
+[ 48%] Built target quadruped_convert_goal_to_cmd_vel
+[ 51%] [32mBuilding CXX object CMakeFiles/obstacle_tracker_node.dir/src/dgp/utils.cpp.o[0m
+[ 51%] Built target convert_goal_to_cmd_vel
+[ 54%] [32mBuilding CXX object CMakeFiles/dynus.dir/src/dgp/utils.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/test_yaw_solver.dir/src/test/test_yaw_solver.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/convert_velodyne_to_ros_time.dir/src/dynus/convert_velodyne_to_ros_time.cpp.o[0m
+[ 60%] Built target convert_vicon_to_state
+[ 62%] [32mBuilding CXX object CMakeFiles/obstacle_tracker_node.dir/src/dynus/utils.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/test_yaw_solver.dir/src/dynus/yaw_solver.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/dynus.dir/src/dgp/dgp_planner.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/move_model.dir/src/sim/move_model.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/imu_plugin.dir/src/sim/gazebo_ros_imu_sensor.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable convert_velodyne_to_ros_time[0m
+[ 77%] Built target convert_velodyne_to_ros_time
+[ 80%] [32mBuilding CXX object CMakeFiles/dynus.dir/src/dgp/graph_search.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable obstacle_tracker_node[0m
+[ 82%] Built target ament_cmake_python_copy_dynus
+[ 85%] [32mBuilding CXX object CMakeFiles/dynus.dir/src/dynus/gurobi_solver.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable test_yaw_solver[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/dynus.dir/src/dynus/utils.cpp.o[0m
+[ 91%] Built target obstacle_tracker_node
+running egg_info
+creating dynus.egg-info
+writing dynus.egg-info/PKG-INFO
+writing dependency_links to dynus.egg-info/dependency_links.txt
+writing top-level names to dynus.egg-info/top_level.txt
+writing manifest file 'dynus.egg-info/SOURCES.txt'
+reading manifest file 'dynus.egg-info/SOURCES.txt'
+writing manifest file 'dynus.egg-info/SOURCES.txt'
+[ 91%] Built target ament_cmake_python_build_dynus_egg
+[ 91%] Built target test_yaw_solver
+[ 94%] [32m[1mLinking CXX shared library libimu_plugin.so[0m
+[ 94%] Built target imu_plugin
+[ 97%] [32m[1mLinking CXX executable dynus[0m
+[100%] [32m[1mLinking CXX shared library libmove_model.so[0m
+[100%] Built target dynus
+[100%] Built target move_model
+-- Install configuration: ""
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/onboard_dynus.launch.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/sim_env.launch.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/dyn_obstacles.launch.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/spawn_quadrotor_with_asus.launch.xml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/default_multiagent_sim.yaml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/run_single_sim.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/docker_sim.yaml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/convert_vicon_to_state.launch.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/goal_sender.launch.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/docker_multiagent_sim.yaml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/goal_monitor.launch.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/default_sim.yaml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/convert_odom_to_state.launch.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/initial_guess_benchmarking.launch.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/object_detection.launch.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/convert_goal_cmd_vel.launch.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/base_dynus.launch.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/spawn_quadrotor.launch.xml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/dynamic_obstacle_empty_param.yaml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/cave_param.yaml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/office_param.yaml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/dynus.yaml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/easy_forest_param.yaml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/high_res_forest_param.yaml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/rviz
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/rviz/multiagent_wo_cameras.rviz
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/rviz/multiagent.rviz
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/rviz/dynus.rviz
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/worlds
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/worlds/empty_wo_ground.world
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/worlds/easy_forest.world
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/worlds/empty.world
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/quadrotor_base.urdf.xacro
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall2
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall2/model.config
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall2/model.sdf
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall3
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall3/model.config
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall3/model.sdf
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_d435i.urdf.xacro
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall1
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall1/model.config
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall1/model.sdf
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_d435.urdf.xacro
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/dyn_obstacle1.urdf.xacro
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_d435i.gazebo.xacro
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/quadrotor.urdf.xacro
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/basse_flower
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/basse_flower/model.config
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/basse_flower/model.sdf
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_d435.gazebo.xacro
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/sonar_sensor.urdf.xacro
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_t265.urdf.xacro
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/generic_camera.urdf.xacro
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_t265.gazebo.xacro
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/real_sense
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/real_sense/d435.dae
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor.dae
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/blender
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/blender/quadrotor_base_2.blend
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/blender/quadrotor_base.blend
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor_base.dae
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor_base.stl
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor_base_2.dae
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor_base_2.stl
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/dynus
+-- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/dynus" to ""
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/fake_sim
+-- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/fake_sim" to ""
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/obstacle_tracker_node
+-- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/obstacle_tracker_node" to ""
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_goal_to_cmd_vel
+-- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_goal_to_cmd_vel" to ""
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/quadruped_convert_goal_to_cmd_vel
+-- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/quadruped_convert_goal_to_cmd_vel" to ""
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_odom_to_state
+-- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_odom_to_state" to ""
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/quadruped_convert_odom_to_state
+-- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/quadruped_convert_odom_to_state" to ""
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_vicon_to_state
+-- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_vicon_to_state" to ""
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/test_yaw_solver
+-- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/test_yaw_solver" to ""
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_velodyne_to_ros_time
+-- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_velodyne_to_ros_time" to ""
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/libmove_model.so
+-- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/libmove_model.so" to ""
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/libimu_plugin.so
+-- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/libimu_plugin.so" to ""
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/pythonpath.sh
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/pythonpath.dsv
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus/__init__.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus/module_to_import.py
+Listing '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus'...
+Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus/__init__.py'...
+Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus/module_to_import.py'...
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/dummy_traj_publisher.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/dynus_commands.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/goal_sender.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/object_detection_node.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/goal_monitor_node.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/generate_random_forest.py
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/ament_index/resource_index/package_run_dependencies/dynus
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/ament_index/resource_index/parent_prefix_path/dynus
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/ament_prefix_path.sh
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/ament_prefix_path.dsv
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/path.sh
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/path.dsv
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/local_setup.bash
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/local_setup.sh
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/local_setup.zsh
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/local_setup.dsv
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/package.dsv
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/ament_index/resource_index/packages/dynus
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/cmake/dynusConfig.cmake
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/cmake/dynusConfig-version.cmake
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/package.xml

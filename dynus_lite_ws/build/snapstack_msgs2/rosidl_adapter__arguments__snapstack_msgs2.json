@@ -1,0 +1,16 @@
+{
+  "package_name": "snapstack_msgs2",
+  "non_idl_tuples": [
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2:msg/ControlLog.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2:msg/AttitudeCommand.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2:msg/Goal.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2:msg/QuadFlightMode.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2:msg/State.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2:msg/CommAge.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2:msg/IMU.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2:msg/SMCData.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2:msg/Motors.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2:msg/VioFilterState.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2:msg/TimeFilter.msg"
+  ]
+}

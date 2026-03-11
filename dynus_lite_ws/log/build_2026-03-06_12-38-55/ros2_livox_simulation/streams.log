@@ -1,0 +1,255 @@
+[0.015s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:/opt/gurobi1103/linux64/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/lorenzo/code/decomp_ws/install/decomp_ros_msgs/lib:/opt/ros/humble/lib:/home/lorenzo/code/livox_ws/install/livox_ros_driver2/lib:/opt/gurobi1103/linux64/lib PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2 -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 12.3.0
+[0.110s] -- Detecting C compiler ABI info
+[0.163s] -- Detecting C compiler ABI info - done
+[0.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.176s] -- Detecting C compile features
+[0.177s] -- Detecting C compile features - done
+[0.179s] -- Detecting CXX compiler ABI info
+[0.246s] -- Detecting CXX compiler ABI info - done
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.253s] -- Detecting CXX compile features
+[0.253s] -- Detecting CXX compile features - done
+[0.256s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.438s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.539s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.585s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.591s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.599s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.611s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.682s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.685s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.708s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.717s] -- Looking for pthread.h
+[0.773s] -- Looking for pthread.h - found
+[0.773s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.830s] -- Found Threads: TRUE  
+[0.877s] -- Found gazebo_dev: 3.8.0 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev/share/gazebo_dev/cmake)
+[0.884s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.885s] -- Checking for module 'bullet>=2.82'
+[0.894s] --   Found bullet, version 3.05
+[0.972s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.008s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.024s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.051s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.064s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.069s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.074s] -- Searching for dependencies of ignition-math6
+[1.075s] -- Looking for OGRE...
+[1.076s] -- OGRE_PREFIX_WATCH changed.
+[1.080s] -- Checking for module 'OGRE'
+[1.090s] --   Found OGRE, version 1.9.0
+[1.113s] -- Found Ogre Ghadamon (1.9.0)
+[1.122s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.130s] -- Looking for OGRE_Paging...
+[1.135s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.135s] -- Looking for OGRE_Terrain...
+[1.141s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.141s] -- Looking for OGRE_Property...
+[1.146s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.146s] -- Looking for OGRE_RTShaderSystem...
+[1.151s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.152s] -- Looking for OGRE_Volume...
+[1.157s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.157s] -- Looking for OGRE_Overlay...
+[1.162s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.276s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.278s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.279s] -- Searching for dependencies of ignition-transport8
+[1.294s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.302s] -- Checking for module 'uuid'
+[1.311s] --   Found uuid, version 2.37.2
+[1.335s] -- Found UUID: TRUE  
+[1.337s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.338s] -- Searching for dependencies of ignition-msgs5
+[1.353s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.357s] -- Checking for module 'tinyxml2'
+[1.367s] --   Found tinyxml2, version 9.0.0
+[1.392s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.394s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.394s] -- Searching for dependencies of ignition-common3
+[1.394s] -- Looking for dlfcn.h - found
+[1.395s] -- Looking for libdl - found
+[1.396s] -- Found DL: TRUE  
+[1.406s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.407s] -- Searching for <ignition-common3> component [graphics]
+[1.409s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.409s] -- Searching for dependencies of ignition-common3-graphics
+[1.410s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.412s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.413s] -- Searching for dependencies of ignition-fuel_tools4
+[1.470s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.478s] -- Checking for module 'jsoncpp'
+[1.488s] --   Found jsoncpp, version 1.9.5
+[1.517s] -- Found JSONCPP: TRUE  
+[1.522s] -- Checking for module 'libzip'
+[1.532s] --   Found libzip, version 1.7.3
+[1.555s] -- Found ZIP: TRUE  
+[1.556s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.556s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.556s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.560s] -- Gazebo version: 11.10
+[1.560s] -- Checking for module 'tbb'
+[1.578s] --   Found tbb, version 2021.5.0
+[1.603s] -- Found gazebo_ros: 3.8.0 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/share/gazebo_ros/cmake)
+[1.607s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.637s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.733s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.743s] -- Found livox_ros_driver2: 1.0.0 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[1.791s] -- Checking for module 'eigen3'
+[1.800s] --   Found eigen3, version 3.4.0
+[1.824s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.824s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.846s] -- Checking for module 'flann'
+[1.856s] --   Found flann, version 1.9.1
+[1.886s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.886s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.684s] -- Checking for module 'libusb-1.0'
+[2.695s] --   Found libusb-1.0, version 1.0.25
+[2.721s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.722s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.765s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.901s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.906s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.912s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.051s] -- Found Qhull version 8.0.2
+[3.186s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.318s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.319s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.319s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.320s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.321s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.322s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.322s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.322s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.323s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.324s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.325s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.326s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.327s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.327s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.328s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.329s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.330s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.331s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.332s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.333s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.333s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.334s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.342s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.343s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.344s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.361s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono 
+[3.370s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.470s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.471s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.472s] -- Configured cppcheck include dirs: /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/include
+[3.472s] -- Configured cppcheck exclude dirs and/or files: 
+[3.473s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.473s] -- Configured cpplint exclude dirs and/or files: 
+[3.474s] -- Added test 'lint_cmake' to check CMake code style
+[3.475s] -- Added test 'uncrustify' to check C / C++ code style
+[3.476s] -- Configured uncrustify additional arguments: 
+[3.476s] -- Added test 'xmllint' to check XML markup files
+[3.478s] -- Configuring done
+[3.501s] -- Generating done
+[3.507s] -- Build files have been written to: /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/ros2_livox_simulation
+[3.527s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:/opt/gurobi1103/linux64/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/lorenzo/code/decomp_ws/install/decomp_ros_msgs/lib:/opt/ros/humble/lib:/home/lorenzo/code/livox_ws/install/livox_ros_driver2/lib:/opt/gurobi1103/linux64/lib PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2 -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation
+[3.529s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:/opt/gurobi1103/linux64/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/lorenzo/code/decomp_ws/install/decomp_ros_msgs/lib:/opt/ros/humble/lib:/home/lorenzo/code/livox_ws/install/livox_ros_driver2/lib:/opt/gurobi1103/linux64/lib PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/ros2_livox_simulation -- -j8 -l8
+[3.574s] [ 66%] [32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_ode_multiray_shape.cpp.o[0m
+[3.574s] [ 66%] [32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_points_plugin.cpp.o[0m
+[7.159s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/include/ros2_livox/livox_points_plugin.h:14[m[K,
+[7.159s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/src/livox_points_plugin.cpp:12[m[K:
+[7.159s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[7.159s]    47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[7.159s]       |      [01;35m[K^~~~~~~[m[K
+[15.815s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::physics::LivoxOdeMultiRayShape::Init()[m[K’:
+[15.815s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:191:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KyawAngle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[15.815s]   191 |     double [01;35m[KyawAngle[m[K, pitchAngle;
+[15.815s]       |            [01;35m[K^~~~~~~~[m[K
+[15.815s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:191:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpitchAngle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[15.815s]   191 |     double yawAngle, [01;35m[KpitchAngle[m[K;
+[15.815s]       |                      [01;35m[K^~~~~~~~~~[m[K
+[15.816s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:193:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KyDiff[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[15.816s]   193 |     double [01;35m[KyDiff[m[K;
+[15.816s]       |            [01;35m[K^~~~~[m[K
+[15.816s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:195:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KhorzSamples[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[15.816s]   195 |     int [01;35m[KhorzSamples[m[K = 1;
+[15.816s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[15.816s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:198:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KpDiff[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[15.816s]   198 |     double [01;35m[KpDiff[m[K = 0;
+[15.816s]       |            [01;35m[K^~~~~[m[K
+[15.817s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:199:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KvertSamples[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[15.817s]   199 |     int [01;35m[KvertSamples[m[K = 1;
+[15.817s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[15.817s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:203:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KminRange[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[15.817s]   203 |     double [01;35m[KminRange[m[K, maxRange;
+[15.817s]       |            [01;35m[K^~~~~~~~[m[K
+[15.817s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:203:22:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KmaxRange[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[15.817s]   203 |     double minRange, [01;35m[KmaxRange[m[K;
+[15.817s]       |                      [01;35m[K^~~~~~~~[m[K
+[22.732s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[22.732s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[22.732s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/RaySensor.hh:26[m[K,
+[22.732s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/src/livox_points_plugin.cpp:9[m[K:
+[22.732s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[22.733s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[22.733s]       |            [01;35m[K^~~~~~~~[m[K
+[22.733s] In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+[22.733s]                  from [01m[K/usr/include/c++/12/memory:64[m[K,
+[22.733s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[22.733s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/src/livox_points_plugin.cpp:1[m[K:
+[22.733s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[22.734s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[22.734s]       |                                  [01;36m[K^~~~~~~~[m[K
+[28.585s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/src/livox_points_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::LivoxPointsPlugin::OnNewLaserScans()[m[K’:
+[28.585s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/livox_laser_simulation_ros2/src/livox_points_plugin.cpp:224:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const msg::PointCloud&, msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[28.585s]   224 |             [01;35m[Ksensor_msgs::convertPointCloudToPointCloud2(cloud, cloud2)[m[K;
+[28.586s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[28.586s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[28.586s]    81 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+[28.586s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[44.118s] [100%] [32m[1mLinking CXX shared library libros2_livox.so[0m
+[46.980s] [100%] Built target ros2_livox
+[47.023s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:/opt/gurobi1103/linux64/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/lorenzo/code/decomp_ws/install/decomp_ros_msgs/lib:/opt/ros/humble/lib:/home/lorenzo/code/livox_ws/install/livox_ros_driver2/lib:/opt/gurobi1103/linux64/lib PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/ros2_livox_simulation -- -j8 -l8
+[47.024s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:/opt/gurobi1103/linux64/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/lorenzo/code/decomp_ws/install/decomp_ros_msgs/lib:/opt/ros/humble/lib:/home/lorenzo/code/livox_ws/install/livox_ros_driver2/lib:/opt/gurobi1103/linux64/lib PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/ros2_livox_simulation
+[47.038s] -- Install configuration: ""
+[47.038s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/include
+[47.039s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/include/ros2_livox
+[47.039s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/include/ros2_livox/csv_reader.hpp
+[47.040s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/include/ros2_livox/livox_ode_multiray_shape.h
+[47.041s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/include/ros2_livox/livox_points_plugin.h
+[47.041s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/lib/libros2_livox.so
+[47.047s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/lib/libros2_livox.so" to ""
+[47.048s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.sh
+[47.049s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.dsv
+[47.051s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid360.csv
+[47.073s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid40.xacro
+[47.074s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid70.xacro
+[47.074s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid360.xacro
+[47.075s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/tele.xacro
+[47.076s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/horizon.xacro
+[47.076s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/HAP.xacro
+[47.077s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/avia.xacro
+[47.077s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/meshes
+[47.078s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/meshes/mid-360-scaled.dae
+[47.088s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ament_index/resource_index/package_run_dependencies/ros2_livox_simulation
+[47.088s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ament_index/resource_index/parent_prefix_path/ros2_livox_simulation
+[47.089s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.sh
+[47.089s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.dsv
+[47.090s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.sh
+[47.091s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.dsv
+[47.091s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.bash
+[47.092s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.sh
+[47.092s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.zsh
+[47.093s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.dsv
+[47.094s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv
+[47.094s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ament_index/resource_index/packages/ros2_livox_simulation
+[47.095s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_libraries-extras.cmake
+[47.096s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig.cmake
+[47.096s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig-version.cmake
+[47.096s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/ros2_livox_simulation/share/ros2_livox_simulation/package.xml
+[47.103s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:/opt/gurobi1103/linux64/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/lorenzo/code/decomp_ws/install/decomp_ros_msgs/lib:/opt/ros/humble/lib:/home/lorenzo/code/livox_ws/install/livox_ros_driver2/lib:/opt/gurobi1103/linux64/lib PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/ros2_livox_simulation

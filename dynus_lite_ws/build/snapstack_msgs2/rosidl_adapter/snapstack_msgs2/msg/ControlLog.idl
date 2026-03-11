@@ -1,0 +1,72 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from snapstack_msgs2/msg/ControlLog.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module snapstack_msgs2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "The outer loop trajectory tracker generates this msg for analysis / debugging")
+    struct ControlLog {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "position signals")
+      geometry_msgs::msg::Vector3 p;
+
+      geometry_msgs::msg::Vector3 p_ref;
+
+      geometry_msgs::msg::Vector3 p_err;
+
+      geometry_msgs::msg::Vector3 p_err_int;
+
+      @verbatim (language="comment", text=
+        "velocity signals")
+      geometry_msgs::msg::Vector3 v;
+
+      geometry_msgs::msg::Vector3 v_ref;
+
+      geometry_msgs::msg::Vector3 v_err;
+
+      @verbatim (language="comment", text=
+        "acceleration signals")
+      geometry_msgs::msg::Vector3 a_ff;
+
+      geometry_msgs::msg::Vector3 a_fb;
+
+      @verbatim (language="comment", text=
+        "jerk signals")
+      geometry_msgs::msg::Vector3 j_ff;
+
+      geometry_msgs::msg::Vector3 j_fb;
+
+      @verbatim (language="comment", text=
+        "attitude signals")
+      geometry_msgs::msg::Quaternion q;
+
+      geometry_msgs::msg::Quaternion q_ref;
+
+      geometry_msgs::msg::Vector3 rpy;
+
+      geometry_msgs::msg::Vector3 rpy_ref;
+
+      @verbatim (language="comment", text=
+        "angular rate signals")
+      geometry_msgs::msg::Vector3 w;
+
+      geometry_msgs::msg::Vector3 w_ref;
+
+      @verbatim (language="comment", text=
+        "Desired total force, expressed in world")
+      @unit (value="N")
+      geometry_msgs::msg::Vector3 f_w;
+
+      @verbatim (language="comment", text=
+        "true if motors should be able to spin")
+      boolean power;
+    };
+  };
+};

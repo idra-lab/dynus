@@ -1,0 +1,16 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_test_node/src/test_path_decomp_3d.cpp:5[m[K:
+[01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/cmake/../../../include/decomp_util/ellipsoid_decomp.h:153:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma omp parallel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+  153 |     #pragma omp parallel for
+      | 
+In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_test_node/src/test_path_decomp_3d.cpp:10[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/cmake/../../../include/decomp_util/line_segment.h:8[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/cmake/../../../include/decomp_util/ellipsoid_decomp.h:9[m[K:
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/cmake/../../../include/decomp_util/decomp_base.h: In instantiation of ‘[01m[Kvoid DecompBase<Dim>::shrink(double) [with int Dim = 3][m[K’:
+[01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/cmake/../../../include/decomp_util/decomp_base.h:64:18:[m[K   required from here
+[01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/cmake/../../../include/decomp_util/decomp_base.h:64:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kshrink_distance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 |     virtual void shrink([01;35m[Kdouble shrink_distance[m[K) {}
+      |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~[m[K

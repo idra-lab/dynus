@@ -1,0 +1,143 @@
+[0.010s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/realsense_gazebo_plugin': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/realsense_gazebo_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 12.3.0
+[0.124s] -- Detecting C compiler ABI info
+[0.184s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.273s] -- Detecting CXX compiler ABI info - done
+[0.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.289s] -- Detecting CXX compile features
+[0.289s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.498s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.612s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.675s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.682s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.694s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.711s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.732s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.792s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.796s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.828s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.841s] -- Looking for pthread.h
+[0.905s] -- Looking for pthread.h - found
+[0.906s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.975s] -- Found Threads: TRUE  
+[1.040s] -- Found gazebo_ros: 3.8.0 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/share/gazebo_ros/cmake)
+[1.052s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.053s] -- Checking for module 'bullet>=2.82'
+[1.063s] --   Found bullet, version 3.05
+[1.160s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.206s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.231s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.262s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.290s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.296s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.305s] -- Searching for dependencies of ignition-math6
+[1.307s] -- Looking for OGRE...
+[1.307s] -- OGRE_PREFIX_WATCH changed.
+[1.312s] -- Checking for module 'OGRE'
+[1.323s] --   Found OGRE, version 1.9.0
+[1.349s] -- Found Ogre Ghadamon (1.9.0)
+[1.359s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.368s] -- Looking for OGRE_Paging...
+[1.374s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.374s] -- Looking for OGRE_Terrain...
+[1.379s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.379s] -- Looking for OGRE_Property...
+[1.385s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.385s] -- Looking for OGRE_RTShaderSystem...
+[1.390s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.390s] -- Looking for OGRE_Volume...
+[1.395s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.395s] -- Looking for OGRE_Overlay...
+[1.400s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.518s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.521s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.522s] -- Searching for dependencies of ignition-transport8
+[1.539s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.549s] -- Checking for module 'uuid'
+[1.560s] --   Found uuid, version 2.37.2
+[1.589s] -- Found UUID: TRUE  
+[1.592s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.593s] -- Searching for dependencies of ignition-msgs5
+[1.617s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.623s] -- Checking for module 'tinyxml2'
+[1.635s] --   Found tinyxml2, version 9.0.0
+[1.667s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.671s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.672s] -- Searching for dependencies of ignition-common3
+[1.672s] -- Looking for dlfcn.h - found
+[1.673s] -- Looking for libdl - found
+[1.675s] -- Found DL: TRUE  
+[1.690s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.691s] -- Searching for <ignition-common3> component [graphics]
+[1.695s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.695s] -- Searching for dependencies of ignition-common3-graphics
+[1.696s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.700s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.701s] -- Searching for dependencies of ignition-fuel_tools4
+[1.780s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.791s] -- Checking for module 'jsoncpp'
+[1.803s] --   Found jsoncpp, version 1.9.5
+[1.831s] -- Found JSONCPP: TRUE  
+[1.837s] -- Checking for module 'libzip'
+[1.848s] --   Found libzip, version 1.7.3
+[1.876s] -- Found ZIP: TRUE  
+[1.876s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.877s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.877s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.884s] -- Gazebo version: 11.10
+[1.884s] -- Checking for module 'tbb'
+[1.896s] --   Found tbb, version 2021.5.0
+[1.927s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[2.005s] -- Found camera_info_manager: 3.1.12 (/opt/ros/humble/share/camera_info_manager/cmake)
+[2.026s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.103s] -- Configuring done
+[2.125s] -- Generating done
+[2.126s] [33mCMake Warning:
+[2.126s]   Manually-specified variables were not used by the project:
+[2.126s] 
+[2.126s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[2.126s] 
+[2.126s] [0m
+[2.130s] -- Build files have been written to: /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/realsense_gazebo_plugin
+[2.143s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/realsense_gazebo_plugin' returned '0': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/realsense_gazebo_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin
+[2.145s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/realsense_gazebo_plugin': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/realsense_gazebo_plugin -- -j8 -l8
+[2.192s] [ 66%] [32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o[0m
+[2.192s] [ 66%] [32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o[0m
+[53.074s] [100%] [32m[1mLinking CXX shared library librealsense_gazebo_plugin.so[0m
+[54.176s] [100%] Built target realsense_gazebo_plugin
+[54.188s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/realsense_gazebo_plugin' returned '0': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/realsense_gazebo_plugin -- -j8 -l8
+[54.190s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/realsense_gazebo_plugin': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/realsense_gazebo_plugin
+[54.198s] -- Install configuration: ""
+[54.198s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so
+[54.201s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so" to ""
+[54.201s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/include/
+[54.201s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin
+[54.201s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/gazebo_ros_realsense.h
+[54.201s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/RealSensePlugin.h
+[54.201s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.sh
+[54.202s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.dsv
+[54.202s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/realsense_gazebo_plugin
+[54.202s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/realsense_gazebo_plugin
+[54.202s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.sh
+[54.202s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.dsv
+[54.202s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.sh
+[54.202s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.dsv
+[54.202s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.bash
+[54.202s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.sh
+[54.203s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.zsh
+[54.203s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.dsv
+[54.203s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv
+[54.203s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/packages/realsense_gazebo_plugin
+[54.203s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[54.203s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[54.203s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake
+[54.203s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+[54.204s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml
+[54.206s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/realsense_gazebo_plugin' returned '0': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/realsense_gazebo_plugin

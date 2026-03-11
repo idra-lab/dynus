@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0be0df7cc80369c723aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dynus",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dynus_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dynus_egg-4d8d3c0fc278d90fc10b.json",
+					"name" : "ament_cmake_python_build_dynus_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dynus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dynus-6b4c0dec17d3041fd6aa.json",
+					"name" : "ament_cmake_python_copy_dynus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "convert_goal_to_cmd_vel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-convert_goal_to_cmd_vel-1535c1f45af4ebc7c55b.json",
+					"name" : "convert_goal_to_cmd_vel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "convert_odom_to_state::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-convert_odom_to_state-ead3176ce4b0567cb284.json",
+					"name" : "convert_odom_to_state",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "convert_velodyne_to_ros_time::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-convert_velodyne_to_ros_time-697a6b115620d51f580b.json",
+					"name" : "convert_velodyne_to_ros_time",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "convert_vicon_to_state::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-convert_vicon_to_state-f0ab739991fd3b771560.json",
+					"name" : "convert_vicon_to_state",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus-00d2a563f73cbd91606b.json",
+					"name" : "dynus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_uninstall-5d9948447666e8951ffc.json",
+					"name" : "dynus_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fake_sim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fake_sim-6bf29846837ea3b68d3b.json",
+					"name" : "fake_sim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_plugin-315934d6db0ccd4fee27.json",
+					"name" : "imu_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_model::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_model-afc066e4e1fca828fda4.json",
+					"name" : "move_model",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_tracker_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_tracker_node-49df18b81f2dd33d3be7.json",
+					"name" : "obstacle_tracker_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_convert_goal_to_cmd_vel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_convert_goal_to_cmd_vel-734dc2b2dd81e269fe47.json",
+					"name" : "quadruped_convert_goal_to_cmd_vel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadruped_convert_odom_to_state::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadruped_convert_odom_to_state-23b29ef4e2b274591b19.json",
+					"name" : "quadruped_convert_odom_to_state",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_yaw_solver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_yaw_solver-268ca8c8124ac232b3e0.json",
+					"name" : "test_yaw_solver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2cfb5db0c72c22e8c081.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus",
+		"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dynus_interfaces/msg/State.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module dynus_interfaces {
+  module msg {
+    struct State {
+      std_msgs::msg::Header header;
+
+      geometry_msgs::msg::Vector3 pos;
+
+      geometry_msgs::msg::Vector3 vel;
+
+      geometry_msgs::msg::Quaternion quat;
+    };
+  };
+};

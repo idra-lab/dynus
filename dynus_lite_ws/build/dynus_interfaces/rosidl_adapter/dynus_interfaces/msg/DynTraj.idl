@@ -1,0 +1,66 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dynus_interfaces/msg/DynTraj.msg
+// generated code does not contain a copyright notice
+
+#include "dynus_interfaces/msg/PWPTraj.idl"
+#include "dynus_interfaces/msg/QuinticPWPTraj.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module dynus_interfaces {
+  module msg {
+    struct DynTraj {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "bounding box. It has three elements: hx, hy, hz (bbox of size hx x hy x hz)")
+      sequence<float> bbox;
+
+      @verbatim (language="comment", text=
+        "id of the dynamic obstacle")
+      int32 id;
+
+      dynus_interfaces::msg::PWPTraj pwp;
+
+      dynus_interfaces::msg::QuinticPWPTraj quintic_pwp;
+
+      sequence<float> ekf_cov_p;
+
+      sequence<float> ekf_cov_q;
+
+      sequence<float> ekf_cov_r;
+
+      sequence<float> poly_cov;
+
+      sequence<float> poly_coeffs_x;
+
+      sequence<float> poly_coeffs_y;
+
+      sequence<float> poly_coeffs_z;
+
+      double poly_start_time;
+
+      double poly_end_time;
+
+      @verbatim (language="comment", text=
+        "Theis field is only used by the obstacles (i.e. when is_agent==false)")
+      sequence<string> function;
+
+      @verbatim (language="comment", text=
+        "Theis field is only used by the obstacles (i.e. when is_agent==false)")
+      sequence<string> velocity;
+
+      geometry_msgs::msg::Vector3 pos;
+
+      @verbatim (language="comment", text=
+        "defalut is false for boolean (https://design.ros2.org/articles/interface_definition.html)")
+      boolean is_agent;
+
+      sequence<float> goal;
+
+      @verbatim (language="comment", text=
+        "\"analytic\" or \"pwp\" or \"poly\" or \"quintic_pwp\"")
+      string mode;
+    };
+  };
+};

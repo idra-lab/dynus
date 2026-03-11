@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from snapstack_msgs2/msg/VioFilterState.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module snapstack_msgs2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "VioFilterState.msg")
+    struct VioFilterState {
+      std_msgs::msg::Header header;
+
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        "includes gyro measurement for rates")
+      geometry_msgs::msg::Twist twist;
+
+      geometry_msgs::msg::Vector3 bw;
+
+      geometry_msgs::msg::Vector3 ba;
+
+      @verbatim (language="comment", text=
+        "camera-to-IMU transform")
+      geometry_msgs::msg::Pose extrinsics;
+
+      @verbatim (language="comment", text=
+        "(IMU-frame) raw accel measurement")
+      geometry_msgs::msg::Vector3 accel_meas;
+
+      @verbatim (language="comment", text=
+        "error state dimension N")
+      int32 n;
+
+      @verbatim (language="comment", text=
+        "NxN error covariance." "\n"
+        "For consistency, leading 21 terms are ordered [pos, vel, Rwb, bw, ba, Rcb, tcb].")
+      sequence<float> error_cov;
+    };
+  };
+};

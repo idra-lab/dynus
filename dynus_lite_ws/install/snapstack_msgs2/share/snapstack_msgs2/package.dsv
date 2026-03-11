@@ -1,0 +1,11 @@
+source;share/snapstack_msgs2/hook/cmake_prefix_path.ps1
+source;share/snapstack_msgs2/hook/cmake_prefix_path.dsv
+source;share/snapstack_msgs2/hook/cmake_prefix_path.sh
+source;share/snapstack_msgs2/hook/ld_library_path_lib.ps1
+source;share/snapstack_msgs2/hook/ld_library_path_lib.dsv
+source;share/snapstack_msgs2/hook/ld_library_path_lib.sh
+source;share/snapstack_msgs2/local_setup.bash
+source;share/snapstack_msgs2/local_setup.dsv
+source;share/snapstack_msgs2/local_setup.ps1
+source;share/snapstack_msgs2/local_setup.sh
+source;share/snapstack_msgs2/local_setup.zsh

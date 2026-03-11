@@ -1,0 +1,151 @@
+[0.057s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/x86_64-linux-gnu/pkgconfig:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/pkgconfig:/opt/openrobots/lib/pkgconfig PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus -- -j8 -l8
+[0.194s] [35m[1mConsolidate compiler generated dependencies of target fake_sim[0m
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target convert_goal_to_cmd_vel[0m
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target quadruped_convert_goal_to_cmd_vel[0m
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target convert_odom_to_state[0m
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target convert_vicon_to_state[0m
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target quadruped_convert_odom_to_state[0m
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target obstacle_tracker_node[0m
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target dynus[0m
+[0.302s] [  5%] Built target fake_sim
+[0.340s] [ 11%] Built target convert_odom_to_state
+[0.340s] [ 17%] Built target quadruped_convert_goal_to_cmd_vel
+[0.340s] [ 22%] Built target quadruped_convert_odom_to_state
+[0.345s] [35m[1mConsolidate compiler generated dependencies of target test_yaw_solver[0m
+[0.347s] [ 28%] Built target convert_vicon_to_state
+[0.347s] [ 34%] Built target convert_goal_to_cmd_vel
+[0.356s] [ 45%] Built target obstacle_tracker_node
+[0.376s] [35m[1mConsolidate compiler generated dependencies of target convert_velodyne_to_ros_time[0m
+[0.378s] [35m[1mConsolidate compiler generated dependencies of target imu_plugin[0m
+[0.379s] [35m[1mConsolidate compiler generated dependencies of target move_model[0m
+[0.404s] [ 54%] Built target test_yaw_solver
+[0.415s] [ 54%] Built target ament_cmake_python_copy_dynus
+[0.420s] [ 60%] Built target convert_velodyne_to_ros_time
+[0.444s] [ 88%] Built target dynus
+[0.468s] [ 94%] Built target imu_plugin
+[0.471s] [100%] Built target move_model
+[1.060s] running egg_info
+[1.061s] writing dynus.egg-info/PKG-INFO
+[1.061s] writing dependency_links to dynus.egg-info/dependency_links.txt
+[1.062s] writing top-level names to dynus.egg-info/top_level.txt
+[1.071s] reading manifest file 'dynus.egg-info/SOURCES.txt'
+[1.072s] writing manifest file 'dynus.egg-info/SOURCES.txt'
+[1.115s] [100%] Built target ament_cmake_python_build_dynus_egg
+[1.136s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus' returned '0': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/x86_64-linux-gnu/pkgconfig:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/pkgconfig:/opt/openrobots/lib/pkgconfig PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus -- -j8 -l8
+[1.154s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/x86_64-linux-gnu/pkgconfig:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/pkgconfig:/opt/openrobots/lib/pkgconfig PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus
+[1.167s] -- Install configuration: ""
+[1.168s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch
+[1.168s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/onboard_dynus.launch.py
+[1.168s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/sim_env.launch.py
+[1.169s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/dyn_obstacles.launch.py
+[1.169s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/spawn_quadrotor_with_asus.launch.xml
+[1.169s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/default_multiagent_sim.yaml
+[1.169s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/run_single_sim.py
+[1.170s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/docker_sim.yaml
+[1.170s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/convert_vicon_to_state.launch.py
+[1.170s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/goal_sender.launch.py
+[1.170s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/docker_multiagent_sim.yaml
+[1.170s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/goal_monitor.launch.py
+[1.170s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/default_sim.yaml
+[1.171s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/convert_odom_to_state.launch.py
+[1.171s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/initial_guess_benchmarking.launch.py
+[1.171s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/object_detection.launch.py
+[1.171s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/convert_goal_cmd_vel.launch.py
+[1.171s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/base_dynus.launch.py
+[1.171s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/spawn_quadrotor.launch.xml
+[1.171s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config
+[1.171s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/dynamic_obstacle_empty_param.yaml
+[1.172s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/cave_param.yaml
+[1.172s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/office_param.yaml
+[1.172s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/dynus.yaml
+[1.172s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/easy_forest_param.yaml
+[1.172s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/high_res_forest_param.yaml
+[1.172s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/rviz
+[1.172s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/rviz/multiagent_wo_cameras.rviz
+[1.172s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/rviz/multiagent.rviz
+[1.172s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/rviz/dynus.rviz
+[1.173s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/worlds
+[1.173s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/worlds/empty_wo_ground.world
+[1.173s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/worlds/easy_forest.world
+[1.173s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/worlds/empty.world
+[1.173s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf
+[1.173s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/quadrotor_base.urdf.xacro
+[1.173s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall2
+[1.173s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall2/model.config
+[1.174s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall2/model.sdf
+[1.174s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall3
+[1.174s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall3/model.config
+[1.174s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall3/model.sdf
+[1.174s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_d435i.urdf.xacro
+[1.174s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall1
+[1.174s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall1/model.config
+[1.174s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall1/model.sdf
+[1.174s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_d435.urdf.xacro
+[1.175s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/dyn_obstacle1.urdf.xacro
+[1.175s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_d435i.gazebo.xacro
+[1.175s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/quadrotor.urdf.xacro
+[1.175s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/basse_flower
+[1.175s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/basse_flower/model.config
+[1.175s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/basse_flower/model.sdf
+[1.175s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_d435.gazebo.xacro
+[1.175s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/sonar_sensor.urdf.xacro
+[1.175s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_t265.urdf.xacro
+[1.176s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/generic_camera.urdf.xacro
+[1.176s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_t265.gazebo.xacro
+[1.176s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes
+[1.176s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/real_sense
+[1.176s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/real_sense/d435.dae
+[1.176s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor
+[1.176s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor.dae
+[1.176s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/blender
+[1.177s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/blender/quadrotor_base_2.blend
+[1.177s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/blender/quadrotor_base.blend
+[1.177s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor_base.dae
+[1.177s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor_base.stl
+[1.177s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor_base_2.dae
+[1.177s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor_base_2.stl
+[1.177s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/dynus
+[1.177s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/fake_sim
+[1.178s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/obstacle_tracker_node
+[1.178s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_goal_to_cmd_vel
+[1.178s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/quadruped_convert_goal_to_cmd_vel
+[1.178s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_odom_to_state
+[1.178s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/quadruped_convert_odom_to_state
+[1.178s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_vicon_to_state
+[1.178s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/test_yaw_solver
+[1.179s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_velodyne_to_ros_time
+[1.180s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/libmove_model.so
+[1.181s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/libimu_plugin.so
+[1.181s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/pythonpath.sh
+[1.181s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/pythonpath.dsv
+[1.181s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info
+[1.181s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info/top_level.txt
+[1.182s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.182s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.182s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info/PKG-INFO
+[1.182s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus
+[1.182s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus/__init__.py
+[1.182s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus/module_to_import.py
+[1.249s] Listing '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus'...
+[1.256s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/dummy_traj_publisher.py
+[1.257s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/dynus_commands.py
+[1.257s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/goal_sender.py
+[1.257s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/object_detection_node.py
+[1.257s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/goal_monitor_node.py
+[1.257s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/generate_random_forest.py
+[1.257s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/ament_index/resource_index/package_run_dependencies/dynus
+[1.258s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/ament_index/resource_index/parent_prefix_path/dynus
+[1.258s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/ament_prefix_path.sh
+[1.258s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/ament_prefix_path.dsv
+[1.258s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/path.sh
+[1.258s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/path.dsv
+[1.258s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/local_setup.bash
+[1.258s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/local_setup.sh
+[1.258s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/local_setup.zsh
+[1.259s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/local_setup.dsv
+[1.259s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/package.dsv
+[1.259s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/ament_index/resource_index/packages/dynus
+[1.259s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/cmake/dynusConfig.cmake
+[1.259s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/cmake/dynusConfig-version.cmake
+[1.259s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/package.xml
+[1.262s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus' returned '0': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/x86_64-linux-gnu/pkgconfig:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/pkgconfig:/opt/openrobots/lib/pkgconfig PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus

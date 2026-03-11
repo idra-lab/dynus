@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2885d178147a58c009fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "snapstack_msgs2__py",
+					"jsonFile" : "directory-snapstack_msgs2__py-20ff8c2046ecc3eca993.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2/snapstack_msgs2__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "snapstack_msgs2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_snapstack_msgs2_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_snapstack_msgs2_egg-000c1d991d723a9332c6.json",
+					"name" : "ament_cmake_python_build_snapstack_msgs2_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_snapstack_msgs2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_snapstack_msgs2-a5f0156310e974948da0.json",
+					"name" : "ament_cmake_python_copy_snapstack_msgs2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapstack_msgs2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapstack_msgs2-32873acc09bd2e74fbce.json",
+					"name" : "snapstack_msgs2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapstack_msgs2__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapstack_msgs2__cpp-bdddba27787f194cb96a.json",
+					"name" : "snapstack_msgs2__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "snapstack_msgs2__py::@fc1e2b0aaaf2d0bea8cc",
+					"jsonFile" : "target-snapstack_msgs2__py-de08bd1c6f751d6bacc7.json",
+					"name" : "snapstack_msgs2__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapstack_msgs2__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapstack_msgs2__rosidl_generator_c-d56f55119c278f290e8a.json",
+					"name" : "snapstack_msgs2__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapstack_msgs2__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapstack_msgs2__rosidl_generator_py-dab97bb0e440f51e63d3.json",
+					"name" : "snapstack_msgs2__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapstack_msgs2__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapstack_msgs2__rosidl_typesupport_c-667db9d62da91145f567.json",
+					"name" : "snapstack_msgs2__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapstack_msgs2__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapstack_msgs2__rosidl_typesupport_c__pyext-bf2f2f76c8ae5f118540.json",
+					"name" : "snapstack_msgs2__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapstack_msgs2__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapstack_msgs2__rosidl_typesupport_cpp-cd62b3bb52aa9da1ab4c.json",
+					"name" : "snapstack_msgs2__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapstack_msgs2__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapstack_msgs2__rosidl_typesupport_fastrtps_c-3570a1ba0d577fca47b2.json",
+					"name" : "snapstack_msgs2__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapstack_msgs2__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapstack_msgs2__rosidl_typesupport_fastrtps_c__pyext-fce232f9a6316af0f380.json",
+					"name" : "snapstack_msgs2__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapstack_msgs2__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapstack_msgs2__rosidl_typesupport_fastrtps_cpp-f6de515a3902cd3d6fac.json",
+					"name" : "snapstack_msgs2__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapstack_msgs2__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapstack_msgs2__rosidl_typesupport_introspection_c-398f86459c15c959561c.json",
+					"name" : "snapstack_msgs2__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapstack_msgs2__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapstack_msgs2__rosidl_typesupport_introspection_c__pyext-4634e3fdaf0efceddfbf.json",
+					"name" : "snapstack_msgs2__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapstack_msgs2__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapstack_msgs2__rosidl_typesupport_introspection_cpp-9200c88fffb6694d8c89.json",
+					"name" : "snapstack_msgs2__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snapstack_msgs2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snapstack_msgs2_uninstall-0f141bc1464371bc56a5.json",
+					"name" : "snapstack_msgs2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7fbd8ca02b3603aec727.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2",
+		"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

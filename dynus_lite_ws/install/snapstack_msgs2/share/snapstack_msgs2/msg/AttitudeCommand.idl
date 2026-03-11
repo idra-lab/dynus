@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from snapstack_msgs2/msg/AttitudeCommand.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module snapstack_msgs2 {
+  module msg {
+    struct AttitudeCommand {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "desired attitude")
+      geometry_msgs::msg::Quaternion q;
+
+      @verbatim (language="comment", text=
+        "desired angular rates")
+      geometry_msgs::msg::Vector3 w;
+
+      @verbatim (language="comment", text=
+        "desired force (expr in world frame)")
+      geometry_msgs::msg::Vector3 f_w;
+
+      @verbatim (language="comment", text=
+        "true if motors should be able to spin")
+      boolean power;
+    };
+  };
+};

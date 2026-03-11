@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-63c998d72d03260dca01.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "dynus_interfaces__py",
+					"jsonFile" : "directory-dynus_interfaces__py-412693572d79840cab60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces/dynus_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dynus_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dynus_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dynus_interfaces_egg-022b2a448d80f4201c44.json",
+					"name" : "ament_cmake_python_build_dynus_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dynus_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dynus_interfaces-53b9470416910436881a.json",
+					"name" : "ament_cmake_python_copy_dynus_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_interfaces-58ebf5eaa9f21a8d78f1.json",
+					"name" : "dynus_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_interfaces__cpp-53f33f083162c5ab2062.json",
+					"name" : "dynus_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dynus_interfaces__py::@8232515aec2280699eaf",
+					"jsonFile" : "target-dynus_interfaces__py-27f150f1538d510abde8.json",
+					"name" : "dynus_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_interfaces__rosidl_generator_c-0c69ccd8475c26909071.json",
+					"name" : "dynus_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_interfaces__rosidl_generator_py-27e4e2768d6ed63c0c1a.json",
+					"name" : "dynus_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_interfaces__rosidl_typesupport_c-df4d91e50aa06d1075a9.json",
+					"name" : "dynus_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_interfaces__rosidl_typesupport_c__pyext-3ab98f0f8dcf09607217.json",
+					"name" : "dynus_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_interfaces__rosidl_typesupport_cpp-22101a767f1eef94986d.json",
+					"name" : "dynus_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_interfaces__rosidl_typesupport_fastrtps_c-6995dc88b702794bd4df.json",
+					"name" : "dynus_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_interfaces__rosidl_typesupport_fastrtps_c__pyext-0a2ee0311be79fd4aa66.json",
+					"name" : "dynus_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_interfaces__rosidl_typesupport_fastrtps_cpp-a59bf18d69014025c0c9.json",
+					"name" : "dynus_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_interfaces__rosidl_typesupport_introspection_c-b1924389f64da2e44b61.json",
+					"name" : "dynus_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_interfaces__rosidl_typesupport_introspection_c__pyext-9576968ec087a6137428.json",
+					"name" : "dynus_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_interfaces__rosidl_typesupport_introspection_cpp-8ddf19dd671fcc405ced.json",
+					"name" : "dynus_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynus_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynus_interfaces_uninstall-fb0430adcc60dc301859.json",
+					"name" : "dynus_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1e08c22fc981bd2320b8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces",
+		"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

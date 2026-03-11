@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "snapstack_msgs2__py",
+		"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2/snapstack_msgs2__py"
+	}
+}

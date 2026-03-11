@@ -1,0 +1,564 @@
+[0.027s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces
+[0.172s] -- The C compiler identification is GNU 11.4.0
+[0.310s] -- The CXX compiler identification is GNU 12.3.0
+[0.323s] -- Detecting C compiler ABI info
+[0.442s] -- Detecting C compiler ABI info - done
+[0.462s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.462s] -- Detecting C compile features
+[0.463s] -- Detecting C compile features - done
+[0.467s] -- Detecting CXX compiler ABI info
+[0.605s] -- Detecting CXX compiler ABI info - done
+[0.626s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.626s] -- Detecting CXX compile features
+[0.627s] -- Detecting CXX compile features - done
+[0.632s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.069s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.311s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.341s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.554s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[1.631s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.540s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.909s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.970s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.975s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.054s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.054s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.054s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.124s] -- Found PythonExtra: .so  
+[4.280s] -- Configuring done
+[4.396s] -- Generating done
+[4.430s] -- Build files have been written to: /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces
+[4.444s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces
+[4.462s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces -- -j8 -l8
+[4.540s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.562s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.590s] [  1%] Built target ament_cmake_python_copy_dynus_interfaces
+[5.502s] running egg_info
+[5.502s] creating dynus_interfaces.egg-info
+[5.502s] writing dynus_interfaces.egg-info/PKG-INFO
+[5.502s] writing dependency_links to dynus_interfaces.egg-info/dependency_links.txt
+[5.502s] writing top-level names to dynus_interfaces.egg-info/top_level.txt
+[5.512s] writing manifest file 'dynus_interfaces.egg-info/SOURCES.txt'
+[5.517s] reading manifest file 'dynus_interfaces.egg-info/SOURCES.txt'
+[5.518s] writing manifest file 'dynus_interfaces.egg-info/SOURCES.txt'
+[5.612s] [  1%] Built target ament_cmake_python_build_dynus_interfaces_egg
+[8.523s] [  1%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynus_interfaces/msg/detail/coeff_poly3__functions.c.o[0m
+[8.538s] [  2%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynus_interfaces/msg/detail/pwp_traj__functions.c.o[0m
+[8.541s] [  3%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynus_interfaces/msg/detail/quintic_pwp_traj__functions.c.o[0m
+[8.545s] [  4%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynus_interfaces/msg/detail/quintic_coeff_poly3__functions.c.o[0m
+[8.568s] [  5%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynus_interfaces/msg/detail/dyn_traj__functions.c.o[0m
+[8.568s] [  6%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynus_interfaces/msg/detail/dyn_traj_array__functions.c.o[0m
+[8.571s] [  7%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynus_interfaces/msg/detail/state__functions.c.o[0m
+[8.634s] [  8%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynus_interfaces/msg/detail/goal__functions.c.o[0m
+[8.766s] [  9%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynus_interfaces/msg/detail/mode__functions.c.o[0m
+[8.798s] [  9%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynus_interfaces/msg/detail/yaw_output__functions.c.o[0m
+[8.833s] [ 10%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynus_interfaces/msg/detail/pn_adaptation__functions.c.o[0m
+[8.918s] [ 11%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynus_interfaces/srv/detail/flight_command__functions.c.o[0m
+[9.090s] [ 12%] [32m[1mLinking C shared library libdynus_interfaces__rosidl_generator_c.so[0m
+[9.179s] [ 12%] Built target dynus_interfaces__rosidl_generator_c
+[9.227s] [ 13%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.242s] [ 14%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.263s] [ 15%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.301s] [ 15%] Built target dynus_interfaces__cpp
+[10.341s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.344s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.345s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.413s] [ 18%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynus_interfaces/msg/detail/quintic_coeff_poly3__type_support.cpp.o[0m
+[12.413s] [ 19%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynus_interfaces/msg/detail/pwp_traj__type_support.cpp.o[0m
+[12.421s] [ 19%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynus_interfaces/msg/detail/quintic_pwp_traj__type_support.cpp.o[0m
+[13.420s] [ 20%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynus_interfaces/msg/quintic_pwp_traj__type_support.cpp.o[0m
+[13.520s] [ 20%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynus_interfaces/msg/pwp_traj__type_support.cpp.o[0m
+[13.612s] [ 21%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynus_interfaces/msg/quintic_coeff_poly3__type_support.cpp.o[0m
+[13.734s] [ 22%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynus_interfaces/msg/coeff_poly3__type_support.cpp.o[0m
+[13.856s] [ 23%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynus_interfaces/msg/dyn_traj__type_support.cpp.o[0m
+[13.974s] [ 24%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynus_interfaces/msg/dyn_traj_array__type_support.cpp.o[0m
+[14.072s] [ 25%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynus_interfaces/msg/state__type_support.cpp.o[0m
+[14.224s] [ 25%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynus_interfaces/msg/goal__type_support.cpp.o[0m
+[14.317s] [ 26%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynus_interfaces/msg/mode__type_support.cpp.o[0m
+[14.421s] [ 27%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynus_interfaces/msg/yaw_output__type_support.cpp.o[0m
+[14.485s] [ 28%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynus_interfaces/msg/detail/coeff_poly3__type_support.cpp.o[0m
+[14.525s] [ 29%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynus_interfaces/msg/pn_adaptation__type_support.cpp.o[0m
+[14.652s] [ 30%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynus_interfaces/srv/flight_command__type_support.cpp.o[0m
+[14.766s] [ 31%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynus_interfaces/msg/detail/quintic_pwp_traj__type_support.c.o[0m
+[14.784s] [ 32%] [32m[1mLinking CXX shared library libdynus_interfaces__rosidl_typesupport_c.so[0m
+[14.921s] [ 33%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynus_interfaces/msg/detail/pwp_traj__type_support.c.o[0m
+[14.975s] [ 34%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynus_interfaces/msg/detail/quintic_coeff_poly3__type_support.c.o[0m
+[15.010s] [ 34%] Built target dynus_interfaces__rosidl_typesupport_c
+[15.022s] [ 35%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynus_interfaces/msg/detail/dyn_traj__type_support.cpp.o[0m
+[15.093s] [ 35%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynus_interfaces/msg/detail/coeff_poly3__type_support.c.o[0m
+[15.104s] [ 36%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynus_interfaces/msg/detail/dyn_traj_array__type_support.cpp.o[0m
+[15.134s] [ 37%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynus_interfaces/msg/detail/dyn_traj__type_support.c.o[0m
+[15.179s] [ 38%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynus_interfaces/msg/quintic_pwp_traj__type_support.cpp.o[0m
+[15.236s] [ 39%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynus_interfaces/msg/pwp_traj__type_support.cpp.o[0m
+[15.391s] [ 40%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynus_interfaces/msg/detail/dyn_traj_array__type_support.c.o[0m
+[15.409s] [ 41%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynus_interfaces/msg/detail/dds_fastrtps/quintic_pwp_traj__type_support.cpp.o[0m
+[15.434s] [ 42%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynus_interfaces/msg/detail/quintic_pwp_traj__type_support_c.cpp.o[0m
+[15.519s] [ 43%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynus_interfaces/msg/detail/state__type_support.c.o[0m
+[15.693s] [ 44%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynus_interfaces/msg/detail/goal__type_support.c.o[0m
+[15.799s] [ 45%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynus_interfaces/msg/detail/mode__type_support.c.o[0m
+[15.899s] [ 46%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynus_interfaces/msg/detail/yaw_output__type_support.c.o[0m
+[15.979s] [ 46%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynus_interfaces/msg/detail/pn_adaptation__type_support.c.o[0m
+[16.143s] [ 47%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynus_interfaces/srv/detail/flight_command__type_support.c.o[0m
+[16.258s] [ 48%] [32m[1mLinking C shared library libdynus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[16.377s] [ 48%] Built target dynus_interfaces__rosidl_typesupport_introspection_c
+[17.054s] [ 49%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynus_interfaces/msg/quintic_coeff_poly3__type_support.cpp.o[0m
+[17.575s] [ 50%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynus_interfaces/msg/detail/pwp_traj__type_support_c.cpp.o[0m
+[17.646s] [ 51%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynus_interfaces/msg/coeff_poly3__type_support.cpp.o[0m
+[18.175s] [ 51%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynus_interfaces/msg/dyn_traj__type_support.cpp.o[0m
+[18.191s] [ 52%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynus_interfaces/msg/detail/dds_fastrtps/coeff_poly3__type_support.cpp.o[0m
+[18.599s] [ 53%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynus_interfaces/msg/detail/goal__type_support.cpp.o[0m
+[19.180s] [ 53%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynus_interfaces/msg/detail/state__type_support.cpp.o[0m
+[19.543s] [ 53%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynus_interfaces/msg/detail/quintic_coeff_poly3__type_support_c.cpp.o[0m
+[19.701s] [ 54%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynus_interfaces/msg/detail/dds_fastrtps/dyn_traj__type_support.cpp.o[0m
+[19.739s] [ 55%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynus_interfaces/msg/dyn_traj_array__type_support.cpp.o[0m
+[19.996s] [ 56%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynus_interfaces/msg/detail/mode__type_support.cpp.o[0m
+[20.586s] [ 57%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynus_interfaces/msg/detail/yaw_output__type_support.cpp.o[0m
+[21.235s] [ 58%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynus_interfaces/msg/detail/dyn_traj__type_support_c.cpp.o[0m
+[21.261s] [ 59%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynus_interfaces/msg/state__type_support.cpp.o[0m
+[21.268s] [ 60%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynus_interfaces/msg/detail/pn_adaptation__type_support.cpp.o[0m
+[22.017s] [ 61%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynus_interfaces/msg/detail/coeff_poly3__type_support_c.cpp.o[0m
+[22.620s] [ 62%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynus_interfaces/msg/detail/dds_fastrtps/state__type_support.cpp.o[0m
+[22.698s] [ 63%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynus_interfaces/msg/goal__type_support.cpp.o[0m
+[22.801s] [ 64%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynus_interfaces/msg/detail/dyn_traj_array__type_support_c.cpp.o[0m
+[22.937s] [ 65%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynus_interfaces/srv/detail/flight_command__type_support.cpp.o[0m
+[23.604s] [ 66%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynus_interfaces/msg/mode__type_support.cpp.o[0m
+[24.180s] [ 67%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynus_interfaces/msg/yaw_output__type_support.cpp.o[0m
+[24.415s] [ 68%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynus_interfaces/msg/detail/dds_fastrtps/goal__type_support.cpp.o[0m
+[24.558s] [ 69%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynus_interfaces/msg/detail/state__type_support_c.cpp.o[0m
+[24.799s] [ 70%] [32m[1mLinking CXX shared library libdynus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[24.813s] [ 70%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynus_interfaces/msg/pn_adaptation__type_support.cpp.o[0m
+[25.278s] [ 70%] Built target dynus_interfaces__rosidl_typesupport_introspection_cpp
+[25.329s] [ 71%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynus_interfaces/msg/detail/goal__type_support_c.cpp.o[0m
+[25.508s] [ 72%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynus_interfaces/srv/flight_command__type_support.cpp.o[0m
+[25.980s] [ 72%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynus_interfaces/msg/detail/mode__type_support_c.cpp.o[0m
+[26.095s] [ 73%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynus_interfaces/msg/detail/dds_fastrtps/yaw_output__type_support.cpp.o[0m
+[26.463s] [ 74%] [32m[1mLinking CXX shared library libdynus_interfaces__rosidl_typesupport_cpp.so[0m
+[26.602s] [ 74%] Built target dynus_interfaces__rosidl_typesupport_cpp
+[26.647s] [ 75%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynus_interfaces/msg/detail/yaw_output__type_support_c.cpp.o[0m
+[27.342s] [ 76%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynus_interfaces/msg/detail/pn_adaptation__type_support_c.cpp.o[0m
+[27.558s] [ 76%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynus_interfaces/srv/detail/dds_fastrtps/flight_command__type_support.cpp.o[0m
+[28.023s] [ 77%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynus_interfaces/srv/detail/flight_command__type_support_c.cpp.o[0m
+[28.478s] [ 78%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynus_interfaces/msg/detail/dds_fastrtps/pn_adaptation__type_support.cpp.o[0m
+[29.038s] [ 79%] [32m[1mLinking CXX shared library libdynus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[29.246s] [ 80%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynus_interfaces/msg/detail/dds_fastrtps/mode__type_support.cpp.o[0m
+[29.277s] [ 80%] Built target dynus_interfaces__rosidl_typesupport_fastrtps_c
+[30.008s] [ 80%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynus_interfaces/msg/detail/dds_fastrtps/dyn_traj_array__type_support.cpp.o[0m
+[31.046s] [ 81%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynus_interfaces/msg/detail/dds_fastrtps/quintic_coeff_poly3__type_support.cpp.o[0m
+[31.930s] [ 82%] [32mBuilding CXX object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynus_interfaces/msg/detail/dds_fastrtps/pwp_traj__type_support.cpp.o[0m
+[33.298s] [ 83%] [32m[1mLinking CXX shared library libdynus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[33.538s] [ 83%] Built target dynus_interfaces__rosidl_typesupport_fastrtps_cpp
+[33.576s] [ 83%] Built target dynus_interfaces
+[33.618s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[39.744s] [ 84%] Built target dynus_interfaces__py
+[39.786s] [ 85%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynus_interfaces/msg/_quintic_pwp_traj_s.c.o[0m
+[40.066s] [ 86%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynus_interfaces/msg/_goal_s.c.o[0m
+[40.322s] [ 87%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynus_interfaces/msg/_mode_s.c.o[0m
+[40.558s] [ 87%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynus_interfaces/msg/_yaw_output_s.c.o[0m
+[40.847s] [ 88%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynus_interfaces/msg/_pn_adaptation_s.c.o[0m
+[41.095s] [ 89%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynus_interfaces/srv/_flight_command_s.c.o[0m
+[41.347s] [ 90%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynus_interfaces/msg/_state_s.c.o[0m
+[41.588s] [ 91%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynus_interfaces/msg/_dyn_traj_array_s.c.o[0m
+[41.839s] [ 92%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynus_interfaces/msg/_dyn_traj_s.c.o[0m
+[42.261s] [ 93%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynus_interfaces/msg/_coeff_poly3_s.c.o[0m
+[42.498s] [ 93%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynus_interfaces/msg/_quintic_coeff_poly3_s.c.o[0m
+[42.727s] [ 94%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynus_interfaces/msg/_pwp_traj_s.c.o[0m
+[42.999s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/dynus_interfaces/libdynus_interfaces__rosidl_generator_py.so[0m
+[43.092s] [ 95%] Built target dynus_interfaces__rosidl_generator_py
+[43.133s] [ 96%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynus_interfaces/_dynus_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[43.455s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dynus_interfaces/dynus_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[43.541s] [ 97%] Built target dynus_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[43.582s] [ 97%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynus_interfaces/_dynus_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[43.901s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/dynus_interfaces/dynus_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[43.984s] [ 98%] Built target dynus_interfaces__rosidl_typesupport_c__pyext
+[44.025s] [ 99%] [32mBuilding C object CMakeFiles/dynus_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynus_interfaces/_dynus_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[44.345s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dynus_interfaces/dynus_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[44.427s] [100%] Built target dynus_interfaces__rosidl_typesupport_introspection_c__pyext
+[44.452s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces -- -j8 -l8
+[44.456s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces
+[44.471s] -- Install configuration: ""
+[44.471s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynus_interfaces
+[44.472s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces
+[44.472s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv
+[44.472s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail
+[44.472s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/flight_command__struct.h
+[44.473s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/flight_command__functions.c
+[44.473s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/flight_command__type_support.h
+[44.473s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/flight_command__functions.h
+[44.473s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/flight_command.h
+[44.473s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg
+[44.474s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/pwp_traj.h
+[44.476s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/dyn_traj_array.h
+[44.476s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/yaw_output.h
+[44.477s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/dyn_traj.h
+[44.477s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail
+[44.477s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/coeff_poly3__type_support.h
+[44.477s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pwp_traj__functions.c
+[44.477s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/state__struct.h
+[44.477s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_coeff_poly3__functions.h
+[44.477s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/coeff_poly3__struct.h
+[44.478s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pn_adaptation__functions.h
+[44.478s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/mode__functions.h
+[44.478s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/yaw_output__functions.h
+[44.478s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pn_adaptation__type_support.h
+[44.478s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj__functions.h
+[44.479s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/yaw_output__struct.h
+[44.480s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj_array__type_support.h
+[44.480s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/mode__functions.c
+[44.480s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj__functions.c
+[44.480s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/yaw_output__functions.c
+[44.481s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/state__functions.h
+[44.481s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_pwp_traj__functions.c
+[44.481s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pwp_traj__type_support.h
+[44.481s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pwp_traj__functions.h
+[44.481s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/goal__type_support.h
+[44.482s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj__struct.h
+[44.482s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/goal__functions.c
+[44.482s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_pwp_traj__struct.h
+[44.482s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pwp_traj__struct.h
+[44.482s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj__type_support.h
+[44.483s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/state__functions.c
+[44.483s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/goal__functions.h
+[44.483s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/yaw_output__type_support.h
+[44.483s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_pwp_traj__type_support.h
+[44.483s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj_array__functions.h
+[44.483s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/coeff_poly3__functions.c
+[44.484s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/goal__struct.h
+[44.484s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_coeff_poly3__type_support.h
+[44.484s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj_array__functions.c
+[44.484s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_coeff_poly3__struct.h
+[44.485s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pn_adaptation__struct.h
+[44.485s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj_array__struct.h
+[44.485s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pn_adaptation__functions.c
+[44.485s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/coeff_poly3__functions.h
+[44.485s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/state__type_support.h
+[44.485s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_coeff_poly3__functions.c
+[44.485s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/mode__type_support.h
+[44.486s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_pwp_traj__functions.h
+[44.486s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/mode__struct.h
+[44.486s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/rosidl_generator_c__visibility_control.h
+[44.486s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/quintic_coeff_poly3.h
+[44.486s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/quintic_pwp_traj.h
+[44.486s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/goal.h
+[44.487s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/mode.h
+[44.487s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/pn_adaptation.h
+[44.487s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/state.h
+[44.487s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/coeff_poly3.h
+[44.487s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/environment/library_path.sh
+[44.487s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/environment/library_path.dsv
+[44.488s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_generator_c.so
+[44.488s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_generator_c.so" to ""
+[44.488s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces
+[44.489s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv
+[44.489s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail
+[44.489s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/flight_command__rosidl_typesupport_fastrtps_c.h
+[44.489s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg
+[44.489s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[44.489s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail
+[44.490s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pn_adaptation__rosidl_typesupport_fastrtps_c.h
+[44.490s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj_array__rosidl_typesupport_fastrtps_c.h
+[44.490s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/yaw_output__rosidl_typesupport_fastrtps_c.h
+[44.490s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/coeff_poly3__rosidl_typesupport_fastrtps_c.h
+[44.490s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj__rosidl_typesupport_fastrtps_c.h
+[44.491s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_coeff_poly3__rosidl_typesupport_fastrtps_c.h
+[44.491s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_pwp_traj__rosidl_typesupport_fastrtps_c.h
+[44.491s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/goal__rosidl_typesupport_fastrtps_c.h
+[44.491s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pwp_traj__rosidl_typesupport_fastrtps_c.h
+[44.491s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/mode__rosidl_typesupport_fastrtps_c.h
+[44.492s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[44.492s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_typesupport_fastrtps_c.so
+[44.492s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[44.492s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces
+[44.492s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv
+[44.493s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail
+[44.493s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/flight_command__type_support.c
+[44.493s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/flight_command__rosidl_typesupport_introspection_c.h
+[44.493s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg
+[44.493s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail
+[44.494s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj_array__rosidl_typesupport_introspection_c.h
+[44.494s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_pwp_traj__type_support.c
+[44.494s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/coeff_poly3__type_support.c
+[44.496s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/coeff_poly3__rosidl_typesupport_introspection_c.h
+[44.496s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_coeff_poly3__rosidl_typesupport_introspection_c.h
+[44.496s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj__rosidl_typesupport_introspection_c.h
+[44.496s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_coeff_poly3__type_support.c
+[44.497s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pwp_traj__rosidl_typesupport_introspection_c.h
+[44.497s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pwp_traj__type_support.c
+[44.497s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/state__rosidl_typesupport_introspection_c.h
+[44.497s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_pwp_traj__rosidl_typesupport_introspection_c.h
+[44.497s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pn_adaptation__type_support.c
+[44.498s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/goal__rosidl_typesupport_introspection_c.h
+[44.498s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/yaw_output__rosidl_typesupport_introspection_c.h
+[44.498s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/goal__type_support.c
+[44.498s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pn_adaptation__rosidl_typesupport_introspection_c.h
+[44.499s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/state__type_support.c
+[44.499s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/yaw_output__type_support.c
+[44.500s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj__type_support.c
+[44.501s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/mode__rosidl_typesupport_introspection_c.h
+[44.501s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/mode__type_support.c
+[44.502s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj_array__type_support.c
+[44.502s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[44.502s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_typesupport_introspection_c.so
+[44.502s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[44.502s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_typesupport_c.so
+[44.503s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_typesupport_c.so" to ""
+[44.503s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces
+[44.503s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv
+[44.503s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/flight_command.hpp
+[44.503s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail
+[44.504s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/flight_command__traits.hpp
+[44.504s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/flight_command__builder.hpp
+[44.504s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/flight_command__struct.hpp
+[44.504s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/flight_command__type_support.hpp
+[44.504s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg
+[44.505s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/dyn_traj_array.hpp
+[44.505s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/pwp_traj.hpp
+[44.505s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/goal.hpp
+[44.505s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/quintic_pwp_traj.hpp
+[44.505s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail
+[44.506s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_pwp_traj__traits.hpp
+[44.506s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/coeff_poly3__builder.hpp
+[44.506s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj_array__struct.hpp
+[44.506s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pwp_traj__traits.hpp
+[44.506s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/goal__type_support.hpp
+[44.506s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/mode__struct.hpp
+[44.506s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/coeff_poly3__type_support.hpp
+[44.507s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_pwp_traj__type_support.hpp
+[44.507s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/goal__traits.hpp
+[44.507s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_coeff_poly3__traits.hpp
+[44.507s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_pwp_traj__builder.hpp
+[44.507s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/state__type_support.hpp
+[44.507s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_coeff_poly3__builder.hpp
+[44.508s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_coeff_poly3__type_support.hpp
+[44.508s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pn_adaptation__builder.hpp
+[44.508s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/coeff_poly3__traits.hpp
+[44.508s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pn_adaptation__type_support.hpp
+[44.508s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/coeff_poly3__struct.hpp
+[44.509s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj_array__traits.hpp
+[44.509s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/mode__type_support.hpp
+[44.509s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/yaw_output__struct.hpp
+[44.509s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/yaw_output__traits.hpp
+[44.509s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pn_adaptation__struct.hpp
+[44.510s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj__traits.hpp
+[44.510s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pwp_traj__type_support.hpp
+[44.510s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj__type_support.hpp
+[44.510s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/state__traits.hpp
+[44.510s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj__struct.hpp
+[44.511s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pwp_traj__struct.hpp
+[44.511s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_pwp_traj__struct.hpp
+[44.511s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/state__struct.hpp
+[44.511s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_coeff_poly3__struct.hpp
+[44.512s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj__builder.hpp
+[44.512s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pn_adaptation__traits.hpp
+[44.513s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/goal__struct.hpp
+[44.513s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj_array__builder.hpp
+[44.513s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/yaw_output__builder.hpp
+[44.513s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/mode__traits.hpp
+[44.513s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pwp_traj__builder.hpp
+[44.514s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/goal__builder.hpp
+[44.514s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/state__builder.hpp
+[44.514s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj_array__type_support.hpp
+[44.514s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/yaw_output__type_support.hpp
+[44.514s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/mode__builder.hpp
+[44.514s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/coeff_poly3.hpp
+[44.514s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/dyn_traj.hpp
+[44.515s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[44.515s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/state.hpp
+[44.515s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/quintic_coeff_poly3.hpp
+[44.516s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/pn_adaptation.hpp
+[44.516s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/yaw_output.hpp
+[44.516s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/mode.hpp
+[44.516s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces
+[44.516s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv
+[44.517s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail
+[44.517s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/flight_command__rosidl_typesupport_fastrtps_cpp.hpp
+[44.517s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/dds_fastrtps
+[44.517s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg
+[44.517s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail
+[44.517s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/mode__rosidl_typesupport_fastrtps_cpp.hpp
+[44.518s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[44.518s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/goal__rosidl_typesupport_fastrtps_cpp.hpp
+[44.518s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dds_fastrtps
+[44.518s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_coeff_poly3__rosidl_typesupport_fastrtps_cpp.hpp
+[44.518s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj_array__rosidl_typesupport_fastrtps_cpp.hpp
+[44.519s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_pwp_traj__rosidl_typesupport_fastrtps_cpp.hpp
+[44.519s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/coeff_poly3__rosidl_typesupport_fastrtps_cpp.hpp
+[44.519s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pwp_traj__rosidl_typesupport_fastrtps_cpp.hpp
+[44.519s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/yaw_output__rosidl_typesupport_fastrtps_cpp.hpp
+[44.519s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pn_adaptation__rosidl_typesupport_fastrtps_cpp.hpp
+[44.519s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj__rosidl_typesupport_fastrtps_cpp.hpp
+[44.519s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[44.520s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[44.520s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[44.520s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces
+[44.520s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv
+[44.520s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail
+[44.521s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/flight_command__rosidl_typesupport_introspection_cpp.hpp
+[44.521s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/srv/detail/flight_command__type_support.cpp
+[44.521s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg
+[44.521s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail
+[44.521s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pn_adaptation__rosidl_typesupport_introspection_cpp.hpp
+[44.522s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj__type_support.cpp
+[44.522s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[44.522s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj_array__rosidl_typesupport_introspection_cpp.hpp
+[44.522s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/goal__type_support.cpp
+[44.522s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/state__type_support.cpp
+[44.523s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/goal__rosidl_typesupport_introspection_cpp.hpp
+[44.523s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pwp_traj__type_support.cpp
+[44.523s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/yaw_output__type_support.cpp
+[44.523s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_pwp_traj__type_support.cpp
+[44.523s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pwp_traj__rosidl_typesupport_introspection_cpp.hpp
+[44.524s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_coeff_poly3__rosidl_typesupport_introspection_cpp.hpp
+[44.524s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/coeff_poly3__rosidl_typesupport_introspection_cpp.hpp
+[44.524s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/mode__rosidl_typesupport_introspection_cpp.hpp
+[44.524s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/mode__type_support.cpp
+[44.525s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/yaw_output__rosidl_typesupport_introspection_cpp.hpp
+[44.525s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_coeff_poly3__type_support.cpp
+[44.525s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj__rosidl_typesupport_introspection_cpp.hpp
+[44.525s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/pn_adaptation__type_support.cpp
+[44.526s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/dyn_traj_array__type_support.cpp
+[44.526s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/quintic_pwp_traj__rosidl_typesupport_introspection_cpp.hpp
+[44.526s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/include/dynus_interfaces/dynus_interfaces/msg/detail/coeff_poly3__type_support.cpp
+[44.527s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_typesupport_introspection_cpp.so
+[44.528s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[44.528s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_typesupport_cpp.so
+[44.528s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_typesupport_cpp.so" to ""
+[44.529s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/environment/pythonpath.sh
+[44.529s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/environment/pythonpath.dsv
+[44.529s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces-0.0.0-py3.10.egg-info
+[44.529s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[44.530s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[44.530s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[44.530s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[44.530s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces
+[44.531s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/srv
+[44.531s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/srv/__init__.py
+[44.531s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/srv/_flight_command.py
+[44.531s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/srv/_flight_command_s.c
+[44.531s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/_dynus_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[44.532s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/dynus_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[44.532s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/__init__.py
+[44.532s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/_dynus_interfaces_s.ep.rosidl_typesupport_c.c
+[44.532s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/dynus_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[44.533s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/libdynus_interfaces__rosidl_generator_py.so
+[44.533s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/_dynus_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[44.533s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg
+[44.534s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_mode.py
+[44.534s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_quintic_coeff_poly3.py
+[44.534s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/__init__.py
+[44.534s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_coeff_poly3.py
+[44.534s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_dyn_traj_s.c
+[44.535s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_quintic_pwp_traj_s.c
+[44.535s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_state_s.c
+[44.535s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_pwp_traj_s.c
+[44.535s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_yaw_output.py
+[44.536s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_goal.py
+[44.536s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_pwp_traj.py
+[44.536s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_state.py
+[44.536s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_pn_adaptation.py
+[44.537s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_coeff_poly3_s.c
+[44.537s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_pn_adaptation_s.c
+[44.537s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_dyn_traj.py
+[44.537s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_quintic_coeff_poly3_s.c
+[44.537s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_dyn_traj_array_s.c
+[44.538s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_goal_s.c
+[44.538s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_yaw_output_s.c
+[44.538s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_quintic_pwp_traj.py
+[44.538s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_mode_s.c
+[44.539s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_dyn_traj_array.py
+[44.539s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/dynus_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[44.671s] Listing '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces'...
+[44.671s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/__init__.py'...
+[44.671s] Listing '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg'...
+[44.672s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/__init__.py'...
+[44.672s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_coeff_poly3.py'...
+[44.672s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_dyn_traj.py'...
+[44.672s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_dyn_traj_array.py'...
+[44.672s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_goal.py'...
+[44.672s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_mode.py'...
+[44.672s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_pn_adaptation.py'...
+[44.673s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_pwp_traj.py'...
+[44.673s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_quintic_coeff_poly3.py'...
+[44.673s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_quintic_pwp_traj.py'...
+[44.673s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_state.py'...
+[44.673s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/msg/_yaw_output.py'...
+[44.673s] Listing '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/srv'...
+[44.673s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/srv/__init__.py'...
+[44.673s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/srv/_flight_command.py'...
+[44.682s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/dynus_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[44.683s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/dynus_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[44.684s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/dynus_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[44.685s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/dynus_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[44.686s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/dynus_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[44.687s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/local/lib/python3.10/dist-packages/dynus_interfaces/dynus_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[44.688s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_generator_py.so
+[44.688s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/lib/libdynus_interfaces__rosidl_generator_py.so" to ""
+[44.689s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/QuinticPWPTraj.idl
+[44.689s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/PWPTraj.idl
+[44.690s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/QuinticCoeffPoly3.idl
+[44.691s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/CoeffPoly3.idl
+[44.691s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/DynTraj.idl
+[44.691s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/DynTrajArray.idl
+[44.692s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/State.idl
+[44.696s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/Goal.idl
+[44.697s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/Mode.idl
+[44.697s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/YawOutput.idl
+[44.698s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/PNAdaptation.idl
+[44.698s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/srv/FlightCommand.idl
+[44.699s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/QuinticPWPTraj.msg
+[44.699s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/PWPTraj.msg
+[44.700s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/QuinticCoeffPoly3.msg
+[44.700s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/CoeffPoly3.msg
+[44.701s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/DynTraj.msg
+[44.701s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/DynTrajArray.msg
+[44.701s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/State.msg
+[44.703s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/Goal.msg
+[44.703s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/Mode.msg
+[44.704s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/YawOutput.msg
+[44.704s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/msg/PNAdaptation.msg
+[44.704s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/srv/FlightCommand.srv
+[44.704s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/srv/FlightCommand_Request.msg
+[44.704s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/srv/FlightCommand_Response.msg
+[44.704s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/ament_index/resource_index/package_run_dependencies/dynus_interfaces
+[44.705s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/ament_index/resource_index/parent_prefix_path/dynus_interfaces
+[44.705s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/environment/ament_prefix_path.sh
+[44.705s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/environment/ament_prefix_path.dsv
+[44.705s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/environment/path.sh
+[44.705s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/environment/path.dsv
+[44.706s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/local_setup.bash
+[44.706s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/local_setup.sh
+[44.708s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/local_setup.zsh
+[44.708s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/local_setup.dsv
+[44.708s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/package.dsv
+[44.709s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/ament_index/resource_index/packages/dynus_interfaces
+[44.709s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/export_dynus_interfaces__rosidl_generator_cExport.cmake
+[44.710s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/export_dynus_interfaces__rosidl_generator_cExport-noconfig.cmake
+[44.710s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/export_dynus_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[44.711s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/export_dynus_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[44.711s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/dynus_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[44.712s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/dynus_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[44.712s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/dynus_interfaces__rosidl_typesupport_cExport.cmake
+[44.713s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/dynus_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[44.713s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/export_dynus_interfaces__rosidl_generator_cppExport.cmake
+[44.714s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/export_dynus_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[44.714s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/export_dynus_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[44.715s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/dynus_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[44.715s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/dynus_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[44.715s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/dynus_interfaces__rosidl_typesupport_cppExport.cmake
+[44.716s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/dynus_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[44.716s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/export_dynus_interfaces__rosidl_generator_pyExport.cmake
+[44.717s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/export_dynus_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[44.717s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/rosidl_cmake-extras.cmake
+[44.717s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.718s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.718s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[44.719s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[44.719s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[44.719s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[44.720s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/dynus_interfacesConfig.cmake
+[44.721s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/cmake/dynus_interfacesConfig-version.cmake
+[44.721s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus_interfaces/share/dynus_interfaces/package.xml
+[44.726s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces

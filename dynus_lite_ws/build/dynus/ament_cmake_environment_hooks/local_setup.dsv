@@ -1,0 +1,3 @@
+source;share/dynus/environment/ament_prefix_path.sh
+source;share/dynus/environment/path.sh
+source;share/dynus/environment/pythonpath.sh

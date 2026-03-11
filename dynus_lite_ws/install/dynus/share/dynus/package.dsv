@@ -1,0 +1,11 @@
+source;share/dynus/hook/cmake_prefix_path.ps1
+source;share/dynus/hook/cmake_prefix_path.dsv
+source;share/dynus/hook/cmake_prefix_path.sh
+source;share/dynus/hook/ld_library_path_lib.ps1
+source;share/dynus/hook/ld_library_path_lib.dsv
+source;share/dynus/hook/ld_library_path_lib.sh
+source;share/dynus/local_setup.bash
+source;share/dynus/local_setup.dsv
+source;share/dynus/local_setup.ps1
+source;share/dynus/local_setup.sh
+source;share/dynus/local_setup.zsh

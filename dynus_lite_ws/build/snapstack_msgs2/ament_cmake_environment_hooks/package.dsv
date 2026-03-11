@@ -1,0 +1,4 @@
+source;share/snapstack_msgs2/local_setup.bash
+source;share/snapstack_msgs2/local_setup.dsv
+source;share/snapstack_msgs2/local_setup.sh
+source;share/snapstack_msgs2/local_setup.zsh

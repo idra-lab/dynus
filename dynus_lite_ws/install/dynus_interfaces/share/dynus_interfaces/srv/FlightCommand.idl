@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dynus_interfaces/srv/FlightCommand.srv
+// generated code does not contain a copyright notice
+
+
+module dynus_interfaces {
+  module srv {
+    struct FlightCommand_Request {
+      string command;
+    };
+    struct FlightCommand_Response {
+      boolean success;
+    };
+  };
+};

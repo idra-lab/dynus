@@ -1,0 +1,178 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cc968d9edf594d22b777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "octomap_server",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "color_octomap_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-color_octomap_server-a2b187b2d97d7b249158.json",
+					"name" : "color_octomap_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "color_octomap_server_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-color_octomap_server_node-2e6b53301c79cd92788e.json",
+					"name" : "color_octomap_server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_saver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_saver-3035ceda9ee55c7104b2.json",
+					"name" : "octomap_saver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_saver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_saver_node-78b3004f94439de236e0.json",
+					"name" : "octomap_saver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_server-81b74cc1804b4d5342c7.json",
+					"name" : "octomap_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_server_multilayer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_server_multilayer-706a5e357ad4933686a5.json",
+					"name" : "octomap_server_multilayer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_server_multilayer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_server_multilayer_node-1795fcfa6d1c5b0f1e49.json",
+					"name" : "octomap_server_multilayer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_server_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_server_node-9dfaa74721e2a6ffffc1.json",
+					"name" : "octomap_server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_server_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_server_static-a781a1f2b8955c1f81fc.json",
+					"name" : "octomap_server_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_server_static_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_server_static_node-6dea0c83f04b795eca74.json",
+					"name" : "octomap_server_static_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_server_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_server_uninstall-d5a78d68779c5bf421c4.json",
+					"name" : "octomap_server_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_octomap_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_octomap_server-7865d64b922b613966ec.json",
+					"name" : "tracking_octomap_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_octomap_server_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_octomap_server_node-e157101b7b78e609d56a.json",
+					"name" : "tracking_octomap_server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b766c509c38f563dc1e2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/octomap_server",
+		"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/octomap_mapping/octomap_server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

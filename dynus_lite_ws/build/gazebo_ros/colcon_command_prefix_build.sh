@@ -1,0 +1,3 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev/share/gazebo_dev/package.sh"
+. "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/share/gazebo_msgs/package.sh"

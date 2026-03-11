@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-df852ab467bf2a2a90dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "decomp_test_node",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "decomp_test_node_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-decomp_test_node_uninstall-623b058da60fdcdcb357.json",
+					"name" : "decomp_test_node_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_path_decomp_3d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_path_decomp_3d-4083c61c427a6870bb4f.json",
+					"name" : "test_path_decomp_3d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-05d54dd6734277880d98.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_test_node",
+		"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_test_node"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

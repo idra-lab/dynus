@@ -1,0 +1,313 @@
+[0.011s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 12.3.0
+[0.113s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.175s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.176s] -- Detecting C compile features
+[0.176s] -- Detecting C compile features - done
+[0.179s] -- Detecting CXX compiler ABI info
+[0.247s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.255s] -- Detecting CXX compile features
+[0.256s] -- Detecting CXX compile features - done
+[0.258s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.449s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.602s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.607s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.616s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.645s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.689s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.049s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.547s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.799s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.842s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.844s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.894s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.894s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.894s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.894s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.932s] -- Found PythonExtra: .so  
+[2.012s] -- Configuring done
+[2.051s] -- Generating done
+[2.064s] -- Build files have been written to: /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs
+[2.077s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs
+[2.078s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs -- -j8 -l8
+[2.122s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.673s] [  1%] Built target decomp_ros_msgs__cpp
+[2.697s] [  1%] Built target ament_cmake_python_copy_decomp_ros_msgs
+[2.706s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.108s] [  5%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/decomp_ros_msgs/msg/detail/ellipsoid__type_support.cpp.o[0m
+[3.461s] [  7%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/decomp_ros_msgs/msg/detail/polyhedron_array__type_support.cpp.o[0m
+[3.891s] [  9%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/decomp_ros_msgs/msg/detail/polyhedron__type_support.cpp.o[0m
+[4.290s] [ 10%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/decomp_ros_msgs/msg/detail/ellipsoid_array__type_support.cpp.o[0m
+[4.697s] [ 12%] [32m[1mLinking CXX shared library libdecomp_ros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.776s] [ 12%] Built target decomp_ros_msgs__rosidl_typesupport_introspection_cpp
+[5.069s] running egg_info
+[5.070s] creating decomp_ros_msgs.egg-info
+[5.070s] writing decomp_ros_msgs.egg-info/PKG-INFO
+[5.070s] writing dependency_links to decomp_ros_msgs.egg-info/dependency_links.txt
+[5.070s] writing top-level names to decomp_ros_msgs.egg-info/top_level.txt
+[5.072s] writing manifest file 'decomp_ros_msgs.egg-info/SOURCES.txt'
+[5.074s] reading manifest file 'decomp_ros_msgs.egg-info/SOURCES.txt'
+[5.074s] writing manifest file 'decomp_ros_msgs.egg-info/SOURCES.txt'
+[5.100s] [ 12%] Built target ament_cmake_python_build_decomp_ros_msgs_egg
+[5.108s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.514s] [ 16%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/decomp_ros_msgs/msg/detail/dds_fastrtps/ellipsoid__type_support.cpp.o[0m
+[5.961s] [ 18%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/decomp_ros_msgs/msg/detail/dds_fastrtps/polyhedron_array__type_support.cpp.o[0m
+[6.452s] [ 20%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/decomp_ros_msgs/msg/detail/dds_fastrtps/polyhedron__type_support.cpp.o[0m
+[6.923s] [ 21%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/decomp_ros_msgs/msg/detail/dds_fastrtps/ellipsoid_array__type_support.cpp.o[0m
+[7.410s] [ 23%] [32m[1mLinking CXX shared library libdecomp_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.488s] [ 23%] Built target decomp_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[7.497s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.807s] [ 27%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/decomp_ros_msgs/msg/ellipsoid__type_support.cpp.o[0m
+[8.087s] [ 29%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/decomp_ros_msgs/msg/polyhedron_array__type_support.cpp.o[0m
+[8.377s] [ 30%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/decomp_ros_msgs/msg/polyhedron__type_support.cpp.o[0m
+[8.673s] [ 32%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/decomp_ros_msgs/msg/ellipsoid_array__type_support.cpp.o[0m
+[8.966s] [ 34%] [32m[1mLinking CXX shared library libdecomp_ros_msgs__rosidl_typesupport_cpp.so[0m
+[9.000s] [ 34%] Built target decomp_ros_msgs__rosidl_typesupport_cpp
+[9.009s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.556s] [ 38%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/decomp_ros_msgs/msg/detail/ellipsoid__functions.c.o[0m
+[9.609s] [ 40%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/decomp_ros_msgs/msg/detail/polyhedron_array__functions.c.o[0m
+[9.653s] [ 41%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/decomp_ros_msgs/msg/detail/polyhedron__functions.c.o[0m
+[9.696s] [ 43%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/decomp_ros_msgs/msg/detail/ellipsoid_array__functions.c.o[0m
+[9.739s] [ 45%] [32m[1mLinking C shared library libdecomp_ros_msgs__rosidl_generator_c.so[0m
+[9.773s] [ 45%] Built target decomp_ros_msgs__rosidl_generator_c
+[9.781s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.176s] [ 49%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/decomp_ros_msgs/msg/detail/ellipsoid__type_support_c.cpp.o[0m
+[10.543s] [ 50%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/decomp_ros_msgs/msg/detail/polyhedron_array__type_support_c.cpp.o[0m
+[10.898s] [ 52%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/decomp_ros_msgs/msg/detail/polyhedron__type_support_c.cpp.o[0m
+[11.284s] [ 54%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/decomp_ros_msgs/msg/detail/ellipsoid_array__type_support_c.cpp.o[0m
+[11.659s] [ 56%] [32m[1mLinking CXX shared library libdecomp_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.738s] [ 56%] Built target decomp_ros_msgs__rosidl_typesupport_fastrtps_c
+[11.746s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.070s] [ 60%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/decomp_ros_msgs/msg/ellipsoid__type_support.cpp.o[0m
+[12.105s] [ 61%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/decomp_ros_msgs/msg/polyhedron_array__type_support.cpp.o[0m
+[12.132s] [ 63%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/decomp_ros_msgs/msg/polyhedron__type_support.cpp.o[0m
+[12.159s] [ 65%] [32mBuilding CXX object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/decomp_ros_msgs/msg/ellipsoid_array__type_support.cpp.o[0m
+[12.187s] [ 67%] [32m[1mLinking CXX shared library libdecomp_ros_msgs__rosidl_typesupport_c.so[0m
+[12.221s] [ 67%] Built target decomp_ros_msgs__rosidl_typesupport_c
+[12.230s] [ 69%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.624s] [ 70%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/decomp_ros_msgs/msg/detail/ellipsoid__type_support.c.o[0m
+[12.653s] [ 72%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/decomp_ros_msgs/msg/detail/polyhedron_array__type_support.c.o[0m
+[12.686s] [ 74%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/decomp_ros_msgs/msg/detail/polyhedron__type_support.c.o[0m
+[12.718s] [ 76%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/decomp_ros_msgs/msg/detail/ellipsoid_array__type_support.c.o[0m
+[12.750s] [ 78%] [32m[1mLinking C shared library libdecomp_ros_msgs__rosidl_typesupport_introspection_c.so[0m
+[12.777s] [ 78%] Built target decomp_ros_msgs__rosidl_typesupport_introspection_c
+[12.793s] [ 78%] Built target decomp_ros_msgs
+[12.810s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.445s] [ 80%] Built target decomp_ros_msgs__py
+[13.461s] [ 81%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/decomp_ros_msgs/msg/_ellipsoid_s.c.o[0m
+[13.570s] [ 83%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/decomp_ros_msgs/msg/_polyhedron_array_s.c.o[0m
+[13.659s] [ 85%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/decomp_ros_msgs/msg/_polyhedron_s.c.o[0m
+[13.750s] [ 87%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/decomp_ros_msgs/msg/_ellipsoid_array_s.c.o[0m
+[13.844s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/decomp_ros_msgs/libdecomp_ros_msgs__rosidl_generator_py.so[0m
+[13.880s] [ 89%] Built target decomp_ros_msgs__rosidl_generator_py
+[13.896s] [ 90%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/decomp_ros_msgs/_decomp_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.994s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/decomp_ros_msgs/decomp_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.028s] [ 92%] Built target decomp_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.044s] [ 94%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/decomp_ros_msgs/_decomp_ros_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.142s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/decomp_ros_msgs/decomp_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.176s] [ 96%] Built target decomp_ros_msgs__rosidl_typesupport_c__pyext
+[14.192s] [ 98%] [32mBuilding C object CMakeFiles/decomp_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/decomp_ros_msgs/_decomp_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.289s] [100%] [32m[1mLinking C shared library rosidl_generator_py/decomp_ros_msgs/decomp_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.323s] [100%] Built target decomp_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[14.333s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs -- -j8 -l8
+[14.342s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs
+[14.348s] -- Install configuration: ""
+[14.348s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/decomp_ros_msgs
+[14.348s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs
+[14.348s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg
+[14.348s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/ellipsoid_array.h
+[14.348s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail
+[14.349s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron_array__functions.h
+[14.349s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid_array__struct.h
+[14.349s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid_array__functions.c
+[14.349s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron__type_support.h
+[14.349s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid_array__type_support.h
+[14.349s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid_array__functions.h
+[14.349s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid__functions.c
+[14.349s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron_array__functions.c
+[14.349s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron__functions.c
+[14.349s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid__functions.h
+[14.349s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron_array__struct.h
+[14.349s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid__struct.h
+[14.349s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron_array__type_support.h
+[14.350s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron__functions.h
+[14.350s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron__struct.h
+[14.350s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid__type_support.h
+[14.350s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[14.350s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/polyhedron_array.h
+[14.350s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/ellipsoid.h
+[14.350s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/polyhedron.h
+[14.350s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/environment/library_path.sh
+[14.350s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/environment/library_path.dsv
+[14.350s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_generator_c.so
+[14.350s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_generator_c.so" to ""
+[14.350s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs
+[14.351s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg
+[14.351s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.351s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail
+[14.351s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid_array__rosidl_typesupport_fastrtps_c.h
+[14.351s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid__rosidl_typesupport_fastrtps_c.h
+[14.351s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron__rosidl_typesupport_fastrtps_c.h
+[14.351s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron_array__rosidl_typesupport_fastrtps_c.h
+[14.351s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[14.351s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.351s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs
+[14.351s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg
+[14.351s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail
+[14.351s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron_array__type_support.hpp
+[14.352s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid_array__builder.hpp
+[14.352s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron_array__traits.hpp
+[14.352s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron_array__struct.hpp
+[14.352s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid__builder.hpp
+[14.352s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid__traits.hpp
+[14.352s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron__type_support.hpp
+[14.352s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid__struct.hpp
+[14.352s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid_array__struct.hpp
+[14.352s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron__builder.hpp
+[14.352s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron__struct.hpp
+[14.352s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron_array__builder.hpp
+[14.352s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid_array__type_support.hpp
+[14.352s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron__traits.hpp
+[14.353s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid_array__traits.hpp
+[14.353s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid__type_support.hpp
+[14.353s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/ellipsoid_array.hpp
+[14.353s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/polyhedron_array.hpp
+[14.353s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.353s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/polyhedron.hpp
+[14.353s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/ellipsoid.hpp
+[14.353s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs
+[14.353s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg
+[14.353s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail
+[14.353s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron_array__rosidl_typesupport_fastrtps_cpp.hpp
+[14.353s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/dds_fastrtps
+[14.353s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid_array__rosidl_typesupport_fastrtps_cpp.hpp
+[14.353s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid__rosidl_typesupport_fastrtps_cpp.hpp
+[14.354s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron__rosidl_typesupport_fastrtps_cpp.hpp
+[14.354s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.354s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.354s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.354s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs
+[14.354s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg
+[14.354s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail
+[14.354s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid_array__type_support.c
+[14.354s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid_array__rosidl_typesupport_introspection_c.h
+[14.354s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron_array__rosidl_typesupport_introspection_c.h
+[14.354s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron__type_support.c
+[14.354s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid__type_support.c
+[14.355s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron_array__type_support.c
+[14.355s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron__rosidl_typesupport_introspection_c.h
+[14.355s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid__rosidl_typesupport_introspection_c.h
+[14.355s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.355s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_typesupport_introspection_c.so
+[14.355s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.355s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_typesupport_c.so
+[14.355s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_typesupport_c.so" to ""
+[14.355s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs
+[14.355s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg
+[14.355s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail
+[14.355s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron__type_support.cpp
+[14.356s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron_array__rosidl_typesupport_introspection_cpp.hpp
+[14.356s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron_array__type_support.cpp
+[14.356s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid_array__rosidl_typesupport_introspection_cpp.hpp
+[14.356s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid__rosidl_typesupport_introspection_cpp.hpp
+[14.356s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/polyhedron__rosidl_typesupport_introspection_cpp.hpp
+[14.356s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid_array__type_support.cpp
+[14.356s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/include/decomp_ros_msgs/decomp_ros_msgs/msg/detail/ellipsoid__type_support.cpp
+[14.356s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[14.356s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.357s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_typesupport_cpp.so
+[14.357s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_typesupport_cpp.so" to ""
+[14.357s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/environment/pythonpath.sh
+[14.357s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/environment/pythonpath.dsv
+[14.357s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs-0.0.0-py3.10.egg-info
+[14.357s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[14.357s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.358s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.358s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[14.358s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs
+[14.358s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/decomp_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.358s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/__init__.py
+[14.358s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/_decomp_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.358s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/_decomp_ros_msgs_s.ep.rosidl_typesupport_c.c
+[14.358s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/libdecomp_ros_msgs__rosidl_generator_py.so
+[14.358s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/decomp_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.358s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg
+[14.358s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg/__init__.py
+[14.358s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg/_ellipsoid.py
+[14.359s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg/_polyhedron.py
+[14.359s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg/_ellipsoid_array_s.c
+[14.359s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg/_polyhedron_array_s.c
+[14.359s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg/_ellipsoid_array.py
+[14.359s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg/_ellipsoid_s.c
+[14.359s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg/_polyhedron_array.py
+[14.359s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg/_polyhedron_s.c
+[14.359s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/_decomp_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.359s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/decomp_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.394s] Listing '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs'...
+[14.394s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/__init__.py'...
+[14.395s] Listing '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg'...
+[14.395s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg/__init__.py'...
+[14.395s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg/_ellipsoid.py'...
+[14.395s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg/_ellipsoid_array.py'...
+[14.395s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg/_polyhedron.py'...
+[14.395s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/msg/_polyhedron_array.py'...
+[14.399s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/decomp_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.400s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/decomp_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.400s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/decomp_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.400s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/decomp_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.401s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/decomp_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.401s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/local/lib/python3.10/dist-packages/decomp_ros_msgs/decomp_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.401s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_generator_py.so
+[14.402s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/libdecomp_ros_msgs__rosidl_generator_py.so" to ""
+[14.402s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/msg/Ellipsoid.idl
+[14.402s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/msg/EllipsoidArray.idl
+[14.402s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/msg/Polyhedron.idl
+[14.402s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/msg/PolyhedronArray.idl
+[14.402s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/msg/Ellipsoid.msg
+[14.403s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/msg/EllipsoidArray.msg
+[14.403s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/msg/Polyhedron.msg
+[14.403s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/msg/PolyhedronArray.msg
+[14.403s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/ament_index/resource_index/package_run_dependencies/decomp_ros_msgs
+[14.403s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/ament_index/resource_index/parent_prefix_path/decomp_ros_msgs
+[14.403s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/environment/ament_prefix_path.sh
+[14.404s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/environment/ament_prefix_path.dsv
+[14.404s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/environment/path.sh
+[14.404s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/environment/path.dsv
+[14.404s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/local_setup.bash
+[14.404s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/local_setup.sh
+[14.404s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/local_setup.zsh
+[14.405s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/local_setup.dsv
+[14.405s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/package.dsv
+[14.405s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/ament_index/resource_index/packages/decomp_ros_msgs
+[14.405s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/export_decomp_ros_msgs__rosidl_generator_cExport.cmake
+[14.405s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/export_decomp_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.406s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/export_decomp_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.406s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/export_decomp_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.406s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/export_decomp_ros_msgs__rosidl_generator_cppExport.cmake
+[14.406s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/export_decomp_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.406s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/export_decomp_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.407s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/decomp_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.407s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/decomp_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.407s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/decomp_ros_msgs__rosidl_typesupport_cExport.cmake
+[14.407s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/decomp_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.407s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/decomp_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.407s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/decomp_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.408s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/decomp_ros_msgs__rosidl_typesupport_cppExport.cmake
+[14.408s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/decomp_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.408s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/export_decomp_ros_msgs__rosidl_generator_pyExport.cmake
+[14.408s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/export_decomp_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[14.408s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[14.409s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.409s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.409s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.409s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.409s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.409s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.410s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/decomp_ros_msgsConfig.cmake
+[14.410s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake/decomp_ros_msgsConfig-version.cmake
+[14.410s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/package.xml
+[14.413s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs

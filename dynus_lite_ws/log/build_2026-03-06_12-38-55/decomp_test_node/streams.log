@@ -1,0 +1,206 @@
+[0.012s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_test_node': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib:/opt/gurobi1103/linux64/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/lorenzo/code/decomp_ws/install/decomp_ros_msgs/lib:/opt/ros/humble/lib:/home/lorenzo/code/livox_ws/install/livox_ros_driver2/lib:/opt/gurobi1103/linux64/lib PKG_CONFIG_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/x86_64-linux-gnu/pkgconfig:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/pkgconfig:/opt/openrobots/lib/pkgconfig /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_test_node -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 12.3.0
+[0.125s] -- Detecting C compiler ABI info
+[0.189s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.196s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.480s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.593s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[0.604s] -- Checking for module 'eigen3'
+[0.613s] --   Found eigen3, version 3.4.0
+[0.634s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.634s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.649s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.663s] -- Checking for module 'flann'
+[0.672s] --   Found flann, version 1.9.1
+[0.710s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.710s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.742s] -- Looking for pthread.h
+[0.801s] -- Looking for pthread.h - found
+[0.801s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.864s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.865s] -- Found Threads: TRUE  
+[0.868s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.876s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.999s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.999s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.002s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.016s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.041s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.051s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.131s] -- Found X11: /usr/include   
+[1.132s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.200s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.200s] -- Looking for gethostbyname
+[1.282s] -- Looking for gethostbyname - found
+[1.282s] -- Looking for connect
+[1.366s] -- Looking for connect - found
+[1.366s] -- Looking for remove
+[1.456s] -- Looking for remove - found
+[1.457s] -- Looking for shmat
+[1.549s] -- Looking for shmat - found
+[1.551s] -- Looking for IceConnectionNumber in ICE
+[1.647s] -- Looking for IceConnectionNumber in ICE - found
+[1.780s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.784s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.787s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.789s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.810s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.821s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.829s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.837s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.951s] -- Checking for module 'libusb-1.0'
+[1.973s] --   Found libusb-1.0, version 1.0.25
+[2.026s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.027s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.027s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.113s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.113s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.116s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.398s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.407s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.417s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.677s] -- Found Qhull version 8.0.2
+[2.985s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.306s] -- looking for PCL_COMMON
+[3.307s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.308s] -- looking for PCL_KDTREE
+[3.311s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.312s] -- looking for PCL_OCTREE
+[3.312s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.312s] -- looking for PCL_SEARCH
+[3.313s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.313s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.314s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.315s] -- looking for PCL_FILTERS
+[3.316s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.317s] -- looking for PCL_2D
+[3.317s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.317s] -- looking for PCL_GEOMETRY
+[3.318s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.318s] -- looking for PCL_IO
+[3.321s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.321s] -- looking for PCL_FEATURES
+[3.322s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.322s] -- looking for PCL_ML
+[3.323s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.324s] -- looking for PCL_SEGMENTATION
+[3.325s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.326s] -- looking for PCL_VISUALIZATION
+[3.327s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.329s] -- looking for PCL_SURFACE
+[3.329s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.329s] -- looking for PCL_REGISTRATION
+[3.331s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.331s] -- looking for PCL_KEYPOINTS
+[3.333s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.337s] -- looking for PCL_TRACKING
+[3.337s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.338s] -- looking for PCL_RECOGNITION
+[3.338s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.338s] -- looking for PCL_STEREO
+[3.339s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.340s] -- looking for PCL_APPS
+[3.341s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.342s] -- looking for PCL_IN_HAND_SCANNER
+[3.343s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.343s] -- looking for PCL_MODELER
+[3.344s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.344s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.344s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.345s] -- looking for PCL_OUTOFCORE
+[3.346s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.347s] -- looking for PCL_PEOPLE
+[3.348s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.349s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[3.353s] -- Found rosbag2_cpp: 0.15.16 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[3.476s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.484s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.500s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.522s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.627s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.632s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.673s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.800s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.864s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.896s] -- Found decomp_ros_msgs: 0.0.0 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake)
+[3.929s] -- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.946s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.948s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.949s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.118s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[4.158s] -- Found decomp_rviz_plugins: 0.0.0 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins/share/decomp_rviz_plugins/cmake)
+[4.182s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[4.194s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[4.195s] -- Found OGRE
+[4.196s] --   static     : OFF
+[4.196s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[4.196s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[4.196s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[4.196s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[4.196s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[4.196s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[4.196s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[4.196s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[4.197s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[4.200s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[4.200s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[4.212s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[4.485s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.858s] -- Configuring done
+[4.933s] -- Generating done
+[4.953s] -- Build files have been written to: /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_test_node
+[4.986s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_test_node' returned '0': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib:/opt/gurobi1103/linux64/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/lorenzo/code/decomp_ws/install/decomp_ros_msgs/lib:/opt/ros/humble/lib:/home/lorenzo/code/livox_ws/install/livox_ros_driver2/lib:/opt/gurobi1103/linux64/lib PKG_CONFIG_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/x86_64-linux-gnu/pkgconfig:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/pkgconfig:/opt/openrobots/lib/pkgconfig /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_test_node -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node
+[4.989s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_test_node': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib:/opt/gurobi1103/linux64/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/lorenzo/code/decomp_ws/install/decomp_ros_msgs/lib:/opt/ros/humble/lib:/home/lorenzo/code/livox_ws/install/livox_ros_driver2/lib:/opt/gurobi1103/linux64/lib PKG_CONFIG_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/x86_64-linux-gnu/pkgconfig:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/pkgconfig:/opt/openrobots/lib/pkgconfig /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_test_node -- -j8 -l8
+[5.064s] [ 50%] [32mBuilding CXX object CMakeFiles/test_path_decomp_3d.dir/src/test_path_decomp_3d.cpp.o[0m
+[7.999s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_test_node/src/test_path_decomp_3d.cpp:5[m[K:
+[8.000s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/cmake/../../../include/decomp_util/ellipsoid_decomp.h:153:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma omp parallel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+[8.000s]   153 |     #pragma omp parallel for
+[8.000s]       | 
+[8.000s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_test_node/src/test_path_decomp_3d.cpp:10[m[K:
+[8.000s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[8.000s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[8.000s]       |  [01;35m[K^~~~~~~[m[K
+[22.591s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/cmake/../../../include/decomp_util/line_segment.h:8[m[K,
+[22.591s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/cmake/../../../include/decomp_util/ellipsoid_decomp.h:9[m[K:
+[22.591s] /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/cmake/../../../include/decomp_util/decomp_base.h: In instantiation of ‘[01m[Kvoid DecompBase<Dim>::shrink(double) [with int Dim = 3][m[K’:
+[22.591s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/cmake/../../../include/decomp_util/decomp_base.h:64:18:[m[K   required from here
+[22.591s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/cmake/../../../include/decomp_util/decomp_base.h:64:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kshrink_distance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.591s]    64 |     virtual void shrink([01;35m[Kdouble shrink_distance[m[K) {}
+[22.592s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~[m[K
+[30.426s] [100%] [32m[1mLinking CXX executable test_path_decomp_3d[0m
+[31.631s] [100%] Built target test_path_decomp_3d
+[31.682s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_test_node' returned '0': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib:/opt/gurobi1103/linux64/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/lorenzo/code/decomp_ws/install/decomp_ros_msgs/lib:/opt/ros/humble/lib:/home/lorenzo/code/livox_ws/install/livox_ros_driver2/lib:/opt/gurobi1103/linux64/lib PKG_CONFIG_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/x86_64-linux-gnu/pkgconfig:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/pkgconfig:/opt/openrobots/lib/pkgconfig /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_test_node -- -j8 -l8
+[31.684s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_test_node': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib:/opt/gurobi1103/linux64/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/lorenzo/code/decomp_ws/install/decomp_ros_msgs/lib:/opt/ros/humble/lib:/home/lorenzo/code/livox_ws/install/livox_ros_driver2/lib:/opt/gurobi1103/linux64/lib PKG_CONFIG_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/x86_64-linux-gnu/pkgconfig:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/pkgconfig:/opt/openrobots/lib/pkgconfig /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_test_node
+[31.693s] -- Install configuration: ""
+[31.694s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/launch
+[31.694s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/launch/test_decomp_rviz_launch.py
+[31.694s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/config
+[31.697s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/config/test.rviz
+[31.697s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/lib/decomp_test_node/test_path_decomp_3d
+[31.698s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/lib/decomp_test_node/test_path_decomp_3d" to ""
+[31.698s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/ament_index/resource_index/package_run_dependencies/decomp_test_node
+[31.698s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/ament_index/resource_index/parent_prefix_path/decomp_test_node
+[31.698s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/environment/ament_prefix_path.sh
+[31.698s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/environment/ament_prefix_path.dsv
+[31.699s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/environment/path.sh
+[31.699s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/environment/path.dsv
+[31.699s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/local_setup.bash
+[31.699s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/local_setup.sh
+[31.700s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/local_setup.zsh
+[31.700s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/local_setup.dsv
+[31.700s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/package.dsv
+[31.700s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/ament_index/resource_index/packages/decomp_test_node
+[31.700s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/cmake/decomp_test_nodeConfig.cmake
+[31.701s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/cmake/decomp_test_nodeConfig-version.cmake
+[31.701s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_test_node/share/decomp_test_node/package.xml
+[31.707s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_test_node' returned '0': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_rviz_plugins/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib:/opt/gurobi1103/linux64/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/lorenzo/code/decomp_ws/install/decomp_ros_msgs/lib:/opt/ros/humble/lib:/home/lorenzo/code/livox_ws/install/livox_ros_driver2/lib:/opt/gurobi1103/linux64/lib PKG_CONFIG_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/x86_64-linux-gnu/pkgconfig:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/pkgconfig:/opt/openrobots/lib/pkgconfig /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_test_node

@@ -1,0 +1,561 @@
+[0.102s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'decomp_util', 'decomp_ros_msgs', 'snapstack_msgs2']
+[0.102s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['decomp_util', 'decomp_ros_msgs', 'snapstack_msgs2'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x735b51a9ab60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x735b51a9a3e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x735b51a9a3e0>>, mixin_verb=('build',))
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.313s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lorenzo/code/dynus_lite/dynus_lite_ws'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/DecompUtil) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/DecompUtil) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/DecompUtil) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/DecompUtil) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/DecompUtil) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/DecompUtil) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/DecompUtil) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/DecompUtil) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/DecompUtil) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DecompROS2/DecompUtil' with type 'ros.cmake' and name 'decomp_util'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_ros_msgs) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_ros_msgs) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_ros_msgs) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_ros_msgs) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_ros_msgs) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_ros_msgs) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_ros_msgs) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_ros_msgs) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DecompROS2/decomp_ros_msgs' with type 'ros.ament_cmake' and name 'decomp_ros_msgs'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_rviz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_rviz_plugins) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_rviz_plugins) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_rviz_plugins) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_rviz_plugins) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_rviz_plugins) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_rviz_plugins) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_rviz_plugins) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_rviz_plugins) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DecompROS2/decomp_rviz_plugins' with type 'ros.ament_cmake' and name 'decomp_rviz_plugins'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_test_node) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_test_node) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_test_node) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_test_node) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_test_node) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_test_node) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_test_node) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_test_node) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/DecompROS2/decomp_test_node) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DecompROS2/decomp_test_node' with type 'ros.ament_cmake' and name 'decomp_test_node'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_selector2) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_selector2) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_selector2) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_selector2) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_selector2) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_selector2) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_selector2) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_selector2) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_selector2) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/behavior_selector2' with type 'ros.ament_python' and name 'behavior_selector2'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/direct_lidar_inertial_odometry) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynus' with type 'ros.ament_cmake' and name 'dynus'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus_interfaces) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus_interfaces) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus_interfaces) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus_interfaces) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus_interfaces) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus_interfaces) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus_interfaces) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynus_interfaces) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynus_interfaces' with type 'ros.ament_cmake' and name 'dynus_interfaces'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'python'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['python_setup_py']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_dev' with type 'ros.ament_cmake' and name 'gazebo_dev'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_msgs' with type 'ros.ament_cmake' and name 'gazebo_msgs'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_plugins' with type 'ros.ament_cmake' and name 'gazebo_plugins'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_ros' with type 'ros.ament_cmake' and name 'gazebo_ros'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ros'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['cmake', 'python']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'cmake'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'python'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['python_setup_py']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'python_setup_py'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_ros_pkgs' with type 'ros.ament_cmake' and name 'gazebo_ros_pkgs'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_laser_simulation_ros2' with type 'ros.ament_cmake' and name 'ros2_livox_simulation'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_mode) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_mode) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_mode) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_mode) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_mode) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_mode) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_mode) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_mode) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_mode) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mission_mode' with type 'ros.ament_cmake' and name 'mission_mode'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping) by extension 'ros'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping) by extensions ['cmake', 'python']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping) by extension 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping) by extension 'python_setup_py'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_mapping) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_mapping) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_mapping) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_mapping) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_mapping) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_mapping) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_mapping) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_mapping) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/octomap_mapping/octomap_mapping' with type 'ros.ament_cmake' and name 'octomap_mapping'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_server) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_server) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_server) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_server) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_server) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_server) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_server) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_server) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_mapping/octomap_server) by extension 'ros'
+[0.352s] DEBUG:colcon.colcon_core.package_identification:Package 'src/octomap_mapping/octomap_server' with type 'ros.ament_cmake' and name 'octomap_server'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_rviz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_rviz_plugins) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_rviz_plugins) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_rviz_plugins) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_rviz_plugins) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_rviz_plugins) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_rviz_plugins) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_rviz_plugins) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/octomap_rviz_plugins) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/octomap_rviz_plugins' with type 'ros.ament_cmake' and name 'octomap_rviz_plugins'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_gazebo_plugin) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense_gazebo_plugin' with type 'ros.catkin' and name 'realsense_gazebo_plugin'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_px4_stack) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_px4_stack) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_px4_stack) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_px4_stack) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_px4_stack) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_px4_stack) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_px4_stack) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_px4_stack) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_px4_stack) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_px4_stack' with type 'ros.ament_python' and name 'ros2_px4_stack'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/snapstack_msgs2) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/snapstack_msgs2) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/snapstack_msgs2) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/snapstack_msgs2) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/snapstack_msgs2) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/snapstack_msgs2) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/snapstack_msgs2) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/snapstack_msgs2) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/snapstack_msgs2) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/snapstack_msgs2' with type 'ros.ament_cmake' and name 'snapstack_msgs2'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generator_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generator_ros2) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generator_ros2) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generator_ros2) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generator_ros2) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generator_ros2) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generator_ros2) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generator_ros2) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_generator_ros2) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trajectory_generator_ros2' with type 'ros.ament_cmake' and name 'trajectory_generator_ros2'
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.375s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_dev' from colcon.pkg: {'dependencies': ['Gazebo']}
+[0.375s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_plugins' from colcon.pkg: {'dependencies': ['Gazebo']}
+[0.376s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_ros' from colcon.pkg: {'dependencies': ['Gazebo']}
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'behavior_selector2' in 'src/behavior_selector2'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynus_interfaces' in 'src/dynus_interfaces'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gazebo_dev' in 'src/gazebo_ros_pkgs/gazebo_dev'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gazebo_msgs' in 'src/gazebo_ros_pkgs/gazebo_msgs'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_ros_driver2' in 'src/livox_ros_driver2'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mission_mode' in 'src/mission_mode'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'octomap_rviz_plugins' in 'src/octomap_rviz_plugins'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'octomap_server' in 'src/octomap_mapping/octomap_server'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros2_px4_stack' in 'src/ros2_px4_stack'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'trajectory_generator_ros2' in 'src/trajectory_generator_ros2'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'decomp_rviz_plugins' in 'src/DecompROS2/decomp_rviz_plugins'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gazebo_ros' in 'src/gazebo_ros_pkgs/gazebo_ros'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'octomap_mapping' in 'src/octomap_mapping/octomap_mapping'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'decomp_test_node' in 'src/DecompROS2/decomp_test_node'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gazebo_plugins' in 'src/gazebo_ros_pkgs/gazebo_plugins'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense_gazebo_plugin' in 'src/realsense_gazebo_plugin'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynus' in 'src/dynus'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gazebo_ros_pkgs' in 'src/gazebo_ros_pkgs/gazebo_ros_pkgs'
+[0.382s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros2_livox_simulation' in 'src/livox_laser_simulation_ros2'
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.384s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 373 installed packages in /opt/ros/humble
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.428s] DEBUG:colcon.colcon_core.verb:Building package 'decomp_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs', 'merge_install': False, 'path': '/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_util' build argument 'cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_util' build argument 'cmake_target' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_util' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_util' build argument 'cmake_clean_cache' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_util' build argument 'cmake_clean_first' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_util' build argument 'cmake_force_configure' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_util' build argument 'ament_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_util' build argument 'catkin_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'decomp_util' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.428s] DEBUG:colcon.colcon_core.verb:Building package 'decomp_util' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util', 'merge_install': False, 'path': '/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/DecompUtil', 'symlink_install': False, 'test_result_base': None}
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'snapstack_msgs2' build argument 'cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'snapstack_msgs2' build argument 'cmake_target' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'snapstack_msgs2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'snapstack_msgs2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'snapstack_msgs2' build argument 'cmake_clean_first' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'snapstack_msgs2' build argument 'cmake_force_configure' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'snapstack_msgs2' build argument 'ament_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'snapstack_msgs2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'snapstack_msgs2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.429s] DEBUG:colcon.colcon_core.verb:Building package 'snapstack_msgs2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2', 'merge_install': False, 'path': '/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2', 'symlink_install': False, 'test_result_base': None}
+[0.429s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.430s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.430s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_ros_msgs' with build type 'ament_cmake'
+[0.430s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_ros_msgs'
+[0.432s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.435s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/DecompUtil' with build type 'cmake'
+[0.435s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/DecompUtil'
+[0.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.437s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2' with build type 'ament_cmake'
+[0.437s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2'
+[0.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs
+[0.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/DecompUtil -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util
+[0.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2 -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2
+[0.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/DecompUtil -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util
+[0.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util -- -j8 -l8
+[2.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs
+[2.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs -- -j8 -l8
+[2.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2 -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2
+[2.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2 -- -j8 -l8
+[14.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs -- -j8 -l8
+[14.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs
+[14.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(decomp_ros_msgs)
+[14.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_ros_msgs
+[14.846s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs' for CMake module files
+[14.847s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs' for CMake config files
+[14.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('decomp_ros_msgs', 'cmake_prefix_path')
+[14.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/hook/cmake_prefix_path.ps1'
+[14.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/hook/cmake_prefix_path.dsv'
+[14.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/hook/cmake_prefix_path.sh'
+[14.849s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib'
+[14.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('decomp_ros_msgs', 'ld_library_path_lib')
+[14.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/hook/ld_library_path_lib.ps1'
+[14.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/hook/ld_library_path_lib.dsv'
+[14.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/hook/ld_library_path_lib.sh'
+[14.850s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/bin'
+[14.851s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/pkgconfig/decomp_ros_msgs.pc'
+[14.851s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/python3.10/site-packages'
+[14.851s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/bin'
+[14.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/package.ps1'
+[14.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/package.dsv'
+[14.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/package.sh'
+[14.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/package.bash'
+[14.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/package.zsh'
+[14.855s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/colcon-core/packages/decomp_ros_msgs)
+[14.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(decomp_ros_msgs)
+[14.856s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs' for CMake module files
+[14.856s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs' for CMake config files
+[14.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('decomp_ros_msgs', 'cmake_prefix_path')
+[14.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/hook/cmake_prefix_path.ps1'
+[14.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/hook/cmake_prefix_path.dsv'
+[14.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/hook/cmake_prefix_path.sh'
+[14.858s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib'
+[14.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('decomp_ros_msgs', 'ld_library_path_lib')
+[14.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/hook/ld_library_path_lib.ps1'
+[14.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/hook/ld_library_path_lib.dsv'
+[14.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/hook/ld_library_path_lib.sh'
+[14.859s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/bin'
+[14.860s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/pkgconfig/decomp_ros_msgs.pc'
+[14.860s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/lib/python3.10/site-packages'
+[14.860s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/bin'
+[14.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/package.ps1'
+[14.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/package.dsv'
+[14.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/package.sh'
+[14.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/package.bash'
+[14.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/decomp_ros_msgs/package.zsh'
+[14.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs/share/colcon-core/packages/decomp_ros_msgs)
+[32.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2 -- -j8 -l8
+[32.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2
+[32.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(snapstack_msgs2)
+[32.780s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2' for CMake module files
+[32.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2
+[32.781s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2' for CMake config files
+[32.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('snapstack_msgs2', 'cmake_prefix_path')
+[32.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/hook/cmake_prefix_path.ps1'
+[32.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/hook/cmake_prefix_path.dsv'
+[32.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/hook/cmake_prefix_path.sh'
+[32.783s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib'
+[32.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('snapstack_msgs2', 'ld_library_path_lib')
+[32.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/hook/ld_library_path_lib.ps1'
+[32.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/hook/ld_library_path_lib.dsv'
+[32.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/hook/ld_library_path_lib.sh'
+[32.784s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/bin'
+[32.784s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/pkgconfig/snapstack_msgs2.pc'
+[32.784s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/python3.10/site-packages'
+[32.784s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/bin'
+[32.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/package.ps1'
+[32.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/package.dsv'
+[32.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/package.sh'
+[32.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/package.bash'
+[32.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/package.zsh'
+[32.786s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/colcon-core/packages/snapstack_msgs2)
+[32.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(snapstack_msgs2)
+[32.787s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2' for CMake module files
+[32.788s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2' for CMake config files
+[32.788s] Level 1:colcon.colcon_core.shell:create_environment_hook('snapstack_msgs2', 'cmake_prefix_path')
+[32.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/hook/cmake_prefix_path.ps1'
+[32.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/hook/cmake_prefix_path.dsv'
+[32.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/hook/cmake_prefix_path.sh'
+[32.789s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib'
+[32.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('snapstack_msgs2', 'ld_library_path_lib')
+[32.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/hook/ld_library_path_lib.ps1'
+[32.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/hook/ld_library_path_lib.dsv'
+[32.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/hook/ld_library_path_lib.sh'
+[32.790s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/bin'
+[32.790s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/pkgconfig/snapstack_msgs2.pc'
+[32.791s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/python3.10/site-packages'
+[32.791s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/bin'
+[32.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/package.ps1'
+[32.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/package.dsv'
+[32.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/package.sh'
+[32.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/package.bash'
+[32.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/package.zsh'
+[32.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/colcon-core/packages/snapstack_msgs2)
+[61.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util -- -j8 -l8
+[61.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util
+[61.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util
+[61.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('decomp_util', 'pkg_config_path')
+[61.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/hook/pkg_config_path.ps1'
+[61.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/hook/pkg_config_path.dsv'
+[61.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/hook/pkg_config_path.sh'
+[61.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('decomp_util', 'pkg_config_path_multiarch')
+[61.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/hook/pkg_config_path_multiarch.ps1'
+[61.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/hook/pkg_config_path_multiarch.dsv'
+[61.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/hook/pkg_config_path_multiarch.sh'
+[61.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(decomp_util)
+[61.049s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util' for CMake module files
+[61.049s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util' for CMake config files
+[61.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('decomp_util', 'cmake_prefix_path')
+[61.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/hook/cmake_prefix_path.ps1'
+[61.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/hook/cmake_prefix_path.dsv'
+[61.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/hook/cmake_prefix_path.sh'
+[61.050s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/bin'
+[61.050s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/pkgconfig/decomp_util.pc'
+[61.050s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/lib/python3.10/site-packages'
+[61.051s] Level 1:colcon.colcon_core.environment:checking '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/bin'
+[61.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/package.ps1'
+[61.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/package.dsv'
+[61.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/package.sh'
+[61.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/package.bash'
+[61.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/package.zsh'
+[61.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/colcon-core/packages/decomp_util)
+[61.053s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[61.053s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[61.053s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[61.053s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[61.072s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[61.072s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[61.072s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[61.080s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[61.081s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/local_setup.ps1'
+[61.081s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/_local_setup_util_ps1.py'
+[61.082s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/setup.ps1'
+[61.083s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/local_setup.sh'
+[61.084s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/_local_setup_util_sh.py'
+[61.084s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/setup.sh'
+[61.085s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/local_setup.bash'
+[61.086s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/setup.bash'
+[61.087s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/local_setup.zsh'
+[61.088s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/setup.zsh'

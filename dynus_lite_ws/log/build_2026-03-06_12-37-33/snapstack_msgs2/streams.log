@@ -1,0 +1,518 @@
+[0.010s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2 -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 12.3.0
+[0.110s] -- Detecting C compiler ABI info
+[0.167s] -- Detecting C compiler ABI info - done
+[0.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.180s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.266s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.270s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.457s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.552s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.555s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.562s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.637s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.666s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.681s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.700s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.115s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.440s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.906s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.947s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.949s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.988s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.989s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.989s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.989s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.023s] -- Found PythonExtra: .so  
+[2.106s] -- Configuring done
+[2.157s] -- Generating done
+[2.171s] -- Build files have been written to: /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2
+[2.182s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/snapstack_msgs2 -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2
+[2.184s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2 -- -j8 -l8
+[2.234s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.806s] [  0%] Built target snapstack_msgs2__cpp
+[3.829s] [  0%] Built target ament_cmake_python_copy_snapstack_msgs2
+[3.837s] [  1%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.981s] [  2%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snapstack_msgs2/msg/detail/control_log__type_support.cpp.o[0m
+[5.317s] [  3%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snapstack_msgs2/msg/detail/quad_flight_mode__type_support.cpp.o[0m
+[5.655s] [  4%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snapstack_msgs2/msg/detail/state__type_support.cpp.o[0m
+[6.002s] [  5%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snapstack_msgs2/msg/detail/comm_age__type_support.cpp.o[0m
+[6.336s] [  6%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snapstack_msgs2/msg/detail/imu__type_support.cpp.o[0m
+[6.674s] [  7%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snapstack_msgs2/msg/detail/smc_data__type_support.cpp.o[0m
+[7.014s] [  8%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snapstack_msgs2/msg/detail/motors__type_support.cpp.o[0m
+[7.355s] [  9%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snapstack_msgs2/msg/detail/vio_filter_state__type_support.cpp.o[0m
+[7.745s] [ 10%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snapstack_msgs2/msg/detail/time_filter__type_support.cpp.o[0m
+[8.058s] [ 11%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snapstack_msgs2/msg/detail/goal__type_support.cpp.o[0m
+[8.396s] [ 11%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snapstack_msgs2/msg/detail/attitude_command__type_support.cpp.o[0m
+[8.747s] [ 12%] [32m[1mLinking CXX shared library libsnapstack_msgs2__rosidl_typesupport_introspection_cpp.so[0m
+[8.825s] [ 12%] Built target snapstack_msgs2__rosidl_typesupport_introspection_cpp
+[9.123s] running egg_info
+[9.124s] creating snapstack_msgs2.egg-info
+[9.124s] writing snapstack_msgs2.egg-info/PKG-INFO
+[9.124s] writing dependency_links to snapstack_msgs2.egg-info/dependency_links.txt
+[9.124s] writing top-level names to snapstack_msgs2.egg-info/top_level.txt
+[9.126s] writing manifest file 'snapstack_msgs2.egg-info/SOURCES.txt'
+[9.128s] reading manifest file 'snapstack_msgs2.egg-info/SOURCES.txt'
+[9.128s] writing manifest file 'snapstack_msgs2.egg-info/SOURCES.txt'
+[9.157s] [ 12%] Built target ament_cmake_python_build_snapstack_msgs2_egg
+[9.166s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.398s] [ 13%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snapstack_msgs2/msg/detail/dds_fastrtps/control_log__type_support.cpp.o[0m
+[10.824s] [ 14%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snapstack_msgs2/msg/detail/dds_fastrtps/comm_age__type_support.cpp.o[0m
+[11.290s] [ 15%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snapstack_msgs2/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[11.731s] [ 16%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snapstack_msgs2/msg/detail/dds_fastrtps/smc_data__type_support.cpp.o[0m
+[12.172s] [ 17%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snapstack_msgs2/msg/detail/dds_fastrtps/motors__type_support.cpp.o[0m
+[12.617s] [ 17%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snapstack_msgs2/msg/detail/dds_fastrtps/vio_filter_state__type_support.cpp.o[0m
+[13.092s] [ 18%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snapstack_msgs2/msg/detail/dds_fastrtps/time_filter__type_support.cpp.o[0m
+[13.511s] [ 19%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snapstack_msgs2/msg/detail/dds_fastrtps/state__type_support.cpp.o[0m
+[13.939s] [ 20%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snapstack_msgs2/msg/detail/dds_fastrtps/quad_flight_mode__type_support.cpp.o[0m
+[14.366s] [ 21%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snapstack_msgs2/msg/detail/dds_fastrtps/goal__type_support.cpp.o[0m
+[14.790s] [ 22%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snapstack_msgs2/msg/detail/dds_fastrtps/attitude_command__type_support.cpp.o[0m
+[15.178s] [ 23%] [32m[1mLinking CXX shared library libsnapstack_msgs2__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.242s] [ 23%] Built target snapstack_msgs2__rosidl_typesupport_fastrtps_cpp
+[15.250s] [ 24%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[16.176s] [ 25%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snapstack_msgs2/msg/control_log__type_support.cpp.o[0m
+[16.460s] [ 26%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snapstack_msgs2/msg/imu__type_support.cpp.o[0m
+[16.743s] [ 26%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snapstack_msgs2/msg/smc_data__type_support.cpp.o[0m
+[17.026s] [ 27%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snapstack_msgs2/msg/motors__type_support.cpp.o[0m
+[17.289s] [ 28%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snapstack_msgs2/msg/vio_filter_state__type_support.cpp.o[0m
+[17.552s] [ 29%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snapstack_msgs2/msg/time_filter__type_support.cpp.o[0m
+[17.818s] [ 30%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snapstack_msgs2/msg/comm_age__type_support.cpp.o[0m
+[18.084s] [ 31%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snapstack_msgs2/msg/state__type_support.cpp.o[0m
+[18.352s] [ 32%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snapstack_msgs2/msg/quad_flight_mode__type_support.cpp.o[0m
+[18.615s] [ 33%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snapstack_msgs2/msg/goal__type_support.cpp.o[0m
+[18.882s] [ 34%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snapstack_msgs2/msg/attitude_command__type_support.cpp.o[0m
+[19.146s] [ 35%] [32m[1mLinking CXX shared library libsnapstack_msgs2__rosidl_typesupport_cpp.so[0m
+[19.180s] [ 35%] Built target snapstack_msgs2__rosidl_typesupport_cpp
+[19.189s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[20.593s] [ 37%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_c.dir/rosidl_generator_c/snapstack_msgs2/msg/detail/control_log__functions.c.o[0m
+[20.646s] [ 37%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_c.dir/rosidl_generator_c/snapstack_msgs2/msg/detail/smc_data__functions.c.o[0m
+[20.688s] [ 38%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_c.dir/rosidl_generator_c/snapstack_msgs2/msg/detail/motors__functions.c.o[0m
+[20.726s] [ 39%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_c.dir/rosidl_generator_c/snapstack_msgs2/msg/detail/vio_filter_state__functions.c.o[0m
+[20.770s] [ 40%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_c.dir/rosidl_generator_c/snapstack_msgs2/msg/detail/time_filter__functions.c.o[0m
+[20.811s] [ 41%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_c.dir/rosidl_generator_c/snapstack_msgs2/msg/detail/imu__functions.c.o[0m
+[20.851s] [ 42%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_c.dir/rosidl_generator_c/snapstack_msgs2/msg/detail/comm_age__functions.c.o[0m
+[20.889s] [ 43%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_c.dir/rosidl_generator_c/snapstack_msgs2/msg/detail/state__functions.c.o[0m
+[20.931s] [ 44%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_c.dir/rosidl_generator_c/snapstack_msgs2/msg/detail/quad_flight_mode__functions.c.o[0m
+[20.969s] [ 45%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_c.dir/rosidl_generator_c/snapstack_msgs2/msg/detail/goal__functions.c.o[0m
+[21.010s] [ 46%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_c.dir/rosidl_generator_c/snapstack_msgs2/msg/detail/attitude_command__functions.c.o[0m
+[21.050s] [ 47%] [32m[1mLinking C shared library libsnapstack_msgs2__rosidl_generator_c.so[0m
+[21.081s] [ 47%] Built target snapstack_msgs2__rosidl_generator_c
+[21.090s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[22.175s] [ 49%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snapstack_msgs2/msg/detail/control_log__type_support_c.cpp.o[0m
+[22.516s] [ 50%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snapstack_msgs2/msg/detail/comm_age__type_support_c.cpp.o[0m
+[22.841s] [ 51%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snapstack_msgs2/msg/detail/imu__type_support_c.cpp.o[0m
+[23.168s] [ 52%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snapstack_msgs2/msg/detail/smc_data__type_support_c.cpp.o[0m
+[23.495s] [ 53%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snapstack_msgs2/msg/detail/motors__type_support_c.cpp.o[0m
+[23.819s] [ 54%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snapstack_msgs2/msg/detail/vio_filter_state__type_support_c.cpp.o[0m
+[24.156s] [ 55%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snapstack_msgs2/msg/detail/time_filter__type_support_c.cpp.o[0m
+[24.488s] [ 55%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snapstack_msgs2/msg/detail/state__type_support_c.cpp.o[0m
+[24.824s] [ 56%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snapstack_msgs2/msg/detail/quad_flight_mode__type_support_c.cpp.o[0m
+[25.154s] [ 57%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snapstack_msgs2/msg/detail/goal__type_support_c.cpp.o[0m
+[25.491s] [ 58%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snapstack_msgs2/msg/detail/attitude_command__type_support_c.cpp.o[0m
+[25.826s] [ 59%] [32m[1mLinking CXX shared library libsnapstack_msgs2__rosidl_typesupport_fastrtps_c.so[0m
+[25.898s] [ 59%] Built target snapstack_msgs2__rosidl_typesupport_fastrtps_c
+[25.905s] [ 60%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[26.755s] [ 61%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/control_log__type_support.cpp.o[0m
+[26.784s] [ 62%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/imu__type_support.cpp.o[0m
+[26.812s] [ 63%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/smc_data__type_support.cpp.o[0m
+[26.839s] [ 64%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/motors__type_support.cpp.o[0m
+[26.871s] [ 65%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/vio_filter_state__type_support.cpp.o[0m
+[26.899s] [ 66%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/time_filter__type_support.cpp.o[0m
+[26.926s] [ 67%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/comm_age__type_support.cpp.o[0m
+[26.952s] [ 68%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/state__type_support.cpp.o[0m
+[26.980s] [ 69%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/quad_flight_mode__type_support.cpp.o[0m
+[27.007s] [ 69%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/goal__type_support.cpp.o[0m
+[27.035s] [ 70%] [32mBuilding CXX object CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/attitude_command__type_support.cpp.o[0m
+[27.062s] [ 71%] [32m[1mLinking CXX shared library libsnapstack_msgs2__rosidl_typesupport_c.so[0m
+[27.097s] [ 71%] Built target snapstack_msgs2__rosidl_typesupport_c
+[27.106s] [ 72%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[28.173s] [ 73%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snapstack_msgs2/msg/detail/control_log__type_support.c.o[0m
+[28.213s] [ 74%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snapstack_msgs2/msg/detail/smc_data__type_support.c.o[0m
+[28.242s] [ 75%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snapstack_msgs2/msg/detail/motors__type_support.c.o[0m
+[28.269s] [ 76%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snapstack_msgs2/msg/detail/vio_filter_state__type_support.c.o[0m
+[28.303s] [ 77%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snapstack_msgs2/msg/detail/time_filter__type_support.c.o[0m
+[28.330s] [ 77%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snapstack_msgs2/msg/detail/imu__type_support.c.o[0m
+[28.359s] [ 78%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snapstack_msgs2/msg/detail/comm_age__type_support.c.o[0m
+[28.387s] [ 79%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snapstack_msgs2/msg/detail/state__type_support.c.o[0m
+[28.416s] [ 80%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snapstack_msgs2/msg/detail/quad_flight_mode__type_support.c.o[0m
+[28.443s] [ 81%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snapstack_msgs2/msg/detail/goal__type_support.c.o[0m
+[28.472s] [ 82%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snapstack_msgs2/msg/detail/attitude_command__type_support.c.o[0m
+[28.502s] [ 83%] [32m[1mLinking C shared library libsnapstack_msgs2__rosidl_typesupport_introspection_c.so[0m
+[28.529s] [ 83%] Built target snapstack_msgs2__rosidl_typesupport_introspection_c
+[28.545s] [ 83%] Built target snapstack_msgs2
+[28.562s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[30.719s] [ 84%] Built target snapstack_msgs2__py
+[30.735s] [ 85%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_py.dir/rosidl_generator_py/snapstack_msgs2/msg/_control_log_s.c.o[0m
+[30.829s] [ 86%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_py.dir/rosidl_generator_py/snapstack_msgs2/msg/_smc_data_s.c.o[0m
+[30.934s] [ 87%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_py.dir/rosidl_generator_py/snapstack_msgs2/msg/_motors_s.c.o[0m
+[31.023s] [ 88%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_py.dir/rosidl_generator_py/snapstack_msgs2/msg/_vio_filter_state_s.c.o[0m
+[31.122s] [ 89%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_py.dir/rosidl_generator_py/snapstack_msgs2/msg/_time_filter_s.c.o[0m
+[31.212s] [ 90%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_py.dir/rosidl_generator_py/snapstack_msgs2/msg/_imu_s.c.o[0m
+[31.300s] [ 90%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_py.dir/rosidl_generator_py/snapstack_msgs2/msg/_comm_age_s.c.o[0m
+[31.386s] [ 91%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_py.dir/rosidl_generator_py/snapstack_msgs2/msg/_state_s.c.o[0m
+[31.473s] [ 92%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_py.dir/rosidl_generator_py/snapstack_msgs2/msg/_quad_flight_mode_s.c.o[0m
+[31.558s] [ 93%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_py.dir/rosidl_generator_py/snapstack_msgs2/msg/_goal_s.c.o[0m
+[31.648s] [ 94%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_generator_py.dir/rosidl_generator_py/snapstack_msgs2/msg/_attitude_command_s.c.o[0m
+[31.730s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/snapstack_msgs2/libsnapstack_msgs2__rosidl_generator_py.so[0m
+[31.764s] [ 95%] Built target snapstack_msgs2__rosidl_generator_py
+[31.779s] [ 96%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/snapstack_msgs2/_snapstack_msgs2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.882s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/snapstack_msgs2/snapstack_msgs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[31.918s] [ 97%] Built target snapstack_msgs2__rosidl_typesupport_fastrtps_c__pyext
+[31.941s] [ 97%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/snapstack_msgs2/_snapstack_msgs2_s.ep.rosidl_typesupport_c.c.o[0m
+[32.049s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/snapstack_msgs2/snapstack_msgs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[32.084s] [ 98%] Built target snapstack_msgs2__rosidl_typesupport_c__pyext
+[32.101s] [ 99%] [32mBuilding C object CMakeFiles/snapstack_msgs2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/snapstack_msgs2/_snapstack_msgs2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[32.208s] [100%] [32m[1mLinking C shared library rosidl_generator_py/snapstack_msgs2/snapstack_msgs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[32.241s] [100%] Built target snapstack_msgs2__rosidl_typesupport_introspection_c__pyext
+[32.251s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2 -- -j8 -l8
+[32.253s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2
+[32.259s] -- Install configuration: ""
+[32.259s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/ament_index/resource_index/rosidl_interfaces/snapstack_msgs2
+[32.259s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2
+[32.260s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg
+[32.260s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/time_filter.h
+[32.260s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/motors.h
+[32.260s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail
+[32.260s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/motors__functions.h
+[32.260s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/state__struct.h
+[32.260s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/smc_data__functions.c
+[32.260s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/smc_data__functions.h
+[32.260s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/quad_flight_mode__struct.h
+[32.260s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/smc_data__type_support.h
+[32.260s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/imu__type_support.h
+[32.260s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/attitude_command__struct.h
+[32.261s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/imu__functions.h
+[32.261s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/quad_flight_mode__type_support.h
+[32.261s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/quad_flight_mode__functions.c
+[32.261s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/attitude_command__type_support.h
+[32.261s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/comm_age__struct.h
+[32.261s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/state__functions.h
+[32.261s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/vio_filter_state__struct.h
+[32.261s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/imu__functions.c
+[32.261s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/control_log__functions.c
+[32.261s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/motors__functions.c
+[32.261s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/control_log__struct.h
+[32.261s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/goal__type_support.h
+[32.261s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/goal__functions.c
+[32.261s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/state__functions.c
+[32.262s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/control_log__type_support.h
+[32.262s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/attitude_command__functions.h
+[32.262s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/goal__functions.h
+[32.262s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/control_log__functions.h
+[32.262s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/imu__struct.h
+[32.262s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/vio_filter_state__type_support.h
+[32.262s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/comm_age__functions.c
+[32.262s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/comm_age__type_support.h
+[32.262s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/goal__struct.h
+[32.262s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/attitude_command__functions.c
+[32.262s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/comm_age__functions.h
+[32.262s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/motors__type_support.h
+[32.262s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/quad_flight_mode__functions.h
+[32.262s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/time_filter__struct.h
+[32.263s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/time_filter__functions.h
+[32.263s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/smc_data__struct.h
+[32.263s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/vio_filter_state__functions.c
+[32.263s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/time_filter__type_support.h
+[32.263s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/time_filter__functions.c
+[32.263s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/motors__struct.h
+[32.263s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/state__type_support.h
+[32.263s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/vio_filter_state__functions.h
+[32.263s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/rosidl_generator_c__visibility_control.h
+[32.263s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/imu.h
+[32.263s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/attitude_command.h
+[32.263s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/goal.h
+[32.263s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/vio_filter_state.h
+[32.264s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/smc_data.h
+[32.264s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/state.h
+[32.264s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/comm_age.h
+[32.264s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/quad_flight_mode.h
+[32.264s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/control_log.h
+[32.264s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/environment/library_path.sh
+[32.264s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/environment/library_path.dsv
+[32.264s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_generator_c.so
+[32.265s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_generator_c.so" to ""
+[32.265s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2
+[32.265s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg
+[32.265s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[32.265s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail
+[32.265s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/motors__rosidl_typesupport_fastrtps_c.h
+[32.265s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/comm_age__rosidl_typesupport_fastrtps_c.h
+[32.265s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[32.265s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/smc_data__rosidl_typesupport_fastrtps_c.h
+[32.265s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/time_filter__rosidl_typesupport_fastrtps_c.h
+[32.265s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/vio_filter_state__rosidl_typesupport_fastrtps_c.h
+[32.265s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/attitude_command__rosidl_typesupport_fastrtps_c.h
+[32.265s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/control_log__rosidl_typesupport_fastrtps_c.h
+[32.266s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/goal__rosidl_typesupport_fastrtps_c.h
+[32.266s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/quad_flight_mode__rosidl_typesupport_fastrtps_c.h
+[32.266s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[32.266s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_typesupport_fastrtps_c.so
+[32.266s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_typesupport_fastrtps_c.so" to ""
+[32.266s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2
+[32.266s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg
+[32.266s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail
+[32.266s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/attitude_command__rosidl_typesupport_introspection_c.h
+[32.266s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/control_log__type_support.c
+[32.266s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/comm_age__rosidl_typesupport_introspection_c.h
+[32.267s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/imu__type_support.c
+[32.267s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/quad_flight_mode__type_support.c
+[32.267s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/comm_age__type_support.c
+[32.267s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/control_log__rosidl_typesupport_introspection_c.h
+[32.267s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/smc_data__type_support.c
+[32.267s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/vio_filter_state__type_support.c
+[32.267s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[32.267s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/state__rosidl_typesupport_introspection_c.h
+[32.267s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/vio_filter_state__rosidl_typesupport_introspection_c.h
+[32.267s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/smc_data__rosidl_typesupport_introspection_c.h
+[32.267s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/goal__rosidl_typesupport_introspection_c.h
+[32.267s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/quad_flight_mode__rosidl_typesupport_introspection_c.h
+[32.267s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/time_filter__rosidl_typesupport_introspection_c.h
+[32.267s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/goal__type_support.c
+[32.268s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/state__type_support.c
+[32.268s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/time_filter__type_support.c
+[32.268s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/attitude_command__type_support.c
+[32.268s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/motors__type_support.c
+[32.268s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/motors__rosidl_typesupport_introspection_c.h
+[32.268s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[32.268s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_typesupport_introspection_c.so
+[32.268s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_typesupport_introspection_c.so" to ""
+[32.268s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_typesupport_c.so
+[32.269s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_typesupport_c.so" to ""
+[32.269s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2
+[32.269s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg
+[32.269s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/goal.hpp
+[32.269s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/attitude_command.hpp
+[32.269s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail
+[32.269s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/comm_age__type_support.hpp
+[32.269s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/imu__traits.hpp
+[32.269s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/quad_flight_mode__builder.hpp
+[32.269s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/comm_age__builder.hpp
+[32.269s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/goal__type_support.hpp
+[32.269s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/quad_flight_mode__struct.hpp
+[32.270s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/goal__traits.hpp
+[32.270s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/motors__traits.hpp
+[32.270s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/comm_age__traits.hpp
+[32.270s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/smc_data__traits.hpp
+[32.270s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/state__type_support.hpp
+[32.270s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/attitude_command__type_support.hpp
+[32.270s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/vio_filter_state__type_support.hpp
+[32.270s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/motors__builder.hpp
+[32.270s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/attitude_command__traits.hpp
+[32.270s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/control_log__traits.hpp
+[32.270s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/imu__builder.hpp
+[32.270s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/quad_flight_mode__type_support.hpp
+[32.271s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/motors__struct.hpp
+[32.271s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/comm_age__struct.hpp
+[32.271s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/motors__type_support.hpp
+[32.271s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/time_filter__builder.hpp
+[32.271s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/attitude_command__struct.hpp
+[32.271s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/vio_filter_state__traits.hpp
+[32.271s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/state__traits.hpp
+[32.271s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/quad_flight_mode__traits.hpp
+[32.271s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/imu__struct.hpp
+[32.271s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/smc_data__struct.hpp
+[32.271s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/attitude_command__builder.hpp
+[32.271s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/control_log__struct.hpp
+[32.272s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/control_log__builder.hpp
+[32.272s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/state__struct.hpp
+[32.272s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/time_filter__traits.hpp
+[32.272s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/time_filter__struct.hpp
+[32.272s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/control_log__type_support.hpp
+[32.272s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/goal__struct.hpp
+[32.272s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/vio_filter_state__builder.hpp
+[32.272s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/vio_filter_state__struct.hpp
+[32.272s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/time_filter__type_support.hpp
+[32.272s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/smc_data__builder.hpp
+[32.272s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/imu__type_support.hpp
+[32.273s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/goal__builder.hpp
+[32.273s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/state__builder.hpp
+[32.273s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/smc_data__type_support.hpp
+[32.273s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/quad_flight_mode.hpp
+[32.273s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/comm_age.hpp
+[32.273s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/vio_filter_state.hpp
+[32.273s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/rosidl_generator_cpp__visibility_control.hpp
+[32.273s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/smc_data.hpp
+[32.273s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/state.hpp
+[32.273s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/imu.hpp
+[32.273s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/motors.hpp
+[32.273s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/time_filter.hpp
+[32.273s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/control_log.hpp
+[32.274s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2
+[32.274s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg
+[32.274s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail
+[32.274s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/comm_age__rosidl_typesupport_fastrtps_cpp.hpp
+[32.274s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/quad_flight_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[32.274s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[32.274s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/vio_filter_state__rosidl_typesupport_fastrtps_cpp.hpp
+[32.274s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/goal__rosidl_typesupport_fastrtps_cpp.hpp
+[32.274s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/dds_fastrtps
+[32.274s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[32.274s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/smc_data__rosidl_typesupport_fastrtps_cpp.hpp
+[32.274s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/time_filter__rosidl_typesupport_fastrtps_cpp.hpp
+[32.274s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/control_log__rosidl_typesupport_fastrtps_cpp.hpp
+[32.275s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/motors__rosidl_typesupport_fastrtps_cpp.hpp
+[32.275s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/attitude_command__rosidl_typesupport_fastrtps_cpp.hpp
+[32.275s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[32.275s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_typesupport_fastrtps_cpp.so
+[32.275s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[32.275s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2
+[32.275s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg
+[32.275s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail
+[32.275s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/time_filter__rosidl_typesupport_introspection_cpp.hpp
+[32.275s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/motors__rosidl_typesupport_introspection_cpp.hpp
+[32.276s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[32.276s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/goal__type_support.cpp
+[32.276s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/control_log__type_support.cpp
+[32.276s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/state__type_support.cpp
+[32.276s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/control_log__rosidl_typesupport_introspection_cpp.hpp
+[32.276s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/vio_filter_state__type_support.cpp
+[32.276s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/goal__rosidl_typesupport_introspection_cpp.hpp
+[32.276s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/smc_data__type_support.cpp
+[32.276s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/quad_flight_mode__type_support.cpp
+[32.276s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/attitude_command__rosidl_typesupport_introspection_cpp.hpp
+[32.276s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/vio_filter_state__rosidl_typesupport_introspection_cpp.hpp
+[32.276s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[32.276s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/time_filter__type_support.cpp
+[32.277s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/comm_age__rosidl_typesupport_introspection_cpp.hpp
+[32.277s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/smc_data__rosidl_typesupport_introspection_cpp.hpp
+[32.277s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/quad_flight_mode__rosidl_typesupport_introspection_cpp.hpp
+[32.277s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/imu__type_support.cpp
+[32.277s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/attitude_command__type_support.cpp
+[32.277s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/comm_age__type_support.cpp
+[32.277s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/include/snapstack_msgs2/snapstack_msgs2/msg/detail/motors__type_support.cpp
+[32.277s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_typesupport_introspection_cpp.so
+[32.277s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_typesupport_introspection_cpp.so" to ""
+[32.278s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_typesupport_cpp.so
+[32.278s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_typesupport_cpp.so" to ""
+[32.278s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/environment/pythonpath.sh
+[32.278s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/environment/pythonpath.dsv
+[32.278s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2-5.4.1-py3.10.egg-info
+[32.278s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2-5.4.1-py3.10.egg-info/top_level.txt
+[32.278s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2-5.4.1-py3.10.egg-info/SOURCES.txt
+[32.278s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2-5.4.1-py3.10.egg-info/dependency_links.txt
+[32.278s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2-5.4.1-py3.10.egg-info/PKG-INFO
+[32.278s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2
+[32.279s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/snapstack_msgs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[32.279s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/_snapstack_msgs2_s.ep.rosidl_typesupport_c.c
+[32.279s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/__init__.py
+[32.279s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/libsnapstack_msgs2__rosidl_generator_py.so
+[32.279s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/_snapstack_msgs2_s.ep.rosidl_typesupport_introspection_c.c
+[32.279s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/snapstack_msgs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[32.279s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/_snapstack_msgs2_s.ep.rosidl_typesupport_fastrtps_c.c
+[32.279s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/snapstack_msgs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[32.279s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg
+[32.279s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_motors_s.c
+[32.279s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/__init__.py
+[32.280s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_comm_age_s.c
+[32.280s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_quad_flight_mode.py
+[32.280s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_imu.py
+[32.280s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_state_s.c
+[32.280s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_time_filter_s.c
+[32.280s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_quad_flight_mode_s.c
+[32.280s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_smc_data_s.c
+[32.280s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_attitude_command_s.c
+[32.280s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_goal.py
+[32.280s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_attitude_command.py
+[32.280s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_state.py
+[32.280s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_control_log_s.c
+[32.280s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_smc_data.py
+[32.281s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_time_filter.py
+[32.281s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_motors.py
+[32.281s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_vio_filter_state.py
+[32.281s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_imu_s.c
+[32.281s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_vio_filter_state_s.c
+[32.281s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_comm_age.py
+[32.281s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_goal_s.c
+[32.281s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_control_log.py
+[32.327s] Listing '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2'...
+[32.328s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/__init__.py'...
+[32.328s] Listing '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg'...
+[32.328s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/__init__.py'...
+[32.328s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_attitude_command.py'...
+[32.328s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_comm_age.py'...
+[32.328s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_control_log.py'...
+[32.328s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_goal.py'...
+[32.328s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_imu.py'...
+[32.328s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_motors.py'...
+[32.328s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_quad_flight_mode.py'...
+[32.328s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_smc_data.py'...
+[32.328s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_state.py'...
+[32.328s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_time_filter.py'...
+[32.328s] Compiling '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/msg/_vio_filter_state.py'...
+[32.332s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/snapstack_msgs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[32.332s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/snapstack_msgs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[32.332s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/snapstack_msgs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[32.333s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/snapstack_msgs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[32.333s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/snapstack_msgs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[32.333s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/local/lib/python3.10/dist-packages/snapstack_msgs2/snapstack_msgs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[32.333s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_generator_py.so
+[32.333s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/lib/libsnapstack_msgs2__rosidl_generator_py.so" to ""
+[32.333s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/ControlLog.idl
+[32.334s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/AttitudeCommand.idl
+[32.334s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/Goal.idl
+[32.334s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/QuadFlightMode.idl
+[32.334s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/State.idl
+[32.334s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/CommAge.idl
+[32.334s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/IMU.idl
+[32.334s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/SMCData.idl
+[32.334s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/Motors.idl
+[32.334s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/VioFilterState.idl
+[32.334s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/TimeFilter.idl
+[32.335s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/ControlLog.msg
+[32.335s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/AttitudeCommand.msg
+[32.335s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/Goal.msg
+[32.335s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/QuadFlightMode.msg
+[32.335s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/State.msg
+[32.335s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/CommAge.msg
+[32.335s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/IMU.msg
+[32.335s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/SMCData.msg
+[32.335s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/Motors.msg
+[32.336s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/VioFilterState.msg
+[32.336s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/msg/TimeFilter.msg
+[32.336s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/ament_index/resource_index/package_run_dependencies/snapstack_msgs2
+[32.336s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/ament_index/resource_index/parent_prefix_path/snapstack_msgs2
+[32.336s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/environment/ament_prefix_path.sh
+[32.336s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/environment/ament_prefix_path.dsv
+[32.336s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/environment/path.sh
+[32.336s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/environment/path.dsv
+[32.336s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/local_setup.bash
+[32.337s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/local_setup.sh
+[32.337s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/local_setup.zsh
+[32.337s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/local_setup.dsv
+[32.337s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/package.dsv
+[32.337s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/ament_index/resource_index/packages/snapstack_msgs2
+[32.337s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/export_snapstack_msgs2__rosidl_generator_cExport.cmake
+[32.337s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/export_snapstack_msgs2__rosidl_generator_cExport-noconfig.cmake
+[32.337s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/export_snapstack_msgs2__rosidl_typesupport_fastrtps_cExport.cmake
+[32.338s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/export_snapstack_msgs2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[32.338s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/snapstack_msgs2__rosidl_typesupport_introspection_cExport.cmake
+[32.338s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/snapstack_msgs2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[32.338s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/snapstack_msgs2__rosidl_typesupport_cExport.cmake
+[32.338s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/snapstack_msgs2__rosidl_typesupport_cExport-noconfig.cmake
+[32.338s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/export_snapstack_msgs2__rosidl_generator_cppExport.cmake
+[32.338s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/export_snapstack_msgs2__rosidl_typesupport_fastrtps_cppExport.cmake
+[32.338s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/export_snapstack_msgs2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[32.338s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/snapstack_msgs2__rosidl_typesupport_introspection_cppExport.cmake
+[32.339s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/snapstack_msgs2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[32.339s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/snapstack_msgs2__rosidl_typesupport_cppExport.cmake
+[32.339s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/snapstack_msgs2__rosidl_typesupport_cppExport-noconfig.cmake
+[32.339s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/export_snapstack_msgs2__rosidl_generator_pyExport.cmake
+[32.339s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/export_snapstack_msgs2__rosidl_generator_pyExport-noconfig.cmake
+[32.339s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/rosidl_cmake-extras.cmake
+[32.339s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.339s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.340s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/ament_cmake_export_libraries-extras.cmake
+[32.340s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/ament_cmake_export_targets-extras.cmake
+[32.340s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[32.340s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[32.340s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/snapstack_msgs2Config.cmake
+[32.340s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake/snapstack_msgs2Config-version.cmake
+[32.340s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/package.xml
+[32.343s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2

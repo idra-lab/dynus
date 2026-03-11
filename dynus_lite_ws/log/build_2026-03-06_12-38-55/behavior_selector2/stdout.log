@@ -1,0 +1,52 @@
+running egg_info
+creating ../../build/behavior_selector2/behavior_selector2.egg-info
+writing ../../build/behavior_selector2/behavior_selector2.egg-info/PKG-INFO
+writing dependency_links to ../../build/behavior_selector2/behavior_selector2.egg-info/dependency_links.txt
+writing entry points to ../../build/behavior_selector2/behavior_selector2.egg-info/entry_points.txt
+writing requirements to ../../build/behavior_selector2/behavior_selector2.egg-info/requires.txt
+writing top-level names to ../../build/behavior_selector2/behavior_selector2.egg-info/top_level.txt
+writing manifest file '../../build/behavior_selector2/behavior_selector2.egg-info/SOURCES.txt'
+reading manifest file '../../build/behavior_selector2/behavior_selector2.egg-info/SOURCES.txt'
+writing manifest file '../../build/behavior_selector2/behavior_selector2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/behavior_selector2/build
+creating /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/behavior_selector2/build/lib
+creating /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/behavior_selector2/build/lib/behavior_selector2
+copying behavior_selector2/__init__.py -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/behavior_selector2/build/lib/behavior_selector2
+copying behavior_selector2/rqt_pkg.py -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/behavior_selector2/build/lib/behavior_selector2
+copying behavior_selector2/behavior_selector_node.py -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/behavior_selector2/build/lib/behavior_selector2
+copying behavior_selector2/button_module.py -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/behavior_selector2/build/lib/behavior_selector2
+running install
+running install_lib
+creating /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/python3.10/site-packages/behavior_selector2
+copying /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/behavior_selector2/build/lib/behavior_selector2/__init__.py -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/python3.10/site-packages/behavior_selector2
+copying /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/behavior_selector2/build/lib/behavior_selector2/rqt_pkg.py -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/python3.10/site-packages/behavior_selector2
+copying /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/behavior_selector2/build/lib/behavior_selector2/behavior_selector_node.py -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/python3.10/site-packages/behavior_selector2
+copying /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/behavior_selector2/build/lib/behavior_selector2/button_module.py -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/python3.10/site-packages/behavior_selector2
+byte-compiling /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/python3.10/site-packages/behavior_selector2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/python3.10/site-packages/behavior_selector2/rqt_pkg.py to rqt_pkg.cpython-310.pyc
+byte-compiling /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/python3.10/site-packages/behavior_selector2/behavior_selector_node.py to behavior_selector_node.cpython-310.pyc
+byte-compiling /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/python3.10/site-packages/behavior_selector2/button_module.py to button_module.cpython-310.pyc
+running install_data
+copying package.xml -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/share/behavior_selector2
+copying resource/MissionModePlugin.ui -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/share/behavior_selector2
+copying resource/behavior_selector2 -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/share/behavior_selector2
+copying plugin.xml -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/share/behavior_selector2
+creating /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/behavior_selector2
+copying behavior_selector2/__init__.py -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/behavior_selector2
+copying behavior_selector2/rqt_pkg.py -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/behavior_selector2
+copying behavior_selector2/behavior_selector_node.py -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/behavior_selector2
+copying behavior_selector2/button_module.py -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/behavior_selector2
+creating /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/share/behavior_selector2/cfg
+copying cfg/default.perspective -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/share/behavior_selector2/cfg
+creating /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/share/behavior_selector2/launch
+copying launch/gui.launch.py -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/share/behavior_selector2/launch
+creating /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/share/behavior_selector2/srv
+copying srv/MissionModeChange.srv -> /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/share/behavior_selector2/srv
+running install_egg_info
+Copying ../../build/behavior_selector2/behavior_selector2.egg-info to /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/python3.10/site-packages/behavior_selector2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing behavior_selector_node script to /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/behavior_selector2
+Installing button_module script to /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/behavior_selector2/lib/behavior_selector2
+writing list of installed files to '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/behavior_selector2/install.log'

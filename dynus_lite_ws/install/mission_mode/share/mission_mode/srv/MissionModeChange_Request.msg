@@ -1,0 +1,4 @@
+uint8 mode
+uint8 START  = 1
+uint8 END    = 2
+uint8 KILL   = 3

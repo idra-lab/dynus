@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3bbc86addf1cdeae86b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "mission_mode__py",
+					"jsonFile" : "directory-mission_mode__py-214118a9abfb7b261692.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/mission_mode/mission_mode__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mission_mode",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mission_mode_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mission_mode_egg-8dd88aaa4ffdd8ca5840.json",
+					"name" : "ament_cmake_python_build_mission_mode_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mission_mode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mission_mode-8ffccfa8e78b50a042df.json",
+					"name" : "ament_cmake_python_copy_mission_mode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_mode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_mode-60308323e564a69195c2.json",
+					"name" : "mission_mode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_mode__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_mode__cpp-74d83f0c47ac1de03de0.json",
+					"name" : "mission_mode__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mission_mode__py::@06042c20429a31258127",
+					"jsonFile" : "target-mission_mode__py-391db70c8752b9c710e2.json",
+					"name" : "mission_mode__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_mode__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_mode__rosidl_generator_c-3e830eb55dad5300b959.json",
+					"name" : "mission_mode__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_mode__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_mode__rosidl_generator_py-7ebb1b9c3a91650e6066.json",
+					"name" : "mission_mode__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_mode__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_mode__rosidl_typesupport_c-ba287ef18f70e24a2709.json",
+					"name" : "mission_mode__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_mode__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_mode__rosidl_typesupport_c__pyext-4e94bd0b18d50e0f70bd.json",
+					"name" : "mission_mode__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_mode__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_mode__rosidl_typesupport_cpp-665223b1d77f19e05ebb.json",
+					"name" : "mission_mode__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_mode__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_mode__rosidl_typesupport_fastrtps_c-cff64069d4e9f628aa20.json",
+					"name" : "mission_mode__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_mode__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_mode__rosidl_typesupport_fastrtps_c__pyext-e9921e17c5dd6b0de522.json",
+					"name" : "mission_mode__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_mode__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_mode__rosidl_typesupport_fastrtps_cpp-76441d06ad11b36bb1a6.json",
+					"name" : "mission_mode__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_mode__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_mode__rosidl_typesupport_introspection_c-8ad0e6f7503ccffa9f66.json",
+					"name" : "mission_mode__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_mode__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_mode__rosidl_typesupport_introspection_c__pyext-ca0012941aa4cb86c015.json",
+					"name" : "mission_mode__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_mode__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_mode__rosidl_typesupport_introspection_cpp-61cf99d7ea7e684933c2.json",
+					"name" : "mission_mode__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_mode_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_mode_uninstall-3756fce916b4cbe5676a.json",
+					"name" : "mission_mode_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-45216b405350728a2017.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/mission_mode",
+		"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/mission_mode"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

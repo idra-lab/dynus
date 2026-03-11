@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from snapstack_msgs2/msg/Motors.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module snapstack_msgs2 {
+  module msg {
+    struct Motors {
+      std_msgs::msg::Header header;
+
+      double m1;
+
+      double m2;
+
+      double m3;
+
+      double m4;
+
+      double m5;
+
+      double m6;
+
+      double m7;
+
+      double m8;
+    };
+  };
+};

@@ -1,0 +1,7 @@
+setup.py
+dynus/__init__.py
+dynus/module_to_import.py
+dynus.egg-info/PKG-INFO
+dynus.egg-info/SOURCES.txt
+dynus.egg-info/dependency_links.txt
+dynus.egg-info/top_level.txt

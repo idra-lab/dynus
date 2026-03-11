@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mission_mode__py",
+		"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/mission_mode/mission_mode__py"
+	}
+}

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mission_mode/srv/MissionModeChange.srv
+// generated code does not contain a copyright notice
+
+
+module mission_mode {
+  module srv {
+    module MissionModeChange_Request_Constants {
+      const uint8 START = 1;
+      const uint8 END = 2;
+      const uint8 KILL = 3;
+    };
+    struct MissionModeChange_Request {
+      uint8 mode;
+    };
+    struct MissionModeChange_Response {
+      boolean received;
+    };
+  };
+};

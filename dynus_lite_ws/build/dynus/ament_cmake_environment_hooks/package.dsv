@@ -1,0 +1,4 @@
+source;share/dynus/local_setup.bash
+source;share/dynus/local_setup.dsv
+source;share/dynus/local_setup.sh
+source;share/dynus/local_setup.zsh

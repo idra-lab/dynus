@@ -1,0 +1,17 @@
+{
+  "package_name": "dynus_interfaces",
+  "non_idl_tuples": [
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces:msg/QuinticPWPTraj.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces:msg/PWPTraj.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces:msg/QuinticCoeffPoly3.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces:msg/CoeffPoly3.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces:msg/DynTraj.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces:msg/DynTrajArray.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces:msg/State.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces:msg/Goal.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces:msg/Mode.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces:msg/YawOutput.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces:msg/PNAdaptation.msg",
+    "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/dynus_interfaces:srv/FlightCommand.srv"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gazebo_msgs__py",
+		"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/gazebo_msgs/gazebo_msgs__py"
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-912ee1c693933b42ab38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "decomp_rviz_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "decomp_rviz_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-decomp_rviz_plugins-c2551f942380702e72f6.json",
+					"name" : "decomp_rviz_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "decomp_rviz_plugins_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-decomp_rviz_plugins_autogen-bf6638e718b04f7d772e.json",
+					"name" : "decomp_rviz_plugins_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "decomp_rviz_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-decomp_rviz_plugins_uninstall-a4274beefb284eff6f42.json",
+					"name" : "decomp_rviz_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c05c5070d81a6c4669aa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_rviz_plugins",
+		"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/DecompROS2/decomp_rviz_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

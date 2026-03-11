@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dynus_interfaces/msg/PWPTraj.msg
+// generated code does not contain a copyright notice
+
+#include "dynus_interfaces/msg/CoeffPoly3.idl"
+
+module dynus_interfaces {
+  module msg {
+    struct PWPTraj {
+      @verbatim (language="comment", text=
+        "times has n+1 elements [t0,t1,t2,...,tn+1]")
+      sequence<double> times;
+
+      @verbatim (language="comment", text=
+        "Array of coeffients. Should have n elements")
+      sequence<dynus_interfaces::msg::CoeffPoly3> coeff_x;
+
+      @verbatim (language="comment", text=
+        "Array of coeffients. Should have n elements")
+      sequence<dynus_interfaces::msg::CoeffPoly3> coeff_y;
+
+      @verbatim (language="comment", text=
+        "Array of coeffients. Should have n elements")
+      sequence<dynus_interfaces::msg::CoeffPoly3> coeff_z;
+    };
+  };
+};

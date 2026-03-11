@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from snapstack_msgs2/msg/TimeFilter.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module snapstack_msgs2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "TimeFilter.msg")
+    struct TimeFilter {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "dt recorded in time stamp")
+      float dt;
+
+      @verbatim (language="comment", text=
+        "dt stamped when arrived onboard")
+      float delayed_dt;
+
+      @verbatim (language="comment", text=
+        "is msg skipped?")
+      boolean skipped;
+
+      @verbatim (language="comment", text=
+        "upper bound")
+      float upper;
+
+      @verbatim (language="comment", text=
+        "lower bound")
+      float lower;
+    };
+  };
+};

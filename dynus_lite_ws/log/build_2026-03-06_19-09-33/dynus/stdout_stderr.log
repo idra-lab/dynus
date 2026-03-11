@@ -1,0 +1,135 @@
+[  5%] Built target fake_sim
+[ 11%] Built target convert_goal_to_cmd_vel
+[ 17%] Built target convert_odom_to_state
+[ 22%] Built target quadruped_convert_odom_to_state
+[ 28%] Built target convert_vicon_to_state
+[ 34%] Built target quadruped_convert_goal_to_cmd_vel
+[ 45%] Built target obstacle_tracker_node
+[ 45%] Built target ament_cmake_python_copy_dynus
+[ 57%] Built target convert_velodyne_to_ros_time
+[ 60%] Built target test_yaw_solver
+[ 88%] Built target dynus
+[ 94%] Built target imu_plugin
+[100%] Built target move_model
+running egg_info
+writing dynus.egg-info/PKG-INFO
+writing dependency_links to dynus.egg-info/dependency_links.txt
+writing top-level names to dynus.egg-info/top_level.txt
+reading manifest file 'dynus.egg-info/SOURCES.txt'
+writing manifest file 'dynus.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_dynus_egg
+-- Install configuration: ""
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/onboard_dynus.launch.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/sim_env.launch.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/dyn_obstacles.launch.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/spawn_quadrotor_with_asus.launch.xml
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/default_multiagent_sim.yaml
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/run_single_sim.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/docker_sim.yaml
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/convert_vicon_to_state.launch.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/goal_sender.launch.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/docker_multiagent_sim.yaml
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/goal_monitor.launch.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/default_sim.yaml
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/convert_odom_to_state.launch.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/initial_guess_benchmarking.launch.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/object_detection.launch.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/convert_goal_cmd_vel.launch.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/base_dynus.launch.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/launch/spawn_quadrotor.launch.xml
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/dynamic_obstacle_empty_param.yaml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/cave_param.yaml
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/office_param.yaml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/dynus.yaml
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/easy_forest_param.yaml
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/config/high_res_forest_param.yaml
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/rviz
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/rviz/multiagent_wo_cameras.rviz
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/rviz/multiagent.rviz
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/rviz/dynus.rviz
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/worlds
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/worlds/empty_wo_ground.world
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/worlds/easy_forest.world
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/worlds/empty.world
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/quadrotor_base.urdf.xacro
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall2
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall2/model.config
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall2/model.sdf
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall3
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall3/model.config
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall3/model.sdf
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_d435i.urdf.xacro
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall1
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall1/model.config
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/wall1/model.sdf
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_d435.urdf.xacro
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/dyn_obstacle1.urdf.xacro
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_d435i.gazebo.xacro
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/quadrotor.urdf.xacro
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/basse_flower
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/basse_flower/model.config
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/basse_flower/model.sdf
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_d435.gazebo.xacro
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/sonar_sensor.urdf.xacro
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_t265.urdf.xacro
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/generic_camera.urdf.xacro
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/urdf/_t265.gazebo.xacro
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/real_sense
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/real_sense/d435.dae
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor.dae
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/blender
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/blender/quadrotor_base_2.blend
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/blender/quadrotor_base.blend
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor_base.dae
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor_base.stl
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor_base_2.dae
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/meshes/quadrotor/quadrotor_base_2.stl
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/dynus
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/fake_sim
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/obstacle_tracker_node
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_goal_to_cmd_vel
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/quadruped_convert_goal_to_cmd_vel
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_odom_to_state
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/quadruped_convert_odom_to_state
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_vicon_to_state
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/test_yaw_solver
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/convert_velodyne_to_ros_time
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/libmove_model.so
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/libimu_plugin.so
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/pythonpath.sh
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/pythonpath.dsv
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus/__init__.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus/module_to_import.py
+Listing '/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/local/lib/python3.10/dist-packages/dynus'...
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/dummy_traj_publisher.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/dynus_commands.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/goal_sender.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/object_detection_node.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/goal_monitor_node.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/lib/dynus/generate_random_forest.py
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/ament_index/resource_index/package_run_dependencies/dynus
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/ament_index/resource_index/parent_prefix_path/dynus
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/path.sh
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/environment/path.dsv
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/local_setup.bash
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/local_setup.sh
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/local_setup.zsh
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/local_setup.dsv
+-- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/package.dsv
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/ament_index/resource_index/packages/dynus
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/cmake/dynusConfig.cmake
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/cmake/dynusConfig-version.cmake
+-- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/dynus/share/dynus/package.xml

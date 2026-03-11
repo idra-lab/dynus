@@ -1,0 +1,991 @@
+[0.011s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/gazebo_plugins': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.110s] -- The CXX compiler identification is GNU 12.3.0
+[0.117s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.189s] -- Detecting CXX compiler ABI info
+[0.266s] -- Detecting CXX compiler ABI info - done
+[0.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.274s] -- Detecting CXX compile features
+[0.274s] -- Detecting CXX compile features - done
+[0.278s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.490s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.612s] -- Found camera_info_manager: 3.1.12 (/opt/ros/humble/share/camera_info_manager/cmake)
+[0.678s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.685s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.697s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.714s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.736s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.795s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.799s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.831s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.844s] -- Looking for pthread.h
+[0.908s] -- Looking for pthread.h - found
+[0.909s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.977s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.978s] -- Found Threads: TRUE  
+[1.104s] -- Found gazebo_dev: 3.8.0 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev/share/gazebo_dev/cmake)
+[1.111s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.112s] -- Checking for module 'bullet>=2.82'
+[1.122s] --   Found bullet, version 3.05
+[1.225s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.272s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.294s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.323s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.337s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.343s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.349s] -- Searching for dependencies of ignition-math6
+[1.350s] -- Looking for OGRE...
+[1.351s] -- OGRE_PREFIX_WATCH changed.
+[1.355s] -- Checking for module 'OGRE'
+[1.366s] --   Found OGRE, version 1.9.0
+[1.392s] -- Found Ogre Ghadamon (1.9.0)
+[1.403s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.412s] -- Looking for OGRE_Paging...
+[1.418s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.418s] -- Looking for OGRE_Terrain...
+[1.424s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.424s] -- Looking for OGRE_Property...
+[1.430s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.430s] -- Looking for OGRE_RTShaderSystem...
+[1.435s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.436s] -- Looking for OGRE_Volume...
+[1.441s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.441s] -- Looking for OGRE_Overlay...
+[1.447s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.572s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.575s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.576s] -- Searching for dependencies of ignition-transport8
+[1.596s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.609s] -- Checking for module 'uuid'
+[1.622s] --   Found uuid, version 2.37.2
+[1.652s] -- Found UUID: TRUE  
+[1.656s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.656s] -- Searching for dependencies of ignition-msgs5
+[1.679s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.685s] -- Checking for module 'tinyxml2'
+[1.699s] --   Found tinyxml2, version 9.0.0
+[1.730s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.733s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.734s] -- Searching for dependencies of ignition-common3
+[1.734s] -- Looking for dlfcn.h - found
+[1.736s] -- Looking for libdl - found
+[1.737s] -- Found DL: TRUE  
+[1.750s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.751s] -- Searching for <ignition-common3> component [graphics]
+[1.754s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.755s] -- Searching for dependencies of ignition-common3-graphics
+[1.755s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.759s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.759s] -- Searching for dependencies of ignition-fuel_tools4
+[1.836s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.844s] -- Checking for module 'jsoncpp'
+[1.856s] --   Found jsoncpp, version 1.9.5
+[1.884s] -- Found JSONCPP: TRUE  
+[1.890s] -- Checking for module 'libzip'
+[1.902s] --   Found libzip, version 1.7.3
+[1.930s] -- Found ZIP: TRUE  
+[1.931s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.931s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.932s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.935s] -- Gazebo version: 11.10
+[1.936s] -- Checking for module 'tbb'
+[1.947s] --   Found tbb, version 2021.5.0
+[1.974s] -- Found gazebo_msgs: 3.8.0 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/share/gazebo_msgs/cmake)
+[2.018s] -- Found gazebo_ros: 3.8.0 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/share/gazebo_ros/cmake)
+[2.023s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[2.071s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.086s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.109s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[2.124s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[2.130s] -- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.142s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.143s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.143s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.392s] -- Found ament_cmake_gtest: 1.3.13 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.401s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.622s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.745s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.751s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.755s] -- Configured cppcheck include dirs: /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include
+[2.755s] -- Configured cppcheck exclude dirs and/or files: 
+[2.756s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.758s] -- Added test 'lint_cmake' to check CMake code style
+[2.759s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.764s] -- Added test 'uncrustify' to check C / C++ code style
+[2.765s] -- Configured uncrustify additional arguments: 
+[2.766s] -- Added test 'xmllint' to check XML markup files
+[2.768s] -- Configuring done
+[3.371s] -- Generating done
+[3.508s] -- Build files have been written to: /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/gazebo_plugins
+[3.540s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins
+[3.542s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/gazebo_plugins': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/gazebo_plugins -- -j8 -l8
+[3.616s] [  1%] [32mBuilding CXX object CMakeFiles/gazebo_ros_diff_drive.dir/src/gazebo_ros_diff_drive.cpp.o[0m
+[3.617s] [  2%] [32mBuilding CXX object CMakeFiles/gazebo_ros_joint_state_publisher.dir/src/gazebo_ros_joint_state_publisher.cpp.o[0m
+[3.617s] [  3%] [32mBuilding CXX object CMakeFiles/gazebo_ros_force.dir/src/gazebo_ros_force.cpp.o[0m
+[3.619s] [  4%] [32mBuilding CXX object CMakeFiles/gazebo_ros_template.dir/src/gazebo_ros_template.cpp.o[0m
+[3.623s] [  5%] [32mBuilding CXX object CMakeFiles/multi_camera_plugin.dir/src/multi_camera_plugin.cpp.o[0m
+[3.625s] [  6%] [32mBuilding CXX object CMakeFiles/gazebo_ros_gps_sensor.dir/src/gazebo_ros_gps_sensor.cpp.o[0m
+[3.630s] [  8%] [32mBuilding CXX object CMakeFiles/gazebo_ros_ray_sensor.dir/src/gazebo_ros_ray_sensor.cpp.o[0m
+[3.635s] [  9%] [32mBuilding CXX object CMakeFiles/gazebo_ros_imu_sensor.dir/src/gazebo_ros_imu_sensor.cpp.o[0m
+[13.612s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[13.617s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[13.617s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_gps_sensor.hpp:19[m[K,
+[13.618s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_gps_sensor.cpp:17[m[K:
+[13.618s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.618s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[13.618s]       |            [01;35m[K^~~~~~~~[m[K
+[13.618s] In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+[13.618s]                  from [01m[K/usr/include/c++/12/algorithm:60[m[K,
+[13.618s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:8[m[K,
+[13.619s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:7[m[K,
+[13.619s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_gps_sensor.cpp:16[m[K:
+[13.619s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.619s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[13.619s]       |                                  [01;36m[K^~~~~~~~[m[K
+[15.206s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[15.206s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[15.207s]                  from [01m[K/usr/include/gazebo-11/gazebo/plugins/ImuSensorPlugin.hh:21[m[K,
+[15.207s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_imu_sensor.hpp:19[m[K,
+[15.207s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_imu_sensor.cpp:17[m[K:
+[15.207s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.207s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[15.207s]       |            [01;35m[K^~~~~~~~[m[K
+[15.207s] In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+[15.208s]                  from [01m[K/usr/include/c++/12/algorithm:60[m[K,
+[15.208s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:8[m[K,
+[15.208s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:7[m[K,
+[15.208s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_imu_sensor.cpp:16[m[K:
+[15.208s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.208s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[15.208s]       |                                  [01;36m[K^~~~~~~~[m[K
+[16.016s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[16.017s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[16.017s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/multi_camera_plugin.hpp:18[m[K,
+[16.017s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/multi_camera_plugin.cpp:15[m[K:
+[16.017s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[16.017s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[16.018s]       |            [01;35m[K^~~~~~~~[m[K
+[16.019s] In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+[16.019s]                  from [01m[K/usr/include/c++/12/list:60[m[K,
+[16.019s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:30[m[K:
+[16.019s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[16.019s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[16.020s]       |                                  [01;36m[K^~~~~~~~[m[K
+[19.400s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[19.401s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[19.401s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_template.hpp:18[m[K,
+[19.401s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_template.cpp:16[m[K:
+[19.401s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.401s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[19.401s]       |            [01;35m[K^~~~~~~~[m[K
+[19.405s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[19.405s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:20[m[K,
+[19.405s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_template.cpp:15[m[K:
+[19.405s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.405s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[19.405s]       |                                  [01;36m[K^~~~~~~~[m[K
+[22.537s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[22.537s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[22.537s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_diff_drive.hpp:36[m[K,
+[22.537s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_diff_drive.cpp:58[m[K:
+[22.537s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[22.537s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[22.537s]       |            [01;35m[K^~~~~~~~[m[K
+[22.540s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[22.540s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+[22.540s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_diff_drive.cpp:53[m[K:
+[22.540s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[22.540s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[22.540s]       |                                  [01;36m[K^~~~~~~~[m[K
+[22.781s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[22.781s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[22.781s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_joint_state_publisher.hpp:36[m[K,
+[22.781s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_joint_state_publisher.cpp:38[m[K:
+[22.781s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[22.781s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[22.781s]       |            [01;35m[K^~~~~~~~[m[K
+[22.784s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[22.784s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Events.hh:20[m[K,
+[22.784s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_joint_state_publisher.cpp:33[m[K:
+[22.784s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[22.784s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[22.784s]       |                                  [01;36m[K^~~~~~~~[m[K
+[23.076s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[23.076s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[23.077s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_force.hpp:18[m[K,
+[23.077s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_force.cpp:18[m[K:
+[23.077s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[23.077s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[23.077s]       |            [01;35m[K^~~~~~~~[m[K
+[23.078s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[23.078s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Events.hh:20[m[K,
+[23.078s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_force.cpp:15[m[K:
+[23.078s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[23.079s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[23.079s]       |                                  [01;36m[K^~~~~~~~[m[K
+[24.286s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[24.286s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[24.286s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_ray_sensor.hpp:18[m[K,
+[24.286s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_ray_sensor.cpp:18[m[K:
+[24.286s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.287s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[24.287s]       |            [01;35m[K^~~~~~~~[m[K
+[24.287s] In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+[24.287s]                  from [01m[K/usr/include/c++/12/memory:64[m[K,
+[24.287s]                  from [01m[K/usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp:35[m[K,
+[24.287s]                  from [01m[K/usr/include/boost/smart_ptr/detail/shared_count.hpp:27[m[K,
+[24.287s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:17[m[K,
+[24.287s]                  from [01m[K/usr/include/boost/smart_ptr/make_shared_object.hpp:17[m[K,
+[24.287s]                  from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:14[m[K,
+[24.287s]                  from [01m[K/usr/include/boost/make_shared.hpp:14[m[K,
+[24.287s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_ray_sensor.cpp:15[m[K:
+[24.287s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.288s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[24.288s]       |                                  [01;36m[K^~~~~~~~[m[K
+[28.034s] [ 10%] [32m[1mLinking CXX shared library libgazebo_ros_template.so[0m
+[29.047s] [ 10%] Built target gazebo_ros_template
+[29.097s] [ 11%] [32mBuilding CXX object CMakeFiles/gazebo_ros_p3d.dir/src/gazebo_ros_p3d.cpp.o[0m
+[29.944s] [ 12%] [32m[1mLinking CXX shared library libgazebo_ros_gps_sensor.so[0m
+[30.983s] [ 12%] Built target gazebo_ros_gps_sensor
+[31.037s] [ 13%] [32mBuilding CXX object CMakeFiles/gazebo_ros_tricycle_drive.dir/src/gazebo_ros_tricycle_drive.cpp.o[0m
+[38.215s] [ 15%] [32m[1mLinking CXX shared library libgazebo_ros_imu_sensor.so[0m
+[39.048s] [ 16%] [32m[1mLinking CXX shared library libgazebo_ros_joint_state_publisher.so[0m
+[39.680s] [ 16%] Built target gazebo_ros_imu_sensor
+[40.103s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[40.103s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[40.103s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_tricycle_drive.cpp:44[m[K:
+[40.103s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[40.103s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[40.103s]       |            [01;35m[K^~~~~~~~[m[K
+[40.104s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[40.104s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+[40.104s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_tricycle_drive.cpp:43[m[K:
+[40.104s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[40.104s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[40.104s]       |                                  [01;36m[K^~~~~~~~[m[K
+[40.492s] [ 16%] Built target gazebo_ros_joint_state_publisher
+[40.960s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[40.960s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Noise.hh:28[m[K,
+[40.964s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/include/gazebo_ros/utils.hpp:19[m[K,
+[40.964s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_p3d.cpp:17[m[K:
+[40.964s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[40.964s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[40.964s]       |            [01;35m[K^~~~~~~~[m[K
+[40.964s] In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+[40.965s]                  from [01m[K/usr/include/c++/12/bits/specfun.h:45[m[K,
+[40.965s]                  from [01m[K/usr/include/c++/12/cmath:1935[m[K,
+[40.965s]                  from [01m[K/usr/include/c++/12/random:38[m[K,
+[40.965s]                  from [01m[K/usr/include/ignition/math6/gz/math/Rand.hh:20[m[K,
+[40.965s]                  from [01m[K/usr/include/ignition/math6/ignition/math/Rand.hh:18[m[K,
+[40.965s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_p3d.cpp:15[m[K:
+[40.965s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[40.965s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[40.965s]       |                                  [01;36m[K^~~~~~~~[m[K
+[43.779s] [ 17%] [32m[1mLinking CXX shared library libmulti_camera_plugin.so[0m
+[44.315s] [ 18%] [32m[1mLinking CXX shared library libgazebo_ros_force.so[0m
+[44.374s] [ 18%] Built target multi_camera_plugin
+[46.176s] [ 18%] Built target gazebo_ros_force
+[48.550s] [ 19%] [32m[1mLinking CXX shared library libgazebo_ros_ray_sensor.so[0m
+[48.830s] [ 20%] [32m[1mLinking CXX shared library libgazebo_ros_diff_drive.so[0m
+[50.165s] [ 20%] Built target gazebo_ros_ray_sensor
+[50.810s] [ 20%] Built target gazebo_ros_diff_drive
+[54.834s] [ 22%] [32mBuilding CXX object CMakeFiles/gazebo_ros_ackermann_drive.dir/src/gazebo_ros_ackermann_drive.cpp.o[0m
+[55.848s] [ 23%] [32mBuilding CXX object CMakeFiles/gazebo_ros_hand_of_god.dir/src/gazebo_ros_hand_of_god.cpp.o[0m
+[56.179s] [ 24%] [32m[1mLinking CXX shared library libgazebo_ros_p3d.so[0m
+[56.873s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros_harness.dir/src/gazebo_ros_harness.cpp.o[0m
+[56.931s] [ 25%] Built target gazebo_ros_p3d
+[56.957s] [ 26%] [32mBuilding CXX object CMakeFiles/gazebo_ros_bumper.dir/src/gazebo_ros_bumper.cpp.o[0m
+[57.981s] [ 27%] [32mBuilding CXX object CMakeFiles/gazebo_ros_elevator.dir/src/gazebo_ros_elevator.cpp.o[0m
+[59.006s] [ 29%] [32mBuilding CXX object CMakeFiles/gazebo_ros_ft_sensor.dir/src/gazebo_ros_ft_sensor.cpp.o[0m
+[59.030s] [ 30%] [32mBuilding CXX object CMakeFiles/gazebo_ros_video.dir/src/gazebo_ros_video.cpp.o[0m
+[64.646s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[64.646s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[64.647s]                  from [01m[K/usr/include/gazebo-11/gazebo/plugins/ContactPlugin.hh:23[m[K,
+[64.647s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_bumper.cpp:21[m[K:
+[64.647s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[64.647s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[64.647s]       |            [01;35m[K^~~~~~~~[m[K
+[64.647s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[64.648s]                  from [01m[K/usr/include/gazebo-11/gazebo/plugins/ContactPlugin.hh:21[m[K:
+[64.648s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[64.648s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[64.648s]       |                                  [01;36m[K^~~~~~~~[m[K
+[68.431s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[68.432s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[68.432s]                  from [01m[K/usr/include/gazebo-11/gazebo/plugins/ElevatorPlugin.hh:28[m[K,
+[68.432s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_elevator.hpp:18[m[K,
+[68.432s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_elevator.cpp:15[m[K:
+[68.432s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[68.433s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[68.433s]       |            [01;35m[K^~~~~~~~[m[K
+[68.433s] In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+[68.433s]                  from [01m[K/usr/include/c++/12/memory:64[m[K,
+[68.433s]                  from [01m[K/usr/include/gazebo-11/gazebo/plugins/ElevatorPlugin.hh:21[m[K:
+[68.433s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[68.433s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[68.434s]       |                                  [01;36m[K^~~~~~~~[m[K
+[69.047s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[69.047s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[69.051s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_ackermann_drive.hpp:18[m[K,
+[69.051s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_ackermann_drive.cpp:22[m[K:
+[69.051s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[69.051s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[69.051s]       |            [01;35m[K^~~~~~~~[m[K
+[69.052s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[69.052s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+[69.052s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_ackermann_drive.cpp:15[m[K:
+[69.052s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[69.052s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[69.052s]       |                                  [01;36m[K^~~~~~~~[m[K
+[69.068s] [ 31%] [32m[1mLinking CXX shared library libgazebo_ros_tricycle_drive.so[0m
+[70.905s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[70.906s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[70.906s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_hand_of_god.hpp:18[m[K,
+[70.906s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_hand_of_god.cpp:45[m[K:
+[70.906s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[70.906s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[70.906s]       |            [01;35m[K^~~~~~~~[m[K
+[70.907s] In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+[70.907s]                  from [01m[K/usr/include/c++/12/bits/stl_tree.h:63[m[K,
+[70.907s]                  from [01m[K/usr/include/c++/12/map:60[m[K,
+[70.907s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Link.hh:20[m[K,
+[70.907s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_hand_of_god.cpp:43[m[K:
+[70.907s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[70.907s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[70.907s]       |                                  [01;36m[K^~~~~~~~[m[K
+[71.299s] [ 31%] Built target gazebo_ros_tricycle_drive
+[71.342s] [ 32%] [32mBuilding CXX object CMakeFiles/gazebo_ros_vacuum_gripper.dir/src/gazebo_ros_vacuum_gripper.cpp.o[0m
+[72.726s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[72.726s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[72.726s]                  from [01m[K/usr/include/gazebo-11/gazebo/plugins/HarnessPlugin.hh:24[m[K,
+[72.726s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_harness.hpp:18[m[K,
+[72.727s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_harness.cpp:16[m[K:
+[72.727s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[72.727s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[72.727s]       |            [01;35m[K^~~~~~~~[m[K
+[72.727s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[72.727s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:20[m[K,
+[72.727s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_harness.cpp:15[m[K:
+[72.728s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[72.728s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[72.728s]       |                                  [01;36m[K^~~~~~~~[m[K
+[75.203s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[75.203s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[75.204s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_ft_sensor.hpp:18[m[K,
+[75.204s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_ft_sensor.cpp:28[m[K:
+[75.204s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[75.204s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[75.204s]       |            [01;35m[K^~~~~~~~[m[K
+[75.204s] In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+[75.204s]                  from [01m[K/usr/include/c++/12/bits/stl_tree.h:63[m[K,
+[75.205s]                  from [01m[K/usr/include/c++/12/map:60[m[K,
+[75.205s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Link.hh:20[m[K,
+[75.205s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_ft_sensor.cpp:23[m[K:
+[75.205s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[75.205s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[75.205s]       |                                  [01;36m[K^~~~~~~~[m[K
+[86.679s] [ 33%] [32m[1mLinking CXX shared library libgazebo_ros_hand_of_god.so[0m
+[87.752s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[87.753s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[87.753s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_vacuum_gripper.hpp:18[m[K,
+[87.753s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_vacuum_gripper.cpp:26[m[K:
+[87.753s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[87.753s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[87.753s]       |            [01;35m[K^~~~~~~~[m[K
+[87.758s] In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+[87.758s]                  from [01m[K/usr/include/c++/12/bits/stl_tree.h:63[m[K,
+[87.758s]                  from [01m[K/usr/include/c++/12/map:60[m[K,
+[87.758s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Link.hh:20[m[K,
+[87.758s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_vacuum_gripper.cpp:23[m[K:
+[87.759s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[87.759s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[87.759s]       |                                  [01;36m[K^~~~~~~~[m[K
+[88.006s] [ 33%] Built target gazebo_ros_hand_of_god
+[88.050s] [ 34%] [32mBuilding CXX object CMakeFiles/gazebo_ros_joint_pose_trajectory.dir/src/gazebo_ros_joint_pose_trajectory.cpp.o[0m
+[88.181s] [ 36%] [32m[1mLinking CXX shared library libgazebo_ros_bumper.so[0m
+[89.547s] [ 36%] Built target gazebo_ros_bumper
+[89.586s] [ 37%] [32mBuilding CXX object CMakeFiles/gazebo_ros_planar_move.dir/src/gazebo_ros_planar_move.cpp.o[0m
+[90.760s] [ 38%] [32m[1mLinking CXX shared library libgazebo_ros_ft_sensor.so[0m
+[91.896s] [ 38%] Built target gazebo_ros_ft_sensor
+[91.935s] [ 39%] [32mBuilding CXX object CMakeFiles/gazebo_ros_projector.dir/src/gazebo_ros_projector.cpp.o[0m
+[92.132s] [ 40%] [32m[1mLinking CXX shared library libgazebo_ros_elevator.so[0m
+[93.743s] [ 40%] Built target gazebo_ros_elevator
+[93.786s] [ 41%] [32mBuilding CXX object CMakeFiles/gazebo_ros_wheel_slip.dir/src/gazebo_ros_wheel_slip.cpp.o[0m
+[97.446s] [ 43%] [32m[1mLinking CXX shared library libgazebo_ros_ackermann_drive.so[0m
+[99.694s] [ 43%] Built target gazebo_ros_ackermann_drive
+[99.737s] [ 44%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[100.030s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[100.030s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[100.030s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_video.hpp:25[m[K,
+[100.030s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_video.cpp:39[m[K:
+[100.030s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[100.031s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[100.031s]       |            [01;35m[K^~~~~~~~[m[K
+[100.031s] In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+[100.031s]                  from [01m[K/usr/include/c++/12/algorithm:60[m[K,
+[100.031s]                  from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:8[m[K,
+[100.031s]                  from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[100.032s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[100.032s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_video.cpp:28[m[K:
+[100.032s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[100.032s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[100.032s]       |                                  [01;36m[K^~~~~~~~[m[K
+[101.398s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[101.514s] [ 45%] Built target gtest_main
+[101.553s] [ 46%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[103.055s] [ 47%] [32m[1mLinking CXX shared library libgazebo_ros_harness.so[0m
+[104.777s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[104.777s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[104.777s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_joint_pose_trajectory.hpp:18[m[K,
+[104.777s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_joint_pose_trajectory.cpp:28[m[K:
+[104.777s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[104.777s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[104.778s]       |            [01;35m[K^~~~~~~~[m[K
+[104.778s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[104.778s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Events.hh:20[m[K,
+[104.778s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_joint_pose_trajectory.cpp:23[m[K:
+[104.778s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[104.778s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[104.778s]       |                                  [01;36m[K^~~~~~~~[m[K
+[105.173s] [ 47%] Built target gazebo_ros_harness
+[105.214s] [ 48%] [32mBuilding CXX object CMakeFiles/gazebo_ros_camera.dir/src/gazebo_ros_camera.cpp.o[0m
+[105.291s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[105.291s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[105.291s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_planar_move.hpp:18[m[K,
+[105.292s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_planar_move.cpp:26[m[K:
+[105.292s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[105.292s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[105.292s]       |            [01;35m[K^~~~~~~~[m[K
+[105.292s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[105.292s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Events.hh:20[m[K,
+[105.292s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_planar_move.cpp:23[m[K:
+[105.293s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[105.293s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[105.293s]       |                                  [01;36m[K^~~~~~~~[m[K
+[106.136s] [ 50%] [32m[1mLinking CXX shared library libgazebo_ros_vacuum_gripper.so[0m
+[107.395s] [ 50%] Built target gazebo_ros_vacuum_gripper
+[108.972s] [ 51%] [32m[1mLinking CXX static library libgtest.a[0m
+[109.129s] [ 51%] Built target gtest
+[109.171s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_ackermann_drive.dir/test_gazebo_ros_ackermann_drive.cpp.o[0m
+[110.195s] [ 53%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_bumper.dir/test_gazebo_ros_bumper.cpp.o[0m
+[111.493s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[111.493s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[111.493s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_projector.hpp:18[m[K,
+[111.493s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_projector.cpp:27[m[K:
+[111.494s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[111.494s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[111.494s]       |            [01;35m[K^~~~~~~~[m[K
+[111.494s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[111.494s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:20[m[K,
+[111.494s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_projector.cpp:23[m[K:
+[111.494s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[111.494s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[111.495s]       |                                  [01;36m[K^~~~~~~~[m[K
+[114.927s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[114.927s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+[114.927s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_wheel_slip.hpp:18[m[K,
+[114.927s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_wheel_slip.cpp:19[m[K:
+[114.928s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[114.928s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[114.928s]       |            [01;35m[K^~~~~~~~[m[K
+[114.928s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[114.928s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:20[m[K,
+[114.928s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_wheel_slip.cpp:15[m[K:
+[114.929s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[114.929s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[114.929s]       |                                  [01;36m[K^~~~~~~~[m[K
+[115.342s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[115.342s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_camera.cpp:18[m[K:
+[115.342s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[115.342s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[115.342s]       |            [01;35m[K^~~~~~~~[m[K
+[115.344s] In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+[115.344s]                  from [01m[K/usr/include/c++/12/bits/stl_tree.h:63[m[K,
+[115.344s]                  from [01m[K/usr/include/c++/12/map:60[m[K,
+[115.344s]                  from [01m[K/usr/include/sdformat-9.7/sdf/Element.hh:21[m[K,
+[115.344s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_camera.cpp:15[m[K:
+[115.344s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[115.344s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[115.344s]       |                                  [01;36m[K^~~~~~~~[m[K
+[123.303s] [ 54%] [32m[1mLinking CXX shared library libgazebo_ros_video.so[0m
+[124.863s] [ 55%] [32m[1mLinking CXX shared library libgazebo_ros_joint_pose_trajectory.so[0m
+[125.195s] [ 55%] Built target gazebo_ros_video
+[125.232s] [ 56%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_diff_drive.dir/test_gazebo_ros_diff_drive.cpp.o[0m
+[126.383s] [ 58%] [32m[1mLinking CXX shared library libgazebo_ros_planar_move.so[0m
+[126.511s] [ 58%] Built target gazebo_ros_joint_pose_trajectory
+[126.543s] [ 59%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_elevator.dir/test_gazebo_ros_elevator.cpp.o[0m
+[128.265s] [ 59%] Built target gazebo_ros_planar_move
+[128.296s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_force.dir/test_gazebo_ros_force.cpp.o[0m
+[129.806s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[129.810s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[129.810s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[129.810s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[129.810s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[129.810s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_ackermann_drive.cpp:16[m[K:
+[129.810s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[129.810s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[129.811s]       |            [01;35m[K^~~~~~~~[m[K
+[129.811s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[129.811s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+[129.811s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_ackermann_drive.cpp:15[m[K:
+[129.811s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[129.811s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[129.811s]       |                                  [01;36m[K^~~~~~~~[m[K
+[130.358s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[130.358s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[130.359s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[130.359s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[130.359s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[130.359s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_bumper.cpp:15[m[K:
+[130.359s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[130.359s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[130.359s]       |            [01;35m[K^~~~~~~~[m[K
+[130.362s] In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+[130.362s]                  from [01m[K/usr/include/c++/12/memory:64[m[K,
+[130.362s]                  from [01m[K/usr/include/sdformat-9.7/sdf/Actor.hh:20[m[K,
+[130.362s]                  from [01m[K/usr/include/sdformat-9.7/sdf/sdf.hh:2[m[K,
+[130.362s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:29[m[K:
+[130.362s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[130.362s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[130.363s]       |                                  [01;36m[K^~~~~~~~[m[K
+[130.399s] [ 61%] [32m[1mLinking CXX shared library libgazebo_ros_projector.so[0m
+[132.103s] [ 61%] Built target gazebo_ros_projector
+[132.137s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_ft_sensor.dir/test_gazebo_ros_ft_sensor.cpp.o[0m
+[135.110s] [ 63%] [32m[1mLinking CXX shared library libgazebo_ros_wheel_slip.so[0m
+[137.123s] [ 63%] Built target gazebo_ros_wheel_slip
+[139.165s] [ 65%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_hand_of_god.dir/test_gazebo_ros_hand_of_god.cpp.o[0m
+[147.733s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[147.733s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[147.733s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[147.733s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[147.733s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[147.734s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_diff_drive.cpp:16[m[K:
+[147.734s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[147.734s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[147.734s]       |            [01;35m[K^~~~~~~~[m[K
+[147.735s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[147.735s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+[147.735s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_diff_drive.cpp:15[m[K:
+[147.736s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[147.736s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[147.736s]       |                                  [01;36m[K^~~~~~~~[m[K
+[149.344s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[149.344s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[149.344s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[149.344s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[149.345s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[149.345s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_elevator.cpp:15[m[K:
+[149.345s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[149.345s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[149.345s]       |            [01;35m[K^~~~~~~~[m[K
+[149.350s] In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+[149.350s]                  from [01m[K/usr/include/c++/12/memory:64[m[K,
+[149.350s]                  from [01m[K/usr/include/sdformat-9.7/sdf/Actor.hh:20[m[K,
+[149.350s]                  from [01m[K/usr/include/sdformat-9.7/sdf/sdf.hh:2[m[K,
+[149.351s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:29[m[K:
+[149.351s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[149.351s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[149.351s]       |                                  [01;36m[K^~~~~~~~[m[K
+[151.855s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[151.855s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[151.855s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[151.856s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[151.856s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[151.856s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_force.cpp:15[m[K:
+[151.856s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[151.856s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[151.856s]       |            [01;35m[K^~~~~~~~[m[K
+[151.857s] In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+[151.857s]                  from [01m[K/usr/include/c++/12/memory:64[m[K,
+[151.857s]                  from [01m[K/usr/include/sdformat-9.7/sdf/Actor.hh:20[m[K,
+[151.857s]                  from [01m[K/usr/include/sdformat-9.7/sdf/sdf.hh:2[m[K,
+[151.857s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:29[m[K:
+[151.857s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[151.857s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[151.857s]       |                                  [01;36m[K^~~~~~~~[m[K
+[156.698s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[156.698s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[156.700s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[156.700s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[156.700s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[156.700s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_ft_sensor.cpp:16[m[K:
+[156.700s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[156.701s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[156.701s]       |            [01;35m[K^~~~~~~~[m[K
+[156.701s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[156.701s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+[156.701s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_ft_sensor.cpp:15[m[K:
+[156.701s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[156.701s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[156.701s]       |                                  [01;36m[K^~~~~~~~[m[K
+[165.209s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[165.209s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[165.209s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[165.209s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[165.210s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[165.210s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_hand_of_god.cpp:15[m[K:
+[165.210s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[165.211s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[165.211s]       |            [01;35m[K^~~~~~~~[m[K
+[165.211s] In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+[165.211s]                  from [01m[K/usr/include/c++/12/memory:64[m[K,
+[165.211s]                  from [01m[K/usr/include/sdformat-9.7/sdf/Actor.hh:20[m[K,
+[165.211s]                  from [01m[K/usr/include/sdformat-9.7/sdf/sdf.hh:2[m[K,
+[165.211s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:29[m[K:
+[165.212s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[165.212s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[165.212s]       |                                  [01;36m[K^~~~~~~~[m[K
+[165.273s] [ 66%] [32m[1mLinking CXX shared library libgazebo_ros_camera.so[0m
+[167.502s] [ 66%] Built target gazebo_ros_camera
+[172.462s] [ 67%] [32m[1mLinking CXX executable test_gazebo_ros_bumper[0m
+[174.558s] [ 68%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_harness.dir/test_gazebo_ros_harness.cpp.o[0m
+[176.354s] [ 68%] Built target test_gazebo_ros_bumper
+[176.395s] [ 69%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_imu_sensor.dir/test_gazebo_ros_imu_sensor.cpp.o[0m
+[179.205s] [ 70%] [32m[1mLinking CXX executable test_gazebo_ros_ackermann_drive[0m
+[181.311s] [ 72%] [32m[1mLinking CXX executable test_gazebo_ros_elevator[0m
+[183.737s] [ 72%] Built target test_gazebo_ros_ackermann_drive
+[184.051s] [ 73%] [32m[1mLinking CXX executable test_gazebo_ros_force[0m
+[184.615s] [ 73%] Built target test_gazebo_ros_elevator
+[184.636s] [ 74%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_gps_sensor.dir/test_gazebo_ros_gps_sensor.cpp.o[0m
+[184.655s] [ 75%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_joint_pose_trajectory.dir/test_gazebo_ros_joint_pose_trajectory.cpp.o[0m
+[187.319s] [ 75%] Built target test_gazebo_ros_force
+[187.362s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_joint_state_publisher.dir/test_gazebo_ros_joint_state_publisher.cpp.o[0m
+[193.509s] [ 77%] [32m[1mLinking CXX executable test_gazebo_ros_diff_drive[0m
+[196.657s] [ 79%] [32m[1mLinking CXX executable test_gazebo_ros_hand_of_god[0m
+[197.742s] [ 79%] Built target test_gazebo_ros_diff_drive
+[197.789s] [ 80%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_p3d.dir/test_gazebo_ros_p3d.cpp.o[0m
+[198.813s] [ 81%] [32m[1mLinking CXX executable test_gazebo_ros_ft_sensor[0m
+[200.111s] [ 81%] Built target test_gazebo_ros_hand_of_god
+[200.796s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[200.796s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[200.796s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[200.797s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[200.797s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[200.797s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_harness.cpp:15[m[K:
+[200.797s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[200.797s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[200.797s]       |            [01;35m[K^~~~~~~~[m[K
+[200.798s] In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+[200.798s]                  from [01m[K/usr/include/c++/12/memory:64[m[K,
+[200.798s]                  from [01m[K/usr/include/sdformat-9.7/sdf/Actor.hh:20[m[K,
+[200.798s]                  from [01m[K/usr/include/sdformat-9.7/sdf/sdf.hh:2[m[K,
+[200.798s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:29[m[K:
+[200.798s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[200.799s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[200.799s]       |                                  [01;36m[K^~~~~~~~[m[K
+[202.440s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[202.440s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[202.440s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[202.440s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[202.440s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[202.441s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_imu_sensor.cpp:15[m[K:
+[202.441s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[202.441s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[202.441s]       |            [01;35m[K^~~~~~~~[m[K
+[202.441s] In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+[202.441s]                  from [01m[K/usr/include/c++/12/memory:64[m[K,
+[202.441s]                  from [01m[K/usr/include/sdformat-9.7/sdf/Actor.hh:20[m[K,
+[202.442s]                  from [01m[K/usr/include/sdformat-9.7/sdf/sdf.hh:2[m[K,
+[202.442s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:29[m[K:
+[202.442s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[202.442s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[202.442s]       |                                  [01;36m[K^~~~~~~~[m[K
+[202.632s] [ 81%] Built target test_gazebo_ros_ft_sensor
+[207.230s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[207.230s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[207.230s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[207.230s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[207.231s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[207.231s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_joint_pose_trajectory.cpp:16[m[K:
+[207.231s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[207.231s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[207.231s]       |            [01;35m[K^~~~~~~~[m[K
+[207.231s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[207.231s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+[207.232s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_joint_pose_trajectory.cpp:15[m[K:
+[207.232s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[207.232s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[207.232s]       |                                  [01;36m[K^~~~~~~~[m[K
+[209.471s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[209.471s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[209.472s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[209.472s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[209.472s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[209.472s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_gps_sensor.cpp:15[m[K:
+[209.472s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[209.472s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[209.472s]       |            [01;35m[K^~~~~~~~[m[K
+[209.472s] In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+[209.472s]                  from [01m[K/usr/include/c++/12/memory:64[m[K,
+[209.472s]                  from [01m[K/usr/include/sdformat-9.7/sdf/Actor.hh:20[m[K,
+[209.472s]                  from [01m[K/usr/include/sdformat-9.7/sdf/sdf.hh:2[m[K,
+[209.473s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:29[m[K:
+[209.473s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[209.473s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[209.473s]       |                                  [01;36m[K^~~~~~~~[m[K
+[209.667s] [ 82%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_ray_sensor.dir/test_gazebo_ros_ray_sensor.cpp.o[0m
+[210.180s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[210.181s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[210.181s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[210.181s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[210.181s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[210.181s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_joint_state_publisher.cpp:16[m[K:
+[210.181s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[210.181s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[210.181s]       |            [01;35m[K^~~~~~~~[m[K
+[210.187s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[210.187s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+[210.187s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_joint_state_publisher.cpp:15[m[K:
+[210.187s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[210.188s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[210.188s]       |                                  [01;36m[K^~~~~~~~[m[K
+[210.683s] [ 83%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_planar_move.dir/test_gazebo_ros_planar_move.cpp.o[0m
+[214.957s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[214.957s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[214.958s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[214.958s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[214.958s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[214.958s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_p3d.cpp:16[m[K:
+[214.958s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[214.958s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[214.958s]       |            [01;35m[K^~~~~~~~[m[K
+[214.958s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[214.958s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+[214.958s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_p3d.cpp:15[m[K:
+[214.959s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[214.959s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[214.959s]       |                                  [01;36m[K^~~~~~~~[m[K
+[227.891s] [ 84%] [32m[1mLinking CXX executable test_gazebo_ros_harness[0m
+[228.347s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[228.347s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[228.347s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[228.348s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[228.348s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[228.349s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_ray_sensor.cpp:17[m[K:
+[228.349s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[228.349s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[228.349s]       |            [01;35m[K^~~~~~~~[m[K
+[228.351s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[228.351s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+[228.351s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_ray_sensor.cpp:15[m[K:
+[228.351s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[228.352s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[228.352s]       |                                  [01;36m[K^~~~~~~~[m[K
+[230.384s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[230.385s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[230.385s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[230.385s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[230.385s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[230.385s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_planar_move.cpp:16[m[K:
+[230.386s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[230.387s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[230.387s]       |            [01;35m[K^~~~~~~~[m[K
+[230.387s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[230.387s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+[230.387s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_planar_move.cpp:15[m[K:
+[230.388s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[230.388s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[230.388s]       |                                  [01;36m[K^~~~~~~~[m[K
+[231.369s] [ 84%] Built target test_gazebo_ros_harness
+[231.412s] [ 86%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_tricycle_drive.dir/test_gazebo_ros_tricycle_drive.cpp.o[0m
+[233.568s] [ 87%] [32m[1mLinking CXX executable test_gazebo_ros_joint_pose_trajectory[0m
+[236.866s] [ 87%] Built target test_gazebo_ros_joint_pose_trajectory
+[236.907s] [ 88%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_vacuum_gripper.dir/test_gazebo_ros_vacuum_gripper.cpp.o[0m
+[241.950s] [ 89%] [32m[1mLinking CXX executable test_gazebo_ros_imu_sensor[0m
+[245.977s] [ 89%] Built target test_gazebo_ros_imu_sensor
+[250.611s] [ 90%] [32m[1mLinking CXX executable test_gazebo_ros_joint_state_publisher[0m
+[254.454s] [ 90%] Built target test_gazebo_ros_joint_state_publisher
+[254.495s] [ 91%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_wheelslip.dir/test_gazebo_ros_wheelslip.cpp.o[0m
+[255.631s] [ 93%] [32m[1mLinking CXX executable test_gazebo_ros_gps_sensor[0m
+[256.275s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[256.275s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[256.275s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[256.275s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[256.276s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[256.276s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_tricycle_drive.cpp:16[m[K:
+[256.276s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[256.276s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[256.276s]       |            [01;35m[K^~~~~~~~[m[K
+[256.277s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[256.277s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+[256.277s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_tricycle_drive.cpp:15[m[K:
+[256.277s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[256.277s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[256.277s]       |                                  [01;36m[K^~~~~~~~[m[K
+[256.861s] [ 94%] [32m[1mLinking CXX executable test_gazebo_ros_p3d[0m
+[259.789s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[259.789s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[259.789s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[259.791s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[259.791s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[259.791s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_vacuum_gripper.cpp:15[m[K:
+[259.791s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[259.792s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[259.792s]       |            [01;35m[K^~~~~~~~[m[K
+[259.792s] In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+[259.792s]                  from [01m[K/usr/include/c++/12/memory:64[m[K,
+[259.792s]                  from [01m[K/usr/include/sdformat-9.7/sdf/Actor.hh:20[m[K,
+[259.792s]                  from [01m[K/usr/include/sdformat-9.7/sdf/sdf.hh:2[m[K,
+[259.792s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:29[m[K:
+[259.792s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[259.792s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[259.793s]       |                                  [01;36m[K^~~~~~~~[m[K
+[260.107s] [ 94%] Built target test_gazebo_ros_p3d
+[260.155s] [ 94%] Built target test_gazebo_ros_gps_sensor
+[272.188s] In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+[272.189s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+[272.189s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+[272.189s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+[272.189s]                  from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+[272.189s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_wheelslip.cpp:16[m[K:
+[272.189s] [01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[272.189s]   180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+[272.190s]       |            [01;35m[K^~~~~~~~[m[K
+[272.190s] In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+[272.190s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+[272.190s]                  from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_plugins/test/test_gazebo_ros_wheelslip.cpp:15[m[K:
+[272.190s] [01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[272.190s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[272.190s]       |                                  [01;36m[K^~~~~~~~[m[K
+[273.386s] [ 95%] [32m[1mLinking CXX executable test_gazebo_ros_planar_move[0m
+[277.042s] [ 95%] Built target test_gazebo_ros_planar_move
+[278.699s] [ 96%] [32m[1mLinking CXX executable test_gazebo_ros_vacuum_gripper[0m
+[280.539s] [ 96%] Built target test_gazebo_ros_vacuum_gripper
+[281.017s] [ 97%] [32m[1mLinking CXX executable test_gazebo_ros_ray_sensor[0m
+[283.951s] [ 97%] Built target test_gazebo_ros_ray_sensor
+[287.009s] [ 98%] [32m[1mLinking CXX executable test_gazebo_ros_tricycle_drive[0m
+[288.681s] [ 98%] Built target test_gazebo_ros_tricycle_drive
+[293.563s] [100%] [32m[1mLinking CXX executable test_gazebo_ros_wheelslip[0m
+[295.011s] [100%] Built target test_gazebo_ros_wheelslip
+[295.021s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/gazebo_plugins -- -j8 -l8
+[295.023s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/gazebo_plugins': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/gazebo_plugins
+[295.029s] -- Install configuration: ""
+[295.029s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/environment/library_path.sh
+[295.029s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/environment/library_path.dsv
+[295.030s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/environment/gazebo_plugins.sh
+[295.030s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/environment/gazebo_plugins.dsv
+[295.030s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/gazebo_plugins
+[295.030s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/gazebo_plugins
+[295.030s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/environment/ament_prefix_path.sh
+[295.030s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/environment/ament_prefix_path.dsv
+[295.030s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/environment/path.sh
+[295.030s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/environment/path.dsv
+[295.030s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/local_setup.bash
+[295.031s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/local_setup.sh
+[295.031s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/local_setup.zsh
+[295.031s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/local_setup.dsv
+[295.031s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/package.dsv
+[295.031s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/ament_index/resource_index/packages/gazebo_plugins
+[295.031s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[295.031s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[295.031s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[295.031s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/cmake/gazebo_pluginsConfig.cmake
+[295.031s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/cmake/gazebo_pluginsConfig-version.cmake
+[295.031s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins/package.xml
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_diff_drive.hpp
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_p3d.hpp
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_bumper.hpp
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_gps_sensor.hpp
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_hand_of_god.hpp
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_ackermann_drive.hpp
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_camera.hpp
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_ft_sensor.hpp
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_vacuum_gripper.hpp
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_force.hpp
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_template.hpp
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_imu_sensor.hpp
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_joint_pose_trajectory.hpp
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_ray_sensor.hpp
+[295.032s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_planar_move.hpp
+[295.033s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_joint_state_publisher.hpp
+[295.033s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_tricycle_drive.hpp
+[295.033s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_elevator.hpp
+[295.033s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_projector.hpp
+[295.033s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_wheel_slip.hpp
+[295.033s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/multi_camera_plugin.hpp
+[295.033s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_harness.hpp
+[295.033s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_video.hpp
+[295.033s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_ackermann_drive.so
+[295.037s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_ackermann_drive.so" to ""
+[295.037s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_bumper.so
+[295.039s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_bumper.so" to ""
+[295.039s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_camera.so
+[295.044s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_camera.so" to ""
+[295.044s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_diff_drive.so
+[295.048s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_diff_drive.so" to ""
+[295.048s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_elevator.so
+[295.052s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_elevator.so" to ""
+[295.052s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_force.so
+[295.055s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_force.so" to ""
+[295.055s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_ft_sensor.so
+[295.057s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_ft_sensor.so" to ""
+[295.057s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_hand_of_god.so
+[295.059s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_hand_of_god.so" to ""
+[295.059s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_harness.so
+[295.064s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_harness.so" to ""
+[295.064s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_imu_sensor.so
+[295.065s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_imu_sensor.so" to ""
+[295.065s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_gps_sensor.so
+[295.067s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_gps_sensor.so" to ""
+[295.067s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_joint_pose_trajectory.so
+[295.071s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_joint_pose_trajectory.so" to ""
+[295.071s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_joint_state_publisher.so
+[295.073s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_joint_state_publisher.so" to ""
+[295.073s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_planar_move.so
+[295.078s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_planar_move.so" to ""
+[295.078s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_projector.so
+[295.082s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_projector.so" to ""
+[295.082s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_ray_sensor.so
+[295.084s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_ray_sensor.so" to ""
+[295.084s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_p3d.so
+[295.086s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_p3d.so" to ""
+[295.086s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_template.so
+[295.087s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_template.so" to ""
+[295.087s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_tricycle_drive.so
+[295.092s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_tricycle_drive.so" to ""
+[295.092s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_vacuum_gripper.so
+[295.094s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_vacuum_gripper.so" to ""
+[295.094s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_video.so
+[295.098s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_video.so" to ""
+[295.098s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libmulti_camera_plugin.so
+[295.099s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libmulti_camera_plugin.so" to ""
+[295.099s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_wheel_slip.so
+[295.103s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/libgazebo_ros_wheel_slip.so" to ""
+[295.103s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/lib/gazebo_plugins/wheel_slip_drawbar_pull_publisher.py
+[295.104s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds
+[295.104s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_bumper_demo.world
+[295.104s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_projector_demo.world
+[295.104s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_joint_state_publisher_demo.world
+[295.104s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_camera_demo.world
+[295.104s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_camera_triggered_demo.world
+[295.105s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_vacuum_gripper_demo.world
+[295.105s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_harness_demo.world
+[295.105s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_joint_pose_trajectory_demo.world
+[295.105s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_multi_camera_demo.world
+[295.105s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_elevator_demo.world
+[295.106s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_video_demo.world
+[295.106s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_wheel_slip_demo.world
+[295.106s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_p3d_demo.world
+[295.106s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_skid_steer_drive_demo.world
+[295.106s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_gps_sensor_demo.world
+[295.106s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_ft_sensor_demo.world
+[295.107s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_ackermann_drive_demo.world
+[295.107s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_wheel_slip_drawbar_pull_demo.world
+[295.107s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_hand_of_god_demo.world
+[295.107s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_planar_move_demo.world
+[295.107s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_force_demo.world
+[295.107s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_depth_camera_demo.world
+[295.108s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_camera_distortion_barrel_demo.world
+[295.108s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_ray_sensor_demo.world
+[295.108s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_diff_drive_demo.world
+[295.108s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_multicamera_demo.world
+[295.108s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_camera_distortion_pincushion_demo.world
+[295.108s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_tricycle_drive_demo.world
+[295.109s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_template_demo.world
+[295.111s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_dev:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/livox_ros_driver2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_ros_msgs:/opt/openrobots:/opt/ros/humble LD_LIBRARY_PATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/lib:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/gazebo_plugins

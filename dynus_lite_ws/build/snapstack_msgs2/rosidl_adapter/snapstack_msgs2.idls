@@ -1,0 +1,11 @@
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2/rosidl_adapter/snapstack_msgs2:msg/ControlLog.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2/rosidl_adapter/snapstack_msgs2:msg/AttitudeCommand.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2/rosidl_adapter/snapstack_msgs2:msg/Goal.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2/rosidl_adapter/snapstack_msgs2:msg/QuadFlightMode.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2/rosidl_adapter/snapstack_msgs2:msg/State.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2/rosidl_adapter/snapstack_msgs2:msg/CommAge.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2/rosidl_adapter/snapstack_msgs2:msg/IMU.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2/rosidl_adapter/snapstack_msgs2:msg/SMCData.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2/rosidl_adapter/snapstack_msgs2:msg/Motors.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2/rosidl_adapter/snapstack_msgs2:msg/VioFilterState.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/snapstack_msgs2/rosidl_adapter/snapstack_msgs2:msg/TimeFilter.idl

@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/attitude_command__type_support.cpp.o"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/attitude_command__type_support.cpp.o.d"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/comm_age__type_support.cpp.o"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/comm_age__type_support.cpp.o.d"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/control_log__type_support.cpp.o"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/control_log__type_support.cpp.o.d"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/goal__type_support.cpp.o"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/goal__type_support.cpp.o.d"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/imu__type_support.cpp.o"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/imu__type_support.cpp.o.d"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/motors__type_support.cpp.o"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/motors__type_support.cpp.o.d"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/quad_flight_mode__type_support.cpp.o"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/quad_flight_mode__type_support.cpp.o.d"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/smc_data__type_support.cpp.o"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/smc_data__type_support.cpp.o.d"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/state__type_support.cpp.o"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/state__type_support.cpp.o.d"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/time_filter__type_support.cpp.o"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/time_filter__type_support.cpp.o.d"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/vio_filter_state__type_support.cpp.o"
+  "CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/snapstack_msgs2/msg/vio_filter_state__type_support.cpp.o.d"
+  "libsnapstack_msgs2__rosidl_typesupport_c.pdb"
+  "libsnapstack_msgs2__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/snapstack_msgs2/msg/attitude_command__type_support.cpp"
+  "rosidl_typesupport_c/snapstack_msgs2/msg/comm_age__type_support.cpp"
+  "rosidl_typesupport_c/snapstack_msgs2/msg/control_log__type_support.cpp"
+  "rosidl_typesupport_c/snapstack_msgs2/msg/goal__type_support.cpp"
+  "rosidl_typesupport_c/snapstack_msgs2/msg/imu__type_support.cpp"
+  "rosidl_typesupport_c/snapstack_msgs2/msg/motors__type_support.cpp"
+  "rosidl_typesupport_c/snapstack_msgs2/msg/quad_flight_mode__type_support.cpp"
+  "rosidl_typesupport_c/snapstack_msgs2/msg/smc_data__type_support.cpp"
+  "rosidl_typesupport_c/snapstack_msgs2/msg/state__type_support.cpp"
+  "rosidl_typesupport_c/snapstack_msgs2/msg/time_filter__type_support.cpp"
+  "rosidl_typesupport_c/snapstack_msgs2/msg/vio_filter_state__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/snapstack_msgs2__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

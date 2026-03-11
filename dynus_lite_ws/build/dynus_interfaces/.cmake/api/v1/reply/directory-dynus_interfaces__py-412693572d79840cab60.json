@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dynus_interfaces__py",
+		"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces/dynus_interfaces__py"
+	}
+}

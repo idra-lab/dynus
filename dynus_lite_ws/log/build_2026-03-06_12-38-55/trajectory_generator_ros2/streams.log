@@ -1,0 +1,434 @@
+[0.025s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/trajectory_generator_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2 -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2
+[1.686s] -- The C compiler identification is GNU 11.4.0
+[1.686s] -- The CXX compiler identification is GNU 12.3.0
+[1.686s] -- Detecting C compiler ABI info
+[1.686s] -- Detecting C compiler ABI info - done
+[1.686s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.687s] -- Detecting C compile features
+[1.687s] -- Detecting C compile features - done
+[1.687s] -- Detecting CXX compiler ABI info
+[1.687s] -- Detecting CXX compiler ABI info - done
+[1.687s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.687s] -- Detecting CXX compile features
+[1.687s] -- Detecting CXX compile features - done
+[1.687s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.133s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.742s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[3.021s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.076s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.135s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.271s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.521s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.542s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.720s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.763s] -- Looking for pthread.h
+[4.117s] -- Looking for pthread.h - found
+[4.117s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.270s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.272s] -- Found Threads: TRUE  
+[4.455s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.483s] -- Found snapstack_msgs2: 5.4.1 (/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/snapstack_msgs2/share/snapstack_msgs2/cmake)
+[4.758s] -- Configuring done
+[4.784s] -- Generating done
+[4.787s] -- Build files have been written to: /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/trajectory_generator_ros2
+[4.871s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/trajectory_generator_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2 -DCMAKE_INSTALL_PREFIX=/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2
+[4.871s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/trajectory_generator_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/trajectory_generator_ros2 -- -j8 -l8
+[5.140s] [  7%] [32mBuilding CXX object CMakeFiles/trajectory_generator_ros2.dir/src/trajectory_generator_node.cpp.o[0m
+[16.149s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectory_generator_node.cpp:11[m[K:
+[16.149s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:[m[K In member function ‘[01m[Kbool trajectory_generator::TrajectoryGenerator::readParameters()[m[K’:
+[16.149s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:221:45:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kaccel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[16.149s]   221 |         double cx, cy, orientation, t_traj, [01;35m[Kaccel[m[K;
+[16.149s]       |                                             [01;35m[K^~~~~[m[K
+[16.336s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:[m[K In member function ‘[01m[Kvoid trajectory_generator::TrajectoryGenerator::pubCB()[m[K’:
+[16.336s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:562:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<snapstack_msgs2::msg::Goal_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[16.336s]   562 |         if([01;35m[Kpub_index_ == traj_goals_.size()[m[K){
+[16.336s]       |            [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[16.345s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:9[m[K:
+[16.345s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Circle.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Circle::Circle(double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[16.346s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Circle.hpp:57:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Circle::accel_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.346s]    57 |     double [01;35m[Kaccel_[m[K;  // max acceleration allowed
+[16.346s]       |            [01;35m[K^~~~~~[m[K
+[16.346s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectory_generator_node.cpp:12[m[K:
+[16.346s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:24:71:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.346s]    24 |     v_goals_(v_goals), t_traj_(t_traj), accel_(accel), Trajectory(dt[01;35m[K)[m[K{}
+[16.346s]       |                                                                     [01;35m[K^[m[K
+[16.346s] 
+[16.346s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:21:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.346s]    21 | [01;35m[KCircle[m[K::Circle(double alt, double r, double cx, double cy,
+[16.347s]       | [01;35m[K^~~~~~[m[K
+[16.347s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:[m[K In member function ‘[01m[Kvirtual void trajectory_generator::Circle::generateTraj(std::vector<snapstack_msgs2::msg::Goal_<std::allocator<void> > >&, std::unordered_map<int, std::__cxx11::basic_string<char> >&, const rclcpp::Clock::SharedPtr&)[m[K’:
+[16.347s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:43:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[16.347s]    43 |     for(int i = 0; [01;35m[Ki < v_goals_.size()[m[K; ++i){
+[16.347s]       |                    [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[16.353s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:[m[K In member function ‘[01m[Ksnapstack_msgs2::msg::Goal trajectory_generator::Circle::createCircleGoal(double, double, double) const[m[K’:
+[16.353s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:102:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv4r3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[16.354s]   102 |     double [01;35m[Kv4r3[m[K = pow(v,4)/pow(r_,3);
+[16.354s]       |            [01;35m[K^~~~[m[K
+[16.354s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:96:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaccel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.354s]    96 | _msgs2::msg::Goal Circle::createCircleGoal(double v, [01;35m[Kdouble accel[m[K, double theta) const{
+[16.354s]       |                                                      [01;35m[K~~~~~~~^~~~~[m[K
+[16.354s] 
+[16.357s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:10[m[K:
+[16.357s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Line.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Line::Line(double, Eigen::Vector3d, Eigen::Vector3d, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[16.357s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Line.hpp:58:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Line::a3_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.357s]    58 |     double a1_, [01;35m[Ka3_[m[K;  // abs val of acceleration and deceleration (a2 = 0, ct vel segment)
+[16.357s]       |                 [01;35m[K^~~[m[K
+[16.357s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectory_generator_node.cpp:13[m[K:
+[16.357s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Line.cpp:23:71:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.357s]    23 |      A_(A), B_(B), v_goals_(v_goals), a1_(a1), a3_(a3), Trajectory(dt[01;35m[K)[m[K{
+[16.357s]       |                                                                      [01;35m[K^[m[K
+[16.358s] 
+[16.358s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Line.cpp:21:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.358s]    21 | [01;35m[KLine[m[K::Line(double alt, Eigen::Vector3d A, Eigen::Vector3d B,
+[16.358s]       | [01;35m[K^~~~[m[K
+[16.392s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:11[m[K:
+[16.392s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Boomerang.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Boomerang::Boomerang(double, Eigen::Vector3d, Eigen::Vector3d, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[16.393s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Boomerang.hpp:58:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Boomerang::a3_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.393s]    58 |     double a1_, [01;35m[Ka3_[m[K;  // abs val of acceleration and deceleration (a2 = 0, ct vel segment)
+[16.393s]       |                 [01;35m[K^~~[m[K
+[16.393s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectory_generator_node.cpp:14[m[K:
+[16.393s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Boomerang.cpp:23:71:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.393s]    23 |      A_(A), B_(B), v_goals_(v_goals), a1_(a1), a3_(a3), Trajectory(dt[01;35m[K)[m[K{
+[16.393s]       |                                                                      [01;35m[K^[m[K
+[16.393s] 
+[16.393s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Boomerang.cpp:21:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.393s]    21 | [01;35m[KBoomerang[m[K::Boomerang(double alt, Eigen::Vector3d A, Eigen::Vector3d B,
+[16.393s]       | [01;35m[K^~~~~~~~~[m[K
+[16.406s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:12[m[K:
+[16.409s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Figure8.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Figure8::Figure8(double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[16.409s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Figure8.hpp:57:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Figure8::accel_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.410s]    57 |     double [01;35m[Kaccel_[m[K;  // max acceleration allowed
+[16.410s]       |            [01;35m[K^~~~~~[m[K
+[16.410s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectory_generator_node.cpp:15[m[K:
+[16.410s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Figure8.cpp:24:71:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.410s]    24 |     v_goals_(v_goals), t_traj_(t_traj), accel_(accel), Trajectory(dt[01;35m[K)[m[K{}
+[16.410s]       |                                                                     [01;35m[K^[m[K
+[16.410s] 
+[16.410s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Figure8.cpp:21:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.410s]    21 | [01;35m[KFigure8[m[K::Figure8(double alt, double r, double cx, double cy,
+[16.410s]       | [01;35m[K^~~~~~~[m[K
+[16.410s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Figure8.cpp:[m[K In member function ‘[01m[Kvirtual void trajectory_generator::Figure8::generateTraj(std::vector<snapstack_msgs2::msg::Goal_<std::allocator<void> > >&, std::unordered_map<int, std::__cxx11::basic_string<char> >&, const rclcpp::Clock::SharedPtr&)[m[K’:
+[16.411s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Figure8.cpp:43:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[16.411s]    43 |     for(int i = 0; [01;35m[Ki < v_goals_.size()[m[K; ++i){
+[16.411s]       |                    [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[16.414s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Figure8.cpp:[m[K In member function ‘[01m[Ksnapstack_msgs2::msg::Goal trajectory_generator::Figure8::createFigure8Goal(double, double, double) const[m[K’:
+[16.414s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Figure8.cpp:96:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaccel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[16.414s]    96 | sgs2::msg::Goal Figure8::createFigure8Goal(double v, [01;35m[Kdouble accel[m[K, double theta) const{
+[16.414s]       |                                                      [01;35m[K~~~~~~~^~~~~[m[K
+[16.414s] 
+[16.417s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:13[m[K:
+[16.417s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Square.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Square::Square(double, double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[16.417s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Square.hpp:58:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Square::accel_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.418s]    58 |     double [01;35m[Kaccel_[m[K;                 // max acceleration allowed
+[16.418s]       |            [01;35m[K^~~~~~[m[K
+[16.418s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectory_generator_node.cpp:16[m[K:
+[16.418s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Square.cpp:16:71:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.418s]    16 |    v_goals_(v_goals), t_traj_(t_traj), accel_(accel), Trajectory(dt[01;35m[K)[m[K {}
+[16.418s]       |                                                                    [01;35m[K^[m[K
+[16.418s] 
+[16.422s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Square.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.422s]    13 | [01;35m[KSquare[m[K::Square(double alt, double side_length, double cx, double cy, double orientation,
+[16.422s]       | [01;35m[K^~~~~~[m[K
+[16.465s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Square.cpp:[m[K In member function ‘[01m[Kvirtual void trajectory_generator::Square::generateTraj(std::vector<snapstack_msgs2::msg::Goal_<std::allocator<void> > >&, std::unordered_map<int, std::__cxx11::basic_string<char> >&, const rclcpp::Clock::SharedPtr&)[m[K’:
+[16.465s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Square.cpp:68:29:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdir[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[16.465s]    68 |             Eigen::Vector2d [01;35m[Kdir[m[K = (end - start).normalized();
+[16.465s]       |                             [01;35m[K^~~[m[K
+[16.480s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:14[m[K:
+[16.480s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Reciprocating.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Reciprocating::Reciprocating(double, Eigen::Vector3d, Eigen::Vector3d, std::vector<double, std::allocator<double> >, double, double, double, double)[m[K’:
+[16.480s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Reciprocating.hpp:52:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Reciprocating::t_traj_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.480s]    52 |     double [01;35m[Kt_traj_[m[K;
+[16.480s]       |            [01;35m[K^~~~~~~[m[K
+[16.481s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectory_generator_node.cpp:17[m[K:
+[16.481s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Reciprocating.cpp:15:99:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.481s]    15 | ), v_goals_(v_goals), a1_(a1), a3_(a3), t_traj_(t_traj), Trajectory(dt[01;35m[K)[m[K
+[16.481s]       |                                                                       [01;35m[K^[m[K
+[16.481s] 
+[16.481s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Reciprocating.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.481s]    13 | [01;35m[KReciprocating[m[K::Reciprocating(double alt, Eigen::Vector3d A, Eigen::Vector3d B,
+[16.481s]       | [01;35m[K^~~~~~~~~~~~~[m[K
+[16.512s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:15[m[K:
+[16.512s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Rectangle.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Rectangle::Rectangle(double, double, double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[16.512s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Rectangle.hpp:54:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Rectangle::accel_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.513s]    54 |     double [01;35m[Kaccel_[m[K;
+[16.513s]       |            [01;35m[K^~~~~~[m[K
+[16.513s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectory_generator_node.cpp:18[m[K:
+[16.513s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Rectangle.cpp:16:71:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.513s]    16 |    v_goals_(v_goals), t_traj_(t_traj), accel_(accel), Trajectory(dt[01;35m[K)[m[K {}
+[16.513s]       |                                                                    [01;35m[K^[m[K
+[16.513s] 
+[16.514s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Rectangle.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.514s]    13 | [01;35m[KRectangle[m[K::Rectangle(double alt, double side_a, double side_b, double cx, double cy, double orientation,
+[16.514s]       | [01;35m[K^~~~~~~~~[m[K
+[16.518s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Rectangle.cpp:[m[K In member function ‘[01m[Kvirtual void trajectory_generator::Rectangle::generateTraj(std::vector<snapstack_msgs2::msg::Goal_<std::allocator<void> > >&, std::unordered_map<int, std::__cxx11::basic_string<char> >&, const rclcpp::Clock::SharedPtr&)[m[K’:
+[16.518s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Rectangle.cpp:69:29:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdir[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[16.519s]    69 |             Eigen::Vector2d [01;35m[Kdir[m[K = (end - start).normalized();
+[16.519s]       |                             [01;35m[K^~~[m[K
+[16.527s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:16[m[K:
+[16.527s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Bounce.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Bounce::Bounce(double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[16.527s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Bounce.hpp:52:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Bounce::t_traj_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.528s]    52 |     double [01;35m[Kt_traj_[m[K;
+[16.528s]       |            [01;35m[K^~~~~~~[m[K
+[16.529s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectory_generator_node.cpp:19[m[K:
+[16.529s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Bounce.cpp:15:119:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.530s]    15 | on_(orientation), v_goals_(v_goals), t_traj_(t_traj), Trajectory(dt[01;35m[K)[m[K {}
+[16.530s]       |                                                                    [01;35m[K^[m[K
+[16.530s] 
+[16.530s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Bounce.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.530s]    13 | [01;35m[KBounce[m[K::Bounce(double cx, double cy, double Az, double Bz,
+[16.530s]       | [01;35m[K^~~~~~[m[K
+[16.535s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Bounce.cpp:[m[K In member function ‘[01m[Kvirtual void trajectory_generator::Bounce::generateStopTraj(std::vector<snapstack_msgs2::msg::Goal_<std::allocator<void> > >&, std::unordered_map<int, std::__cxx11::basic_string<char> >&, int&, const rclcpp::Clock::SharedPtr&)[m[K’:
+[16.536s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Bounce.cpp:88:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdecel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[16.536s]    88 |     double [01;35m[Kdecel[m[K = (vz > 0) ? -std::abs(vz) : std::abs(vz);
+[16.536s]       |            [01;35m[K^~~~~[m[K
+[16.538s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:17[m[K:
+[16.538s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/M.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::M::M(double, double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[16.538s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/M.hpp:50:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::M::t_traj_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.539s]    50 |     double [01;35m[Kt_traj_[m[K;
+[16.539s]       |            [01;35m[K^~~~~~~[m[K
+[16.539s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectory_generator_node.cpp:20[m[K:
+[16.541s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/M.cpp:9:56:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.542s]     9 |       v_goals_(v_goals), t_traj_(t_traj), Trajectory(dt[01;35m[K)[m[K {}
+[16.542s]       |                                                        [01;35m[K^[m[K
+[16.542s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/M.cpp:6:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.542s]     6 | [01;35m[KM[m[K::M(double cx, double cy, double length, double width, double alt,
+[16.542s]       | [01;35m[K^[m[K
+[16.554s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:18[m[K:
+[16.554s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/I.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::I::I(double, double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[16.554s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/I.hpp:53:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::I::t_traj_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.554s]    53 |     double [01;35m[Kt_traj_[m[K;
+[16.554s]       |            [01;35m[K^~~~~~~[m[K
+[16.555s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectory_generator_node.cpp:21[m[K:
+[16.557s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/I.cpp:16:56:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.557s]    16 |       v_goals_(v_goals), t_traj_(t_traj), Trajectory(dt[01;35m[K)[m[K {}
+[16.558s]       |                                                        [01;35m[K^[m[K
+[16.558s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/I.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.558s]    13 | [01;35m[KI[m[K::I(double cx, double cy, double length, double width, double alt,
+[16.558s]       | [01;35m[K^[m[K
+[16.567s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:19[m[K:
+[16.567s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/T.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::T::T(double, double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[16.567s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/T.hpp:53:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::T::t_traj_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.567s]    53 |     double [01;35m[Kt_traj_[m[K;
+[16.567s]       |            [01;35m[K^~~~~~~[m[K
+[16.568s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectory_generator_node.cpp:22[m[K:
+[16.569s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/T.cpp:16:56:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.569s]    16 |       v_goals_(v_goals), t_traj_(t_traj), Trajectory(dt[01;35m[K)[m[K {}
+[16.570s]       |                                                        [01;35m[K^[m[K
+[16.570s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/T.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.570s]    13 | [01;35m[KT[m[K::T(double cx, double cy, double length, double width, double alt,
+[16.570s]       | [01;35m[K^[m[K
+[38.689s] [ 14%] [32m[1mLinking CXX executable trajectory_generator_ros2[0m
+[39.566s] [ 14%] Built target trajectory_generator_ros2
+[39.592s] [ 21%] [32mBuilding CXX object CMakeFiles/trajectory_generator_ros2_core.dir/src/TrajectoryGenerator.cpp.o[0m
+[44.947s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:[m[K In member function ‘[01m[Kbool trajectory_generator::TrajectoryGenerator::readParameters()[m[K’:
+[44.947s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:221:45:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kaccel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[44.947s]   221 |         double cx, cy, orientation, t_traj, [01;35m[Kaccel[m[K;
+[44.948s]       |                                             [01;35m[K^~~~~[m[K
+[45.049s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:[m[K In member function ‘[01m[Kvoid trajectory_generator::TrajectoryGenerator::pubCB()[m[K’:
+[45.049s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/TrajectoryGenerator.cpp:562:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<snapstack_msgs2::msg::Goal_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[45.049s]   562 |         if([01;35m[Kpub_index_ == traj_goals_.size()[m[K){
+[45.049s]       |            [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[60.086s] [ 28%] [32mBuilding CXX object CMakeFiles/trajectory_generator_ros2_core.dir/src/trajectories/Bounce.cpp.o[0m
+[63.975s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Bounce.cpp:8[m[K:
+[63.975s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Bounce.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Bounce::Bounce(double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[63.975s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Bounce.hpp:52:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Bounce::t_traj_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[63.976s]    52 |     double [01;35m[Kt_traj_[m[K;
+[63.976s]       |            [01;35m[K^~~~~~~[m[K
+[63.976s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Bounce.cpp:15:119:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[63.976s]    15 | on_(orientation), v_goals_(v_goals), t_traj_(t_traj), Trajectory(dt[01;35m[K)[m[K {}
+[63.976s]       |                                                                    [01;35m[K^[m[K
+[63.976s] 
+[63.976s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Bounce.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[63.977s]    13 | [01;35m[KBounce[m[K::Bounce(double cx, double cy, double Az, double Bz,
+[63.977s]       | [01;35m[K^~~~~~[m[K
+[63.997s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Bounce.cpp:[m[K In member function ‘[01m[Kvirtual void trajectory_generator::Bounce::generateStopTraj(std::vector<snapstack_msgs2::msg::Goal_<std::allocator<void> > >&, std::unordered_map<int, std::__cxx11::basic_string<char> >&, int&, const rclcpp::Clock::SharedPtr&)[m[K’:
+[63.997s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Bounce.cpp:88:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdecel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[63.997s]    88 |     double [01;35m[Kdecel[m[K = (vz > 0) ? -std::abs(vz) : std::abs(vz);
+[63.997s]       |            [01;35m[K^~~~~[m[K
+[65.324s] [ 35%] [32mBuilding CXX object CMakeFiles/trajectory_generator_ros2_core.dir/src/trajectories/M.cpp.o[0m
+[69.344s] [ 42%] [32mBuilding CXX object CMakeFiles/trajectory_generator_ros2_core.dir/src/trajectories/I.cpp.o[0m
+[70.362s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_generator_ros2_core.dir/src/trajectories/Rectangle.cpp.o[0m
+[71.382s] [ 57%] [32mBuilding CXX object CMakeFiles/trajectory_generator_ros2_core.dir/src/trajectories/Reciprocating.cpp.o[0m
+[71.417s] [ 64%] [32mBuilding CXX object CMakeFiles/trajectory_generator_ros2_core.dir/src/trajectories/Square.cpp.o[0m
+[71.557s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/M.cpp:1[m[K:
+[71.557s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/M.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::M::M(double, double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[71.557s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/M.hpp:50:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::M::t_traj_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[71.557s]    50 |     double [01;35m[Kt_traj_[m[K;
+[71.559s]       |            [01;35m[K^~~~~~~[m[K
+[71.560s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/M.cpp:9:56:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[71.560s]     9 |       v_goals_(v_goals), t_traj_(t_traj), Trajectory(dt[01;35m[K)[m[K {}
+[71.560s]       |                                                        [01;35m[K^[m[K
+[71.560s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/M.cpp:6:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[71.560s]     6 | [01;35m[KM[m[K::M(double cx, double cy, double length, double width, double alt,
+[71.560s]       | [01;35m[K^[m[K
+[72.464s] [ 71%] [32mBuilding CXX object CMakeFiles/trajectory_generator_ros2_core.dir/src/trajectories/Figure8.cpp.o[0m
+[73.509s] [ 78%] [32mBuilding CXX object CMakeFiles/trajectory_generator_ros2_core.dir/src/trajectories/Line.cpp.o[0m
+[77.694s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/I.cpp:8[m[K:
+[77.695s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/I.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::I::I(double, double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[77.695s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/I.hpp:53:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::I::t_traj_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[77.695s]    53 |     double [01;35m[Kt_traj_[m[K;
+[77.695s]       |            [01;35m[K^~~~~~~[m[K
+[77.699s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/I.cpp:16:56:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[77.699s]    16 |       v_goals_(v_goals), t_traj_(t_traj), Trajectory(dt[01;35m[K)[m[K {}
+[77.699s]       |                                                        [01;35m[K^[m[K
+[77.699s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/I.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[77.699s]    13 | [01;35m[KI[m[K::I(double cx, double cy, double length, double width, double alt,
+[77.699s]       | [01;35m[K^[m[K
+[79.330s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Rectangle.cpp:8[m[K:
+[79.330s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Rectangle.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Rectangle::Rectangle(double, double, double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[79.331s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Rectangle.hpp:54:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Rectangle::accel_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[79.331s]    54 |     double [01;35m[Kaccel_[m[K;
+[79.331s]       |            [01;35m[K^~~~~~[m[K
+[79.331s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Rectangle.cpp:16:71:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[79.332s]    16 |       v_goals_(v_goals), t_traj_(t_traj), accel_(accel), Trajectory(dt[01;35m[K)[m[K {}
+[79.334s]       |                                                                       [01;35m[K^[m[K
+[79.335s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Rectangle.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[79.335s]    13 | [01;35m[KRectangle[m[K::Rectangle(double alt, double side_a, double side_b, double cx, double cy, double orientation,
+[79.335s]       | [01;35m[K^~~~~~~~~[m[K
+[79.412s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Rectangle.cpp:[m[K In member function ‘[01m[Kvirtual void trajectory_generator::Rectangle::generateTraj(std::vector<snapstack_msgs2::msg::Goal_<std::allocator<void> > >&, std::unordered_map<int, std::__cxx11::basic_string<char> >&, const rclcpp::Clock::SharedPtr&)[m[K’:
+[79.412s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Rectangle.cpp:69:29:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdir[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[79.412s]    69 |             Eigen::Vector2d [01;35m[Kdir[m[K = (end - start).normalized();
+[79.413s]       |                             [01;35m[K^~~[m[K
+[80.470s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Reciprocating.cpp:8[m[K:
+[80.470s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Reciprocating.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Reciprocating::Reciprocating(double, Eigen::Vector3d, Eigen::Vector3d, std::vector<double, std::allocator<double> >, double, double, double, double)[m[K’:
+[80.471s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Reciprocating.hpp:52:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Reciprocating::t_traj_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[80.471s]    52 |     double [01;35m[Kt_traj_[m[K;
+[80.471s]       |            [01;35m[K^~~~~~~[m[K
+[80.471s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Reciprocating.cpp:15:99:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[80.471s]    15 |     : alt_(alt), A_(A), B_(B), v_goals_(v_goals), a1_(a1), a3_(a3), t_traj_(t_traj), Trajectory(dt[01;35m[K)[m[K
+[80.471s]       |                                                                                                   [01;35m[K^[m[K
+[80.471s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Reciprocating.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[80.472s]    13 | [01;35m[KReciprocating[m[K::Reciprocating(double alt, Eigen::Vector3d A, Eigen::Vector3d B,
+[80.472s]       | [01;35m[K^~~~~~~~~~~~~[m[K
+[80.840s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Square.cpp:8[m[K:
+[80.840s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Square.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Square::Square(double, double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[80.840s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Square.hpp:58:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Square::accel_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[80.841s]    58 |     double [01;35m[Kaccel_[m[K;                 // max acceleration allowed
+[80.841s]       |            [01;35m[K^~~~~~[m[K
+[80.841s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Square.cpp:16:71:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[80.841s]    16 |       v_goals_(v_goals), t_traj_(t_traj), accel_(accel), Trajectory(dt[01;35m[K)[m[K {}
+[80.841s]       |                                                                       [01;35m[K^[m[K
+[80.841s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Square.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[80.841s]    13 | [01;35m[KSquare[m[K::Square(double alt, double side_length, double cx, double cy, double orientation,
+[80.841s]       | [01;35m[K^~~~~~[m[K
+[80.929s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Square.cpp:[m[K In member function ‘[01m[Kvirtual void trajectory_generator::Square::generateTraj(std::vector<snapstack_msgs2::msg::Goal_<std::allocator<void> > >&, std::unordered_map<int, std::__cxx11::basic_string<char> >&, const rclcpp::Clock::SharedPtr&)[m[K’:
+[80.930s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Square.cpp:68:29:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdir[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[80.930s]    68 |             Eigen::Vector2d [01;35m[Kdir[m[K = (end - start).normalized();
+[80.930s]       |                             [01;35m[K^~~[m[K
+[81.013s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Figure8.cpp:8[m[K:
+[81.013s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Figure8.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Figure8::Figure8(double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[81.014s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Figure8.hpp:57:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Figure8::accel_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[81.014s]    57 |     double [01;35m[Kaccel_[m[K;  // max acceleration allowed
+[81.014s]       |            [01;35m[K^~~~~~[m[K
+[81.014s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Figure8.cpp:24:71:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[81.014s]    24 |       v_goals_(v_goals), t_traj_(t_traj), accel_(accel), Trajectory(dt[01;35m[K)[m[K{}
+[81.014s]       |                                                                       [01;35m[K^[m[K
+[81.016s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Figure8.cpp:21:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[81.017s]    21 | [01;35m[KFigure8[m[K::Figure8(double alt, double r, double cx, double cy,
+[81.017s]       | [01;35m[K^~~~~~~[m[K
+[81.029s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Figure8.cpp:[m[K In member function ‘[01m[Kvirtual void trajectory_generator::Figure8::generateTraj(std::vector<snapstack_msgs2::msg::Goal_<std::allocator<void> > >&, std::unordered_map<int, std::__cxx11::basic_string<char> >&, const rclcpp::Clock::SharedPtr&)[m[K’:
+[81.029s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Figure8.cpp:43:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[81.030s]    43 |     for(int i = 0; [01;35m[Ki < v_goals_.size()[m[K; ++i){
+[81.030s]       |                    [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[81.080s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Figure8.cpp:[m[K In member function ‘[01m[Ksnapstack_msgs2::msg::Goal trajectory_generator::Figure8::createFigure8Goal(double, double, double) const[m[K’:
+[81.080s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Figure8.cpp:96:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaccel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[81.080s]    96 | snapstack_msgs2::msg::Goal Figure8::createFigure8Goal(double v, [01;35m[Kdouble accel[m[K, double theta) const{
+[81.081s]       |                                                                 [01;35m[K~~~~~~~^~~~~[m[K
+[82.391s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Line.cpp:8[m[K:
+[82.392s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Line.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Line::Line(double, Eigen::Vector3d, Eigen::Vector3d, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[82.394s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Line.hpp:58:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Line::a3_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[82.395s]    58 |     double a1_, [01;35m[Ka3_[m[K;  // abs val of acceleration and deceleration (a2 = 0, ct vel segment)
+[82.395s]       |                 [01;35m[K^~~[m[K
+[82.395s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Line.cpp:23:71:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[82.395s]    23 |       A_(A), B_(B), v_goals_(v_goals), a1_(a1), a3_(a3), Trajectory(dt[01;35m[K)[m[K{
+[82.395s]       |                                                                       [01;35m[K^[m[K
+[82.395s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Line.cpp:21:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[82.395s]    21 | [01;35m[KLine[m[K::Line(double alt, Eigen::Vector3d A, Eigen::Vector3d B,
+[82.396s]       | [01;35m[K^~~~[m[K
+[84.212s] [ 85%] [32mBuilding CXX object CMakeFiles/trajectory_generator_ros2_core.dir/src/trajectories/T.cpp.o[0m
+[88.277s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/T.cpp:8[m[K:
+[88.277s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/T.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::T::T(double, double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[88.277s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/T.hpp:53:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::T::t_traj_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[88.277s]    53 |     double [01;35m[Kt_traj_[m[K;
+[88.277s]       |            [01;35m[K^~~~~~~[m[K
+[88.278s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/T.cpp:16:56:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[88.278s]    16 |       v_goals_(v_goals), t_traj_(t_traj), Trajectory(dt[01;35m[K)[m[K {}
+[88.278s]       |                                                        [01;35m[K^[m[K
+[88.278s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/T.cpp:13:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[88.278s]    13 | [01;35m[KT[m[K::T(double cx, double cy, double length, double width, double alt,
+[88.278s]       | [01;35m[K^[m[K
+[89.616s] [ 92%] [32mBuilding CXX object CMakeFiles/trajectory_generator_ros2_core.dir/src/trajectories/Circle.cpp.o[0m
+[95.203s] In file included from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:8[m[K:
+[95.203s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Circle.hpp:[m[K In constructor ‘[01m[Ktrajectory_generator::Circle::Circle(double, double, double, double, std::vector<double, std::allocator<double> >, double, double, double)[m[K’:
+[95.203s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/include/trajectory_generator_ros2/trajectories/Circle.hpp:57:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrajectory_generator::Circle::accel_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[95.203s]    57 |     double [01;35m[Kaccel_[m[K;  // max acceleration allowed
+[95.203s]       |            [01;35m[K^~~~~~[m[K
+[95.203s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:24:71:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Ktrajectory_generator::Trajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[95.204s]    24 |     v_goals_(v_goals), t_traj_(t_traj), accel_(accel), Trajectory(dt[01;35m[K)[m[K{}
+[95.204s]       |                                                                     [01;35m[K^[m[K
+[95.204s] 
+[95.204s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:21:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[95.204s]    21 | [01;35m[KCircle[m[K::Circle(double alt, double r, double cx, double cy,
+[95.204s]       | [01;35m[K^~~~~~[m[K
+[95.216s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:[m[K In member function ‘[01m[Kvirtual void trajectory_generator::Circle::generateTraj(std::vector<snapstack_msgs2::msg::Goal_<std::allocator<void> > >&, std::unordered_map<int, std::__cxx11::basic_string<char> >&, const rclcpp::Clock::SharedPtr&)[m[K’:
+[95.217s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:43:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[95.217s]    43 |     for(int i = 0; [01;35m[Ki < v_goals_.size()[m[K; ++i){
+[95.217s]       |                    [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[95.235s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:[m[K In member function ‘[01m[Ksnapstack_msgs2::msg::Goal trajectory_generator::Circle::createCircleGoal(double, double, double) const[m[K’:
+[95.235s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:102:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv4r3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[95.235s]   102 |     double [01;35m[Kv4r3[m[K = pow(v,4)/pow(r_,3);
+[95.235s]       |            [01;35m[K^~~~[m[K
+[95.235s] [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2/src/trajectories/Circle.cpp:96:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaccel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[95.236s]    96 | _msgs2::msg::Goal Circle::createCircleGoal(double v, [01;35m[Kdouble accel[m[K, double theta) const{
+[95.236s]       |                                                      [01;35m[K~~~~~~~^~~~~[m[K
+[95.236s] 
+[96.780s] [100%] [32m[1mLinking CXX static library libtrajectory_generator_ros2_core.a[0m
+[97.111s] [100%] Built target trajectory_generator_ros2_core
+[97.126s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/trajectory_generator_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/trajectory_generator_ros2 -- -j8 -l8
+[97.127s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/trajectory_generator_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/trajectory_generator_ros2
+[97.139s] -- Install configuration: ""
+[97.139s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/lib/trajectory_generator_ros2/trajectory_generator_ros2
+[97.144s] -- Set runtime path of "/home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/lib/trajectory_generator_ros2/trajectory_generator_ros2" to ""
+[97.145s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2/
+[97.147s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2//TrajectoryGenerator.hpp
+[97.147s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2//trajectories
+[97.147s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2//trajectories/Rectangle.hpp
+[97.148s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2//trajectories/Bounce.hpp
+[97.148s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2//trajectories/T.hpp
+[97.148s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2//trajectories/I.hpp
+[97.148s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2//trajectories/Square.hpp
+[97.148s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2//trajectories/Reciprocating.hpp
+[97.148s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2//trajectories/Boomerang.hpp
+[97.148s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2//trajectories/Line.hpp
+[97.148s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2//trajectories/Trajectory.hpp
+[97.148s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2//trajectories/Figure8.hpp
+[97.149s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2//trajectories/M.hpp
+[97.149s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/include/trajectory_generator_ros2//trajectories/Circle.hpp
+[97.149s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/launch
+[97.149s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/launch/onboard.launch
+[97.149s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/launch/base_station.launch
+[97.149s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/launch/onboard.launch.py
+[97.149s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/launch/base_station.launch.py
+[97.149s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/config
+[97.149s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/config/default.yaml
+[97.149s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/config/default.rviz
+[97.149s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/ament_index/resource_index/package_run_dependencies/trajectory_generator_ros2
+[97.153s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/ament_index/resource_index/parent_prefix_path/trajectory_generator_ros2
+[97.153s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/environment/ament_prefix_path.sh
+[97.153s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/environment/ament_prefix_path.dsv
+[97.154s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/environment/path.sh
+[97.154s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/environment/path.dsv
+[97.154s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/local_setup.bash
+[97.154s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/local_setup.sh
+[97.154s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/local_setup.zsh
+[97.154s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/local_setup.dsv
+[97.154s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/package.dsv
+[97.154s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/ament_index/resource_index/packages/trajectory_generator_ros2
+[97.154s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/cmake/export_packageExport.cmake
+[97.154s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/cmake/export_packageExport-noconfig.cmake
+[97.155s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[97.155s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[97.155s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/cmake/trajectory_generator_ros2Config.cmake
+[97.155s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/cmake/trajectory_generator_ros2Config-version.cmake
+[97.155s] -- Installing: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/trajectory_generator_ros2/share/trajectory_generator_ros2/package.xml
+[97.159s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/trajectory_generator_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/trajectory_generator_ros2

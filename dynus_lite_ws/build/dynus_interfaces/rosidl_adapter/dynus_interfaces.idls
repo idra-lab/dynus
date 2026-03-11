@@ -1,0 +1,12 @@
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces/rosidl_adapter/dynus_interfaces:msg/QuinticPWPTraj.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces/rosidl_adapter/dynus_interfaces:msg/PWPTraj.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces/rosidl_adapter/dynus_interfaces:msg/QuinticCoeffPoly3.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces/rosidl_adapter/dynus_interfaces:msg/CoeffPoly3.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces/rosidl_adapter/dynus_interfaces:msg/DynTraj.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces/rosidl_adapter/dynus_interfaces:msg/DynTrajArray.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces/rosidl_adapter/dynus_interfaces:msg/State.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces/rosidl_adapter/dynus_interfaces:msg/Goal.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces/rosidl_adapter/dynus_interfaces:msg/Mode.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces/rosidl_adapter/dynus_interfaces:msg/YawOutput.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces/rosidl_adapter/dynus_interfaces:msg/PNAdaptation.idl
+/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/dynus_interfaces/rosidl_adapter/dynus_interfaces:srv/FlightCommand.idl

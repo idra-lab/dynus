@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ed4cdfee1e20e08aad1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "trajectory_generator_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_generator_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_generator_ros2-d827122c2d4bdbbb36fa.json",
+					"name" : "trajectory_generator_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_generator_ros2_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_generator_ros2_core-9c749226e86921cf699b.json",
+					"name" : "trajectory_generator_ros2_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_generator_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_generator_ros2_uninstall-2eccf185ee2d581ba7d1.json",
+					"name" : "trajectory_generator_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-96944334e2b83eae8fab.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/trajectory_generator_ros2",
+		"source" : "/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/trajectory_generator_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

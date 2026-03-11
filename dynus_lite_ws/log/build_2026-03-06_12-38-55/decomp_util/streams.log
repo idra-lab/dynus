@@ -1,0 +1,28 @@
+[0.028s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util -- -j8 -l8
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target test_seed_decomp[0m
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target test_line_segment[0m
+[0.126s] [35m[1mConsolidate compiler generated dependencies of target test_iterative_decomp[0m
+[0.127s] [35m[1mConsolidate compiler generated dependencies of target test_ellipsoid_decomp[0m
+[0.188s] [ 25%] Built target test_seed_decomp
+[0.209s] [ 50%] Built target test_iterative_decomp
+[0.211s] [ 75%] Built target test_line_segment
+[0.211s] [100%] Built target test_ellipsoid_decomp
+[0.830s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util -- -j8 -l8
+[0.854s] Invoking command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util
+[0.988s] -- Install configuration: "RelWithDebInfo"
+[0.988s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/cmake/decomp_utilConfig.cmake
+[0.988s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/share/decomp_util/cmake/decomp_utilConfigVersion.cmake
+[0.988s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/include/decomp_basis
+[0.988s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/include/decomp_basis/data_utils.h
+[0.988s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/include/decomp_basis/data_type.h
+[0.989s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/include/decomp_geometry
+[0.989s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/include/decomp_geometry/geometric_utils.h
+[0.989s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/include/decomp_geometry/ellipsoid.h
+[0.989s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/include/decomp_geometry/polyhedron.h
+[0.990s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/include/decomp_util
+[0.990s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/include/decomp_util/line_segment.h
+[0.990s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/include/decomp_util/seed_decomp.h
+[0.990s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/include/decomp_util/iterative_decomp.h
+[0.991s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/include/decomp_util/ellipsoid_decomp.h
+[0.991s] -- Up-to-date: /home/lorenzo/code/dynus_lite/dynus_lite_ws/install/decomp_util/include/decomp_util/decomp_base.h
+[0.998s] Invoked command in '/home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lorenzo/code/dynus_lite/dynus_lite_ws/build/decomp_util

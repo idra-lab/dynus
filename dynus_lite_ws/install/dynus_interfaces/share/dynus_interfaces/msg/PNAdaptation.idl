@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dynus_interfaces/msg/PNAdaptation.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module dynus_interfaces {
+  module msg {
+    struct PNAdaptation {
+      std_msgs::msg::Header header;
+
+      int32 old_n;
+
+      int32 new_n;
+
+      int32 old_p;
+
+      int32 new_p;
+    };
+  };
+};

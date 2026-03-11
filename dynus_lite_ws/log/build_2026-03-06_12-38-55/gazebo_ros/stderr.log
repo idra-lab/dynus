@@ -1,0 +1,271 @@
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/Noise.hh:28[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/utils.hpp:19[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/src/utils.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/utils.hpp:18[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/test/plugins/create_node_without_init.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+                 from [01m[K/usr/include/c++/12/list:60[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:30[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/test/plugins/args_init.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+                 from [01m[K/usr/include/c++/12/list:60[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:30[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_state.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+                 from [01m[K/usr/include/c++/12/list:60[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:30[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/test/plugins/ros_world_plugin.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+                 from [01m[K/usr/include/c++/12/list:60[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:30[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/test/plugins/multiple_nodes.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+                 from [01m[K/usr/include/c++/12/list:60[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:30[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/test/plugins/sdf_node.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+                 from [01m[K/usr/include/c++/12/list:60[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:30[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_properties.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+                 from [01m[K/usr/include/c++/12/list:60[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:30[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_ros_force_system.hpp:18[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_force_system.cpp:31[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+                 from [01m[K/usr/include/c++/12/bits/stl_tree.h:63[m[K,
+                 from [01m[K/usr/include/c++/12/map:60[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/Link.hh:20[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_force_system.cpp:15[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/test/test_gazebo_ros_factory.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+                 from [01m[K/usr/include/c++/12/memory:64[m[K,
+                 from [01m[K/usr/include/sdformat-9.7/sdf/Actor.hh:20[m[K,
+                 from [01m[K/usr/include/sdformat-9.7/sdf/sdf.hh:2[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:29[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/test/test_gazebo_ros_joint_effort.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+                 from [01m[K/usr/include/c++/12/memory:64[m[K,
+                 from [01m[K/usr/include/sdformat-9.7/sdf/Actor.hh:20[m[K,
+                 from [01m[K/usr/include/sdformat-9.7/sdf/sdf.hh:2[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:29[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/test/test_gazebo_ros_init.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+                 from [01m[K/usr/include/c++/12/memory:64[m[K,
+                 from [01m[K/usr/include/sdformat-9.7/sdf/Actor.hh:20[m[K,
+                 from [01m[K/usr/include/sdformat-9.7/sdf/sdf.hh:2[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:29[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/test/test_gazebo_ros_link_wrench.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+                 from [01m[K/usr/include/c++/12/memory:64[m[K,
+                 from [01m[K/usr/include/sdformat-9.7/sdf/Actor.hh:20[m[K,
+                 from [01m[K/usr/include/sdformat-9.7/sdf/sdf.hh:2[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:29[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/test/test_gazebo_ros_properties.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+                 from [01m[K/usr/include/c++/12/memory:64[m[K,
+                 from [01m[K/usr/include/sdformat-9.7/sdf/Actor.hh:20[m[K,
+                 from [01m[K/usr/include/sdformat-9.7/sdf/sdf.hh:2[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:29[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:31[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/AltimeterSensor.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:2[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:52[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/test/test_gazebo_ros_state.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_construct.h:61[m[K,
+                 from [01m[K/usr/include/c++/12/memory:64[m[K,
+                 from [01m[K/usr/include/sdformat-9.7/sdf/Actor.hh:20[m[K,
+                 from [01m[K/usr/include/sdformat-9.7/sdf/sdf.hh:2[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/test/ServerFixture.hh:29[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_ros_factory.hpp:18[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_factory.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+                 from [01m[K/usr/include/c++/12/list:60[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:30[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:42[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/gazebo_ros_init.hpp:18[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_init.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/bits/stl_algobase.h:65[m[K,
+                 from [01m[K/usr/include/c++/12/list:60[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:30[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/Noise.hh:28[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/utils.hpp:19[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/test/test_utils.cpp:15[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |     : std::[01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/12/string:45[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/common/Time.hh:21[m[K,
+                 from [01m[K/home/lorenzo/code/dynus_lite/dynus_lite_ws/src/gazebo_ros_pkgs/gazebo_ros/include/gazebo_ros/utils.hpp:18[m[K:
+[01m[K/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
